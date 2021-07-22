@@ -220,8 +220,9 @@ def pologonFit(originalPoints, actureArea, imagePath = False):
 
     actureArea : the area of fit image
     '''
-    if imagePath != False:
-        imgPath = openFile('C:\\')    
+    if imagePath == False:
+        imgPath = openFile('C:\\')
+    
     
     img = plt.imread(imgPath)
     

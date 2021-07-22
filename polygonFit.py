@@ -210,55 +210,59 @@ def calRegresssionByAxis(imgArray, pts, ax, direction):
 ###################### main
 ###########################
 
-imgPath = openFile('C:\\')
 
+def pologonFit(originalPoints, actureArea, imagePath = False):
+    '''
+    Parameters
 
-img = plt.imread(imgPath)
+    originalPoints : list[list]
+        insert initial points atleast 4
 
-plt.imshow(img)
-
-imgArray = getSegmentedImagByKmeans(img)
-
-
-
-
-
-
-originalPoints = np.array([[random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])]], np.int32)
-
-pts = getOrderedMatrixByRightClock(originalPoints)
-
-plt.imshow(imgArray)
-plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')
-
-offsetLists = np.ones_like(pts) * 5
-lrs = np.ones_like(pts) * 5
-Lambda = 5
-
-
-size = imgArray.shape[0] * imgArray.shape[1]
-
-iter = 0
-while iter < 100:
-    iter += 1
-    print('-----------------------')
-    print(iter)
-
-
-    for ind, p in enumerate(pts):
-        print('----  X  ----')
-        pts, lrs, newSum = calRegresssionByAxis(imgArray, pts, 0, 1)       
+    actureArea : the area of fit image
+    '''
+    if imagePath != False:
+        imgPath = openFile('C:\\')    
     
+    img = plt.imread(imgPath)
+    
+    plt.imshow(img)
+    
+    imgArray = getSegmentedImagByKmeans(img)
+    
+    # originalPoints = np.array([[random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])]], np.int32)
+    
+    pts = getOrderedMatrixByRightClock(originalPoints)
+    
+    plt.imshow(imgArray)
+    plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')
+    
+    offsetLists = np.ones_like(pts) * 5
+    lrs = np.ones_like(pts) * 5
+    Lambda = 5    
+    
+    size = imgArray.shape[0] * imgArray.shape[1]
+    
+    iter = 0
+    while iter < 100:
+        iter += 1
+        print('-----------------------')
+        print(iter)
+    
+    
+        for ind, p in enumerate(pts):
+            print('----  X  ----')
+            pts, lrs, newSum = calRegresssionByAxis(imgArray, pts, 0, 1)       
         
-        print('----  Y  ----')
-        pts, lrs, newSum = calRegresssionByAxis(imgArray, pts, 1, 1)
-        
-        
-        print(pts)
-        
-        # if newSum < np.unique(imgArray, return_counts = True)[1][1] * 0.5:
-        #     print('entire are is shrinked')
-        #     break;
+            
+            print('----  Y  ----')
+            pts, lrs, newSum = calRegresssionByAxis(imgArray, pts, 1, 1)
+            
+            
+            print(pts)
+            
+            if newSum < actureArea:
+                print('entire are is shrinked')
+                break;
 
 
 

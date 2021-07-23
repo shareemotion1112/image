@@ -40,24 +40,42 @@ def getLineProfile(pts, imgArray, debug = False):
             print(newPts[0])
         p1 = np.array(newPts[i], np.int32)        
         p2 = np.array(newPts[i + 1], np.int32)
-        slope = (p2 - p1)[1]/(p2 - p1)[0]
-        offset = p1[1] - slope * p1[0]
         
-        if(p1[0] - p2[0]) > 0 :
-            startP = p2[0]
-            endP = p1[0]
-        else:
-            startP = p1[0]
-            endP = p2[0]
+        if (p2 - p1)[0] == 0:
+            if p2[1] > p1[1] :
+                startP = p1[1]
+                endP = p2[1]
+            else:
+                startP = p2[1]
+                endP = p1[1]
+                
+            for i in range(startP, endP):            
+                resultX.append(p1[0])
+                resultY.append(i)
+
+        else:                
+            slope = (p2 - p1)[1]/(p2 - p1)[0]
+            offset = p1[1] - slope * p1[0]
             
-        for i in range(startP, endP):
-            y = slope * i + offset
-            resultX.append(i)
-            resultY.append(np.int32(y))
+            if(p1[0] - p2[0]) > 0 :
+                startP = p2[0]
+                endP = p1[0]
+            else:
+                startP = p1[0]
+                endP = p2[0]
+            for i in range(startP, endP):            
+                try:
+                    y = slope * i + offset   
+                    resultX.append(i)
+                    resultY.append( np.int32(y) )
+                except Exception as ex :                
+                    print(i)
+                    print(len(resultY))
+                    print(ex)
     
     df = pd.DataFrame({'x' : resultX, 'y' : resultY})
     
-    return df, resultX, resultY
+    return df, resultX, resultY, newPts
 
 
 def getOneMetricForCalStd(imgArray, lineProfile_df):
@@ -76,16 +94,25 @@ def getOneMetricForCalStd(imgArray, lineProfile_df):
 def getStdOfArea(imgArray, OneMetric, debug = False):
     
     dotM = imgArray * OneMetric
+    nArea = 0
+    
     if debug:
         print(OneMetric)
         print(np.unique(OneMetric, return_counts = True))
         print(np.unique(OneMetric, return_counts = True)[1][1])
         
-    nArea = np.unique(OneMetric, return_counts = True)[1][1]
+    try : 
+        nArea = np.unique(OneMetric, return_counts = True)[1][1]
+    except Exception as ex :
+        # print('===== imgArray ====')
+        # print(np.unique(imgArray, return_counts = True))
+        print('===== OneMetric ====')
+        print(np.unique(OneMetric, return_counts = True))
+        print(ex)
     
     return np.std(dotM), np.sum(dotM)/nArea, np.sum(OneMetric)
 
-def checkLimit(value, limit = 30):
+def checkLimit(value, limit = 100):
     if (np.abs(value) > limit):
         return value / np.abs(value) * 10
     elif value == 0:
@@ -116,7 +143,7 @@ def openFile(basePath):
 def getSegmentedImagByKmeans(imgArray, k = 2):
     pixel_values = imgArray.reshape((-1, 3))
     pixel_values = np.float32(pixel_values)
-    criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
+    criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1)
     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
     centers = np.uint8(centers)
     labels = labels.flatten()    
@@ -152,14 +179,16 @@ def getOrderedMatrixByRightClock(originalPoints):
 
 
 
-def calRegresssionByAxis(imgArray, pts, ax, direction):
+def calRegressionByAxis(imgArray, pts, ax, direction, ind):
     '''
     ax = 0 is x axis
     ax = 1 is y axis
     '''
     
+    print( ' point : ' , str(pts[ind]))
+    
     oldP = copy.copy(pts[ind])
-    lineProfile_df, lineX, lineY = getLineProfile(pts, imgArray)
+    lineProfile_df, lineX, lineY, pts = getLineProfile(pts, imgArray)
     oldStd, oldMean, oldSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineProfile_df), False)
     
     plt.title('old points')
@@ -174,7 +203,7 @@ def calRegresssionByAxis(imgArray, pts, ax, direction):
         pts[ind] = increaseY(pts[ind],  offsetLists[ind][ax])
     
     newP = copy.copy(pts[ind])
-    lineProfile_df, lineX, lineY = getLineProfile(pts, imgArray)
+    lineProfile_df, lineX, lineY, pts = getLineProfile(pts, imgArray)
     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineProfile_df), False)
     
     plt.title('new points')
@@ -186,8 +215,13 @@ def calRegresssionByAxis(imgArray, pts, ax, direction):
     denominator = newP[ax] - oldP[ax]
     if denominator == 0:
         denominator = 1
-    offset =  checkLimit(  getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator
+    offset =  checkLimit(  getOffset(newStd, oldStd) * lrsStd[ind][0] * size ) / denominator * alphaStd + \
+        checkLimit (getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator * alphaMean
     offsetLists[ind][ax] = offset
+    
+    print('offset : '  + str(offset))
+    print('offset STd : ' , checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size ) / denominator)
+    print('offset Mean : ' , checkLimit( getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator)
     
     if ax == 0:
         pts[ind] = increaseX(oldP, offset)
@@ -195,23 +229,29 @@ def calRegresssionByAxis(imgArray, pts, ax, direction):
         pts[ind] = increaseY(oldP, offset)
         
     print('new mean : ', newMean, '  old mean : ',  oldMean)
+    print('new std : ', newStd, '  old std : ',  oldStd)
     
     
-    if newMean > oldMean:
-        lrs[ind][ax] = lrs[ind][ax] * Lambda
+    if (newMean - oldMean) * direction > 0:
+        lrs[ind][ax] = lrs[ind][ax] / Lambda
     else :
-        lrs[ind][ax] = lrs[ind][ax] / Lambda    
+        lrs[ind][ax] = lrs[ind][ax] * Lambda    
+    
+    if newStd > oldStd:
+        lrsStd[ind][ax] = lrsStd[ind][ax] * Lambda
+    else :
+        lrsStd[ind][ax] = lrsStd[ind][ax] / Lambda    
     
     
     return pts, lrs, newSum
 
 
 
-###################### main
-###########################
+###################### main ##########################
+######################################################
 
 
-def pologonFit(originalPoints, actureArea, imagePath = False):
+def pologonFit(originalPoints, imagePath = False):
     '''
     Parameters
 
@@ -220,60 +260,69 @@ def pologonFit(originalPoints, actureArea, imagePath = False):
 
     actureArea : the area of fit image
     '''
+   
+    
     if imagePath == False:
-        imgPath = openFile('C:\\')
+        imagePath = openFile('C:\\')
     
     
-    img = plt.imread(imgPath)
+    img = plt.imread(imagePath)
     
-    plt.imshow(img)
+    # imgArray = getSegmentedImagByKmeans(img)    
+    # if np.unique(imgArray, return_counts = True)[0].shape[0] > 2 :
+    #     ret, imgArray = cv2.threshold(img, np.nanmean(img), 255, cv2.THRESH_BINARY)
+    #     plt.title('segmented image by threshold')
+    #     plt.imshow(imgArray)
+    #     plt.show()
     
-    imgArray = getSegmentedImagByKmeans(img)
-    
-    # originalPoints = np.array([[random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])]], np.int32)
+    imgArray = np.array(img[:,:,0])
     
     pts = getOrderedMatrixByRightClock(originalPoints)
     
     plt.imshow(imgArray)
     plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')
+    plt.show()
     
-    offsetLists = np.ones_like(pts) * 5
-    lrs = np.ones_like(pts) * 5
-    Lambda = 5    
+    global offsetLists, lrs, lrsStd,  Lambda, size
+    
+    
+    offsetLists = np.ones_like(pts)
+    lrs = np.ones_like(pts)
+    lrsStd = np.ones_like(pts)
+    Lambda = 2
+    length = len(pts)
     
     size = imgArray.shape[0] * imgArray.shape[1]
     
     iter = 0
-    while iter < 100:
+    while iter < iterationLimit:
         iter += 1
         print('-----------------------')
-        print(iter)
-    
-    
-        for ind, p in enumerate(pts):
+        print(iter)    
+        
+        for index in range(length):
+            print('index : ' + str(index))
             print('----  X  ----')
-            pts, lrs, newSum = calRegresssionByAxis(imgArray, pts, 0, 1)       
+            pts, lrs, newSum = calRegressionByAxis(imgArray, pts, 0, direction, index)
         
             
             print('----  Y  ----')
-            pts, lrs, newSum = calRegresssionByAxis(imgArray, pts, 1, 1)
-            
-            
-            print(pts)
-            
-            if newSum < actureArea:
-                print('entire are is shrinked')
-                break;
+            pts, lrs, newSum = calRegressionByAxis(imgArray, pts, 1, direction, index)
+                    
 
 
 
 
 
+global iterationLimit, direction, alphaMean, alphaStd
+iterationLimit = 20
+direction = -1 ## 1 is to find bright color, -1 is to find dark color
+alphaMean = 5
+alphaStd = 2
 
+originalPoints = [[600, 2500], [1600, 2400], [1600, 2600], [600, 2900]]
 
-
-
-
+pologonFit(originalPoints, imagePath='C:/이든 보증서.jpg')
 
 
 

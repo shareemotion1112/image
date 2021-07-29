@@ -235,7 +235,7 @@ def getOrderedMatrixByRightClock(np.ndarray originalPoints):
 
 
 
-def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direction, int ind, np.ndarray offsetLists, np.ndarray lrs, np.ndarray lrsStd, double alphaMean, double alphaStd ):
+def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direction, int ind, np.ndarray offsetLists, np.ndarray lrs, np.ndarray lrsStd, np.ndarray lrsSum, double alphaMean, double alphaStd, double alphaSum ):
     '''
     ax = 0 is x axis
     ax = 1 is y axis
@@ -307,10 +307,14 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
     print('denominator : ' + str(denominator))
     print('alphaMean : ' + str(alphaMean ))        
     print('offsetMean : ' + str(offsetMean))
-    offset = offsetStd + offsetMean
+       
+        
+    offsetSum = checkLimit( getOffset(oldSum, newSum) * lrsSum[ind][0] * size  * alphaSum / denominator  )
+    
+    
+    offset = offsetStd + offsetMean + offsetSum
     offsetLists[ind][ax] = offset
     
-       
         
     # print('offset STd : ' , checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size ) / denominator)
     # print('offset Mean : ' , checkLimit( getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator)
@@ -334,15 +338,22 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
     
     if newStd > oldStd:
         lrsStd[ind][ax] = lrsStd[ind][ax] * Lambda
-        print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
+        # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
     else :
         lrsStd[ind][ax] = lrsStd[ind][ax] / Lambda  
-        print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
+        # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
+        
+    if newSum > oldSum:
+        lrsSum[ind][ax] = lrsSum[ind][ax] * Lambda
+        # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
+    else :
+        lrsSum[ind][ax] = lrsSum[ind][ax] / Lambda  
+        # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
 
     end = time.time()
     # print('calRegresssionByAxis : ' + str(end-st) )
     
-    return pts, lrs, lrsStd, newSum, offsetLists
+    return pts, lrs, lrsStd, lrsSum, newSum, offsetLists
 
 
 
@@ -350,7 +361,7 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
 ###########################
 
 
-def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, int direction = -1):
+def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, double alphaSum = 0.3, int direction = -1):
     '''
     Parameters
 
@@ -380,6 +391,7 @@ def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit 
     offsetLists = np.ones_like(pts) * 2
     lrs = np.ones_like(pts) * 10
     lrsStd = np.ones_like(pts) * 10
+    lrsSum = np.ones_like(pts) * 5
     global Lambda
     Lambda = 5
     
@@ -393,7 +405,7 @@ def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit 
         for ind, p in enumerate(pts):
             st2 = time.time()
             for k in range(2):
-                pts, lrs, lrsStd, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, alphaMean, alphaStd)               
+                pts, lrs, lrsStd, lrsSum, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, lrsSum, alphaMean, alphaStd, alphaSum)               
             end2 = time.time()
             print('1 iter time : ' + str(end2 - st2))
             print(pts)

@@ -33,24 +33,34 @@ ctypedef np.float64_t DTYPE_F_t
 
 
 # inline 선언은 C컴파일러로 함수를 전달 함(가능한 경우에만)
-cdef inline int int_max(int a, int b): return a if a >= b else b
-cdef inline int int_min(int a, int b): return a if a <= b else b
+# cdef inline int int_max(int a, int b): return a if a >= b else b
+# cdef inline int int_min(int a, int b): return a if a <= b else b
 
+
+
+# cdef extern from "std.h":
+#     double standardDeviation(vector[double])
+
+# def standard_dev(lst):
+#     # This pre-conversion has some performance improvements.
+#     cdef vector[double] v = lst
+
+#     return standardDeviation(v)
 
 
 
 # numpy 배열 선언 np.ndarray
 def increaseX(np.ndarray point not None, int offset = 1):
     assert point.dtype == DTYPE # point 배열의 값이 int인지 확인
-    if point[0] != 0:
+    if point[0] + offset > 0:
         return [point[0] + offset, point[1]]
     else:
         return point
     
 def increaseY(np.ndarray point not None, int offset = 1):
     assert point.dtype == DTYPE
-    if point[0] != 0:
-        return [point[0], point[1] +  + offset]
+    if point[1] + offset > 0:
+        return [point[0], point[1] + offset]
     else:
         return point
     
@@ -63,10 +73,9 @@ def getLineProfile(np.ndarray pts, np.ndarray imgArray):
     cdef double offset = 0
     cdef double y = 0
     cdef int size = 0
-    
-    
-    print(pts)
-    print(pts[0])
+        
+    # print(pts)
+    # print(pts[0])
     newPts = np.append(pts, [pts[0]], axis = 0)
     
     # size check
@@ -112,7 +121,7 @@ def getLineProfile(np.ndarray pts, np.ndarray imgArray):
             resultY[index] = y
             index += 1
     end = time.time()
-    print('getLineProfile: ' + str(end -st))
+    # print('getLineProfile: ' + str(end -st))
     return resultX, resultY
 
 
@@ -127,39 +136,43 @@ def getOneMetricForCalStd(np.ndarray imgArray, np.ndarray lineX not None, np.nda
             max = np.int32(tmp[1])
             OneMetric[min:max, i] = 1
     end = time.time()
-    print('getOneMetricForCalStd : ' + str(end - st))
+    # print('getOneMetricForCalStd : ' + str(end - st))
     return OneMetric
 
 def getStdOfArea(np.ndarray imgArray not None, np.ndarray OneMetric not None):    
     cdef double nArea
     cdef double st = time.time()
     cdef np.ndarray dotM = imgArray * OneMetric
-    
-    # print(OneMetric)
-    # print(np.unique(OneMetric, return_counts = True))
-    # print(np.unique(OneMetric, return_counts = True)[1][1])
         
-    # nArea = np.unique(OneMetric, return_counts = True)[1][1]
-    try : 
-        nArea = pd.value_counts(OneMetric)[1]
+    try :         
+        nArea = pd.value_counts(OneMetric.ravel())[1]
     except Exception as ex:
-        print(ex)
+        print('Exception at getStdArea : ' + str(ex))
         nArea = 1
+           
+    # cdef double std = standard_dev(dotM.ravel())
+    cdef double std = np.std(dotM)
+    cdef double mean = np.sum(dotM)/nArea 
+    cdef double sum = np.sum(OneMetric)
     
     cdef double end = time.time()
     
-    print('getStdOfArea : ' + str(end - st))
+    # print('getStdOfArea : ' + str(end - st))
     
-    return np.std(dotM), np.sum(dotM)/nArea, np.sum(OneMetric)
+    return std, mean, sum
 
 
-def checkLimit(double value, double limit = 30):
+def checkLimit(value, limit = 15):
     if (np.abs(value) > limit):
-        return value / np.abs(value) * 10
-    elif value == 0:
-        return 1
+        return value / np.abs(value) * limit
     else : 
         return value
+    
+def checkLimitLrs(value, limit = 50):
+    if (np.abs(value) > limit):
+        return value / np.abs(value) * limit
+    else : 
+        return value    
     
 def getOffset(double old, double new):
     if np.abs(old - new) == 0:
@@ -189,7 +202,6 @@ def getSegmentedImagByKmeans(imgArray, k = 2):
     centers = np.uint8(centers)
     labels = labels.flatten()    
     segmentedImage = centers[labels].reshape(imgArray.shape)
-    plt.imshow(segmentedImage)
     return segmentedImage
 
 
@@ -231,18 +243,33 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
     
     print( ' point : ' , str(pts[ind]))
     
-    size = imgArray.shape[0] * imgArray.shape[1]
+    if ax == 1:
+        print('-----Y----')
+    else : 
+        print('---- X ----')
+        
+        
+    st = time.time()
+    
+    size = 1
     oldP = copy.copy(pts[ind])
     lineX, lineY = getLineProfile(pts, imgArray)
     oldStd, oldMean, oldSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
     
     
-    # plt.title('old points')
-    # plt.imshow(imgArray)
-    # plt.scatter(lineX, lineY, s = 1)
-    # plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
-    # plt.show()
+    plt.title('old points')
+    plt.imshow(imgArray)
+    plt.scatter(lineX, lineY, s = 1)
+    plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
+    plt.show()
     
+    print('when increase ' + str(offsetLists[ind][ax]))
+    
+    
+    if offsetLists[ind][ax] == 0:
+        offsetLists[ind][ax] = 1
+    
+
     if ax == 0:
         pts[ind] = increaseX(pts[ind],  offsetLists[ind][ax])
     else : 
@@ -253,42 +280,67 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
     
     
-    # plt.title('new points')
-    # plt.imshow(imgArray)
-    # plt.scatter(lineX, lineY, s = 1)
-    # plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
-    # plt.show()
+    print('newStd - oldStd  = ' + str(newStd - oldStd) )
+    print('newMean - oldMean  = ' + str(newMean - oldMean) )
     
-    denominator = newP[ax] - oldP[ax]
+    plt.title('new points')
+    plt.imshow(imgArray)
+    plt.scatter(lineX, lineY, s = 1)
+    plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
+    plt.show()
+    
+    denominator =  oldP[ax]- newP[ax]
     if denominator == 0:
         denominator = 1
-    # offset =  checkLimit(  getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator
-    offset =  checkLimit(  getOffset(newStd, oldStd) * lrsStd[ind][0] * size ) / denominator * alphaStd + checkLimit (getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator * alphaMean
+        
+    offsetStd =    checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size * alphaStd / denominator  )
+    # print('getOffset(oldStd, newStd ) : ' + str(getOffset(oldStd, newStd )))
+    # print('lrsStd : ' + str(lrsStd[ind][0]))
+    # print('denominator : ' + str(denominator))
+    # print('alphaStd : ' + str(alphaStd ))
+    # print('offsetStd : ' + str(offsetStd) )
+    
+    
+    offsetMean = checkLimit( getOffset(oldMean, newMean) * lrs[ind][0] * size  * direction * alphaMean / denominator  )
+    print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))
+    print('lrs : ' + str(lrs[ind][0]))
+    print('denominator : ' + str(denominator))
+    print('alphaMean : ' + str(alphaMean ))        
+    print('offsetMean : ' + str(offsetMean))
+    offset = offsetStd + offsetMean
     offsetLists[ind][ax] = offset
     
-    
-    # print('offset : '  + str(offset))
+       
+        
     # print('offset STd : ' , checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size ) / denominator)
     # print('offset Mean : ' , checkLimit( getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator)
+    print('result offset : '  + str(offset))
     
     if ax == 0:
         pts[ind] = increaseX(oldP, offset)
     else :
         pts[ind] = increaseY(oldP, offset)
         
-    print('new mean : ', newMean, '  old mean : ',  oldMean)
-    print('new std : ', newStd, '  old std : ',  oldStd)
+    # print('new mean : ', newMean, '  old mean : ',  oldMean)
+    # print('new std : ', newStd, '  old std : ',  oldStd)
     
     
     if (newMean - oldMean) * direction > 0:
         lrs[ind][ax] = lrs[ind][ax] / Lambda
+        # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
     else :
-        lrs[ind][ax] = lrs[ind][ax] * Lambda    
+        lrs[ind][ax] = lrs[ind][ax] * Lambda
+        # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
     
     if newStd > oldStd:
         lrsStd[ind][ax] = lrsStd[ind][ax] * Lambda
+        print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
     else :
-        lrsStd[ind][ax] = lrsStd[ind][ax] / Lambda    
+        lrsStd[ind][ax] = lrsStd[ind][ax] / Lambda  
+        print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
+
+    end = time.time()
+    # print('calRegresssionByAxis : ' + str(end-st) )
     
     return pts, lrs, lrsStd, newSum, offsetLists
 
@@ -298,7 +350,7 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
 ###########################
 
 
-def pologonFit(np.ndarray originalPoints, double actureArea, int imagePath = 0, int iterationLimit = 100, double alphaMean = 5, double alphaStd = 2, int direction = -1):
+def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, int direction = -1):
     '''
     Parameters
 
@@ -307,53 +359,53 @@ def pologonFit(np.ndarray originalPoints, double actureArea, int imagePath = 0, 
 
     actureArea : the area of fit image
     '''
+    st = time.time()
     if imagePath == False:
         imgPath = openFile('C:\\')
     
     
     img = plt.imread(imgPath)
         
-    plt.imshow(img)
+    plt.imshow(img);plt.show()
     
-    imgArray = getSegmentedImagByKmeans(img)
-    
-    # originalPoints = np.array([[random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])], [random.randint(0, imgArray.shape[1]), random.randint(0, imgArray.shape[0])]], np.int32)
+    # imgArray = getSegmentedImagByKmeans(img)   
+    imgArray = np.array(img[:, :, 0])
     
     pts = getOrderedMatrixByRightClock(originalPoints)
     
-    plt.imshow(imgArray)
+    plt.imshow(imgArray); 
     plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')
-        
-    offsetLists = np.ones_like(pts) * 5
-    lrs = np.ones_like(pts) * 5
-    lrsStd = np.ones_like(pts)
-    global Lambda
-    Lambda = 5    
+    plt.show();    
     
-    size = imgArray.shape[0] * imgArray.shape[1]
+    offsetLists = np.ones_like(pts) * 2
+    lrs = np.ones_like(pts) * 10
+    lrsStd = np.ones_like(pts) * 10
+    global Lambda
+    Lambda = 5
+    
     
     iter = 0
     while iter < iterationLimit:
         iter += 1
         print('-----------------------')
-        print(iter)
-    
-    
-        for ind, p in enumerate(pts):
-            print('----  X  ----')
-            pts, lrs, lrsStd, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, 0, direction, ind, offsetLists, lrs, lrsStd, alphaMean, alphaStd)       
+        print(iter)    
         
-            
-            print('----  Y  ----')
-            pts, lrs, lrsStd, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, 1, direction, ind, offsetLists, lrs, lrsStd, alphaMean, alphaStd)
-            
-            
+        for ind, p in enumerate(pts):
+            st2 = time.time()
+            for k in range(2):
+                pts, lrs, lrsStd, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, alphaMean, alphaStd)               
+            end2 = time.time()
+            print('1 iter time : ' + str(end2 - st2))
             print(pts)
             
-            if newSum < actureArea:
-                print('entire are is shrinked')
-                break
-                
+    end = time.time()
+    print('total time : ' + str(end - st)  + 's')
+    
+    plt.title('fitted')
+    plt.imshow(imgArray)
+    plt.scatter(pts[:, 0], pts[:, 1], s = 50, c = 'w')
+    plt.show()
+    
     return pts
 
 

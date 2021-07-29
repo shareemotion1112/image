@@ -11,8 +11,8 @@ Created on Thu Jul 22 08:28:05 2021
 
 import numpy as np
 cimport numpy as np
-
-
+import time
+import pandas as pd
 
 
 import tkinter as tk
@@ -57,6 +57,8 @@ def increaseY(np.ndarray point not None, int offset = 1):
     
  
 def getLineProfile(np.ndarray pts, np.ndarray imgArray):        
+    
+    st = time.time()
     cdef double slope = 0
     cdef double offset = 0
     cdef double y = 0
@@ -109,11 +111,13 @@ def getLineProfile(np.ndarray pts, np.ndarray imgArray):
             resultX[index] = j
             resultY[index] = y
             index += 1
-        
+    end = time.time()
+    print('getLineProfile: ' + str(end -st))
     return resultX, resultY
 
 
 def getOneMetricForCalStd(np.ndarray imgArray, np.ndarray lineX not None, np.ndarray lineY not None):    
+    st = time.time()
     OneMetric = np.zeros_like(imgArray)
     for i in range(imgArray.shape[1]):
         # tmp = lineProfile_df.loc[lineProfile_df['x'] == i]
@@ -122,17 +126,29 @@ def getOneMetricForCalStd(np.ndarray imgArray, np.ndarray lineX not None, np.nda
             min = np.int32(tmp[0])
             max = np.int32(tmp[1])
             OneMetric[min:max, i] = 1
-            
+    end = time.time()
+    print('getOneMetricForCalStd : ' + str(end - st))
     return OneMetric
 
 def getStdOfArea(np.ndarray imgArray not None, np.ndarray OneMetric not None):    
-    dotM = imgArray * OneMetric
+    cdef double nArea
+    cdef double st = time.time()
+    cdef np.ndarray dotM = imgArray * OneMetric
     
     # print(OneMetric)
     # print(np.unique(OneMetric, return_counts = True))
     # print(np.unique(OneMetric, return_counts = True)[1][1])
         
-    nArea = np.unique(OneMetric, return_counts = True)[1][1]
+    # nArea = np.unique(OneMetric, return_counts = True)[1][1]
+    try : 
+        nArea = pd.value_counts(OneMetric)[1]
+    except Exception as ex:
+        print(ex)
+        nArea = 1
+    
+    cdef double end = time.time()
+    
+    print('getStdOfArea : ' + str(end - st))
     
     return np.std(dotM), np.sum(dotM)/nArea, np.sum(OneMetric)
 
@@ -237,11 +253,11 @@ def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direct
     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
     
     
-    plt.title('new points')
-    plt.imshow(imgArray)
-    plt.scatter(lineX, lineY, s = 1)
-    plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
-    plt.show()
+    # plt.title('new points')
+    # plt.imshow(imgArray)
+    # plt.scatter(lineX, lineY, s = 1)
+    # plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
+    # plt.show()
     
     denominator = newP[ax] - oldP[ax]
     if denominator == 0:

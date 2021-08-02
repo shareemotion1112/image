@@ -1915,7 +1915,6 @@ static const char __pyx_k_w[] = "w";
 static const char __pyx_k_x[] = "x";
 static const char __pyx_k_y[] = "y";
 static const char __pyx_k_Tk[] = "Tk";
-static const char __pyx_k__9[] = "-----------------------";
 static const char __pyx_k_ax[] = "ax";
 static const char __pyx_k_ex[] = "ex";
 static const char __pyx_k_fd[] = "fd";
@@ -1925,7 +1924,11 @@ static const char __pyx_k_p2[] = "p2";
 static const char __pyx_k_pd[] = "pd";
 static const char __pyx_k_st[] = "st";
 static const char __pyx_k_tk[] = "tk";
-static const char __pyx_k__14[] = "*";
+static const char __pyx_k_X_2[] = "X";
+static const char __pyx_k_Y_2[] = "Y";
+static const char __pyx_k__10[] = "--";
+static const char __pyx_k__13[] = "-----------------------";
+static const char __pyx_k__16[] = "*";
 static const char __pyx_k__33[] = "__";
 static const char __pyx_k_abs[] = "abs";
 static const char __pyx_k_cos[] = "cos";
@@ -1957,6 +1960,7 @@ static const char __pyx_k_dotM[] = "dotM";
 static const char __pyx_k_end2[] = "end2";
 static const char __pyx_k_endP[] = "endP";
 static const char __pyx_k_file[] = "file";
+static const char __pyx_k_gray[] = "gray";
 static const char __pyx_k_iter[] = "iter";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_mean[] = "mean";
@@ -1965,6 +1969,8 @@ static const char __pyx_k_newP[] = "newP";
 static const char __pyx_k_oldP[] = "oldP";
 static const char __pyx_k_pack[] = "pack";
 static const char __pyx_k_path[] = "path";
+static const char __pyx_k_plot[] = "plot";
+static const char __pyx_k_pts2[] = "pts2";
 static const char __pyx_k_root[] = "root";
 static const char __pyx_k_show[] = "show";
 static const char __pyx_k_size[] = "size";
@@ -2031,6 +2037,7 @@ static const char __pyx_k_resultX[] = "resultX";
 static const char __pyx_k_resultY[] = "resultY";
 static const char __pyx_k_scatter[] = "scatter";
 static const char __pyx_k_tkinter[] = "tkinter";
+static const char __pyx_k_uniform[] = "uniform";
 static const char __pyx_k_alphaStd[] = "alphaStd";
 static const char __pyx_k_alphaSum[] = "alphaSum";
 static const char __pyx_k_basePath[] = "basePath";
@@ -2038,6 +2045,7 @@ static const char __pyx_k_centroid[] = "centroid";
 static const char __pyx_k_criteria[] = "criteria";
 static const char __pyx_k_geometry[] = "geometry";
 static const char __pyx_k_imgArray[] = "imgArray";
+static const char __pyx_k_lrsStd_2[] = "lrsStd : ";
 static const char __pyx_k_openFile[] = "openFile";
 static const char __pyx_k_withdraw[] = "withdraw";
 static const char __pyx_k_OneMetric[] = "OneMetric";
@@ -2050,14 +2058,12 @@ static const char __pyx_k_getOffset[] = "getOffset";
 static const char __pyx_k_imagePath[] = "imagePath";
 static const char __pyx_k_increaseX[] = "increaseX";
 static const char __pyx_k_increaseY[] = "increaseY";
-static const char __pyx_k_offsetStd[] = "offsetStd";
-static const char __pyx_k_offsetSum[] = "offsetSum";
+static const char __pyx_k_offsetStd[] = "offsetStd : ";
+static const char __pyx_k_offsetSum[] = "offsetSum : ";
 static const char __pyx_k_ones_like[] = "ones_like";
 static const char __pyx_k_checkLimit[] = "checkLimit";
 static const char __pyx_k_initialdir[] = "initialdir";
-static const char __pyx_k_new_points[] = "new points";
 static const char __pyx_k_offsetMean[] = "offsetMean : ";
-static const char __pyx_k_old_points[] = "old points";
 static const char __pyx_k_polarCoord[] = "polarCoord";
 static const char __pyx_k_pologonFit[] = "pologonFit";
 static const char __pyx_k_text_files[] = "text files";
@@ -2065,18 +2071,20 @@ static const char __pyx_k_total_time[] = "total time : ";
 static const char __pyx_k_zeros_like[] = "zeros_like";
 static const char __pyx_k_1_iter_time[] = "1 iter time : ";
 static const char __pyx_k_ImportError[] = "ImportError";
-static const char __pyx_k_alphaMean_2[] = "alphaMean : ";
-static const char __pyx_k_denominator[] = "denominator : ";
+static const char __pyx_k_concatenate[] = "concatenate";
+static const char __pyx_k_denominator[] = "denominator";
 static const char __pyx_k_image_files[] = "image files";
 static const char __pyx_k_offsetLists[] = "offsetLists";
+static const char __pyx_k_offsetStd_2[] = "offsetStd";
+static const char __pyx_k_offsetSum_2[] = "offsetSum";
+static const char __pyx_k_offsetValue[] = "offsetValue";
 static const char __pyx_k_polarSorted[] = "polarSorted";
 static const char __pyx_k_select_File[] = "select File";
+static const char __pyx_k_acceleration[] = "acceleration";
 static const char __pyx_k_getStdOfArea[] = "getStdOfArea";
 static const char __pyx_k_offsetMean_2[] = "offsetMean";
 static const char __pyx_k_pixel_values[] = "pixel_values";
 static const char __pyx_k_value_counts[] = "value_counts";
-static const char __pyx_k_checkLimitLrs[] = "checkLimitLrs";
-static const char __pyx_k_denominator_2[] = "denominator";
 static const char __pyx_k_newStd_oldStd[] = "newStd - oldStd  = ";
 static const char __pyx_k_orderedPoints[] = "orderedPoints";
 static const char __pyx_k_result_offset[] = "result offset : ";
@@ -2101,7 +2109,6 @@ static const char __pyx_k_cartesianToPolarcoord[] = "cartesianToPolarcoord";
 static const char __pyx_k_getOneMetricForCalStd[] = "getOneMetricForCalStd";
 static const char __pyx_k_TERM_CRITERIA_MAX_ITER[] = "TERM_CRITERIA_MAX_ITER";
 static const char __pyx_k_Exception_at_getStdArea[] = "Exception at getStdArea : ";
-static const char __pyx_k_getOffset_oldStd_newStd[] = "getOffset(oldStd, newStd ) : ";
 static const char __pyx_k_getSegmentedImagByKmeans[] = "getSegmentedImagByKmeans";
 static const char __pyx_k_getOrderedMatrixByRightClock[] = "getOrderedMatrixByRightClock";
 static const char __pyx_k_Created_on_Thu_Jul_22_08_28_05[] = "\nCreated on Thu Jul 22 08:28:05 2021\n\n@author: coolc\n";
@@ -2124,14 +2131,17 @@ static PyObject *__pyx_n_s_TERM_CRITERIA_EPS;
 static PyObject *__pyx_n_s_TERM_CRITERIA_MAX_ITER;
 static PyObject *__pyx_n_s_Tk;
 static PyObject *__pyx_kp_s_X;
+static PyObject *__pyx_n_s_X_2;
 static PyObject *__pyx_kp_s_Y;
-static PyObject *__pyx_n_s__14;
+static PyObject *__pyx_n_s_Y_2;
+static PyObject *__pyx_kp_s__10;
+static PyObject *__pyx_kp_s__13;
+static PyObject *__pyx_n_s__16;
 static PyObject *__pyx_n_s__33;
-static PyObject *__pyx_kp_s__9;
 static PyObject *__pyx_n_s_abs;
+static PyObject *__pyx_n_s_acceleration;
 static PyObject *__pyx_kp_s_all_files;
 static PyObject *__pyx_n_s_alphaMean;
-static PyObject *__pyx_kp_s_alphaMean_2;
 static PyObject *__pyx_n_s_alphaStd;
 static PyObject *__pyx_n_s_alphaSum;
 static PyObject *__pyx_n_s_append;
@@ -2148,14 +2158,13 @@ static PyObject *__pyx_n_s_cartesianToPolarcoord;
 static PyObject *__pyx_n_s_centers;
 static PyObject *__pyx_n_s_centroid;
 static PyObject *__pyx_n_s_checkLimit;
-static PyObject *__pyx_n_s_checkLimitLrs;
 static PyObject *__pyx_n_s_cline_in_traceback;
+static PyObject *__pyx_n_s_concatenate;
 static PyObject *__pyx_n_s_copy;
 static PyObject *__pyx_n_s_cos;
 static PyObject *__pyx_n_s_criteria;
 static PyObject *__pyx_n_s_cv2;
-static PyObject *__pyx_kp_s_denominator;
-static PyObject *__pyx_n_s_denominator_2;
+static PyObject *__pyx_n_s_denominator;
 static PyObject *__pyx_n_s_direction;
 static PyObject *__pyx_n_s_dotM;
 static PyObject *__pyx_n_s_dtype;
@@ -2175,12 +2184,12 @@ static PyObject *__pyx_n_s_frame;
 static PyObject *__pyx_n_s_geometry;
 static PyObject *__pyx_n_s_getLineProfile;
 static PyObject *__pyx_n_s_getOffset;
-static PyObject *__pyx_kp_s_getOffset_oldStd_newStd;
 static PyObject *__pyx_n_s_getOneMetricForCalStd;
 static PyObject *__pyx_n_s_getOrderedMatrixByRightClock;
 static PyObject *__pyx_n_s_getOrderedMatrixByRightClock_loc;
 static PyObject *__pyx_n_s_getSegmentedImagByKmeans;
 static PyObject *__pyx_n_s_getStdOfArea;
+static PyObject *__pyx_n_s_gray;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_imagePath;
 static PyObject *__pyx_kp_s_image_files;
@@ -2209,6 +2218,7 @@ static PyObject *__pyx_n_s_lineX;
 static PyObject *__pyx_n_s_lineY;
 static PyObject *__pyx_n_s_lrs;
 static PyObject *__pyx_n_s_lrsStd;
+static PyObject *__pyx_kp_s_lrsStd_2;
 static PyObject *__pyx_n_s_lrsSum;
 static PyObject *__pyx_kp_s_lrs_2;
 static PyObject *__pyx_n_s_main;
@@ -2226,7 +2236,6 @@ static PyObject *__pyx_n_s_newPts;
 static PyObject *__pyx_n_s_newStd;
 static PyObject *__pyx_kp_s_newStd_oldStd;
 static PyObject *__pyx_n_s_newSum;
-static PyObject *__pyx_kp_s_new_points;
 static PyObject *__pyx_n_s_np;
 static PyObject *__pyx_n_s_numpy;
 static PyObject *__pyx_kp_s_numpy_core_multiarray_failed_to;
@@ -2236,14 +2245,16 @@ static PyObject *__pyx_n_s_offset;
 static PyObject *__pyx_n_s_offsetLists;
 static PyObject *__pyx_kp_s_offsetMean;
 static PyObject *__pyx_n_s_offsetMean_2;
-static PyObject *__pyx_n_s_offsetStd;
-static PyObject *__pyx_n_s_offsetSum;
+static PyObject *__pyx_kp_s_offsetStd;
+static PyObject *__pyx_n_s_offsetStd_2;
+static PyObject *__pyx_kp_s_offsetSum;
+static PyObject *__pyx_n_s_offsetSum_2;
+static PyObject *__pyx_n_s_offsetValue;
 static PyObject *__pyx_n_s_old;
 static PyObject *__pyx_n_s_oldMean;
 static PyObject *__pyx_n_s_oldP;
 static PyObject *__pyx_n_s_oldStd;
 static PyObject *__pyx_n_s_oldSum;
-static PyObject *__pyx_kp_s_old_points;
 static PyObject *__pyx_n_s_ones_like;
 static PyObject *__pyx_n_s_openFile;
 static PyObject *__pyx_kp_s_open_filedialog;
@@ -2258,6 +2269,7 @@ static PyObject *__pyx_n_s_path;
 static PyObject *__pyx_n_s_pd;
 static PyObject *__pyx_n_s_phi;
 static PyObject *__pyx_n_s_pixel_values;
+static PyObject *__pyx_n_s_plot;
 static PyObject *__pyx_n_s_plt;
 static PyObject *__pyx_n_s_point;
 static PyObject *__pyx_kp_s_point_2;
@@ -2268,6 +2280,7 @@ static PyObject *__pyx_n_s_polygonFitCython;
 static PyObject *__pyx_kp_s_polygonFitCython_pyx;
 static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_pts;
+static PyObject *__pyx_n_s_pts2;
 static PyObject *__pyx_n_s_r;
 static PyObject *__pyx_n_s_random;
 static PyObject *__pyx_n_s_range;
@@ -2306,6 +2319,7 @@ static PyObject *__pyx_n_s_tmp;
 static PyObject *__pyx_kp_s_total_time;
 static PyObject *__pyx_kp_s_txt;
 static PyObject *__pyx_n_s_uint8;
+static PyObject *__pyx_n_s_uniform;
 static PyObject *__pyx_n_s_value;
 static PyObject *__pyx_n_s_value_counts;
 static PyObject *__pyx_n_s_w;
@@ -2322,24 +2336,25 @@ static PyObject *__pyx_pf_16polygonFitCython_4getLineProfile(CYTHON_UNUSED PyObj
 static PyObject *__pyx_pf_16polygonFitCython_6getOneMetricForCalStd(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_imgArray, PyArrayObject *__pyx_v_lineX, PyArrayObject *__pyx_v_lineY); /* proto */
 static PyObject *__pyx_pf_16polygonFitCython_8getStdOfArea(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_imgArray, PyArrayObject *__pyx_v_OneMetric); /* proto */
 static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_value, PyObject *__pyx_v_limit); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_12checkLimitLrs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_value, PyObject *__pyx_v_limit); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_14getOffset(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_old, double __pyx_v_new); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_basePath); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_imgArray, PyObject *__pyx_v_k); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_x, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_y, PyArrayObject *__pyx_v_centroid); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_r, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_p, PyArrayObject *__pyx_v_centroid); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_12getOffset(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_old, double __pyx_v_new); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_14openFile(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_basePath); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_16getSegmentedImagByKmeans(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_imgArray, PyObject *__pyx_v_k); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_18cartesianToPolarcoord(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_x, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_y, PyArrayObject *__pyx_v_centroid); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_20PolarToCartesian(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_r, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_p, PyArrayObject *__pyx_v_centroid); /* proto */
 static PyObject *__pyx_lambda_funcdef_lambda(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_k); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_imgArray, PyArrayObject *__pyx_v_pts, int __pyx_v_ax, int __pyx_v_direction, int __pyx_v_ind, PyArrayObject *__pyx_v_offsetLists, PyArrayObject *__pyx_v_lrs, PyArrayObject *__pyx_v_lrsStd, PyArrayObject *__pyx_v_lrsSum, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum); /* proto */
-static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints, int __pyx_v_imagePath, int __pyx_v_iterationLimit, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum, int __pyx_v_direction); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_22getOrderedMatrixByRightClock(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_24calRegresssionByAxis(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_imgArray, PyArrayObject *__pyx_v_pts, int __pyx_v_ax, int __pyx_v_direction, int __pyx_v_ind, PyArrayObject *__pyx_v_offsetLists, PyArrayObject *__pyx_v_lrs, PyArrayObject *__pyx_v_lrsStd, PyArrayObject *__pyx_v_lrsSum, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum); /* proto */
+static PyObject *__pyx_pf_16polygonFitCython_26pologonFit(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints, int __pyx_v_imagePath, int __pyx_v_iterationLimit, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum, int __pyx_v_direction); /* proto */
 static PyObject *__pyx_float_0_2;
+static PyObject *__pyx_float_1_2;
+static PyObject *__pyx_float_1eneg_3;
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
 static PyObject *__pyx_int_3;
 static PyObject *__pyx_int_5;
 static PyObject *__pyx_int_10;
-static PyObject *__pyx_int_15;
+static PyObject *__pyx_int_20;
 static PyObject *__pyx_int_50;
 static PyObject *__pyx_int_100;
 static PyObject *__pyx_int_neg_1;
@@ -2350,10 +2365,10 @@ static PyObject *__pyx_tuple__4;
 static PyObject *__pyx_tuple__5;
 static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__8;
-static PyObject *__pyx_tuple__10;
+static PyObject *__pyx_tuple__9;
 static PyObject *__pyx_tuple__11;
 static PyObject *__pyx_tuple__12;
-static PyObject *__pyx_tuple__13;
+static PyObject *__pyx_tuple__14;
 static PyObject *__pyx_tuple__15;
 static PyObject *__pyx_tuple__17;
 static PyObject *__pyx_tuple__19;
@@ -2369,7 +2384,6 @@ static PyObject *__pyx_tuple__38;
 static PyObject *__pyx_tuple__40;
 static PyObject *__pyx_tuple__42;
 static PyObject *__pyx_tuple__44;
-static PyObject *__pyx_codeobj__16;
 static PyObject *__pyx_codeobj__18;
 static PyObject *__pyx_codeobj__20;
 static PyObject *__pyx_codeobj__22;
@@ -4776,7 +4790,7 @@ static PyObject *__pyx_pf_16polygonFitCython_8getStdOfArea(CYTHON_UNUSED PyObjec
 /* "polygonFitCython.pyx":165
  * 
  * 
- * def checkLimit(value, limit = 15):             # <<<<<<<<<<<<<<
+ * def checkLimit(value, limit = 100):             # <<<<<<<<<<<<<<
  *     if (np.abs(value) > limit):
  *         return value / np.abs(value) * limit
  */
@@ -4796,7 +4810,7 @@ static PyObject *__pyx_pw_16polygonFitCython_11checkLimit(PyObject *__pyx_self, 
   {
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_value,&__pyx_n_s_limit,0};
     PyObject* values[2] = {0,0};
-    values[1] = ((PyObject *)__pyx_int_15);
+    values[1] = ((PyObject *)__pyx_int_100);
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
@@ -4864,7 +4878,7 @@ static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject
 
   /* "polygonFitCython.pyx":166
  * 
- * def checkLimit(value, limit = 15):
+ * def checkLimit(value, limit = 100):
  *     if (np.abs(value) > limit):             # <<<<<<<<<<<<<<
  *         return value / np.abs(value) * limit
  *     else :
@@ -4896,7 +4910,7 @@ static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject
   if (__pyx_t_4) {
 
     /* "polygonFitCython.pyx":167
- * def checkLimit(value, limit = 15):
+ * def checkLimit(value, limit = 100):
  *     if (np.abs(value) > limit):
  *         return value / np.abs(value) * limit             # <<<<<<<<<<<<<<
  *     else :
@@ -4935,7 +4949,7 @@ static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject
 
     /* "polygonFitCython.pyx":166
  * 
- * def checkLimit(value, limit = 15):
+ * def checkLimit(value, limit = 100):
  *     if (np.abs(value) > limit):             # <<<<<<<<<<<<<<
  *         return value / np.abs(value) * limit
  *     else :
@@ -4947,7 +4961,7 @@ static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject
  *     else :
  *         return value             # <<<<<<<<<<<<<<
  * 
- * def checkLimitLrs(value, limit = 50):
+ * 
  */
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
@@ -4959,7 +4973,7 @@ static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject
   /* "polygonFitCython.pyx":165
  * 
  * 
- * def checkLimit(value, limit = 15):             # <<<<<<<<<<<<<<
+ * def checkLimit(value, limit = 100):             # <<<<<<<<<<<<<<
  *     if (np.abs(value) > limit):
  *         return value / np.abs(value) * limit
  */
@@ -4977,222 +4991,18 @@ static PyObject *__pyx_pf_16polygonFitCython_10checkLimit(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":171
- *         return value
+/* "polygonFitCython.pyx":172
  * 
- * def checkLimitLrs(value, limit = 50):             # <<<<<<<<<<<<<<
- *     if (np.abs(value) > limit):
- *         return value / np.abs(value) * limit
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_13checkLimitLrs(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_13checkLimitLrs = {"checkLimitLrs", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_13checkLimitLrs, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_16polygonFitCython_13checkLimitLrs(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyObject *__pyx_v_value = 0;
-  PyObject *__pyx_v_limit = 0;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("checkLimitLrs (wrapper)", 0);
-  {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_value,&__pyx_n_s_limit,0};
-    PyObject* values[2] = {0,0};
-    values[1] = ((PyObject *)__pyx_int_50);
-    if (unlikely(__pyx_kwds)) {
-      Py_ssize_t kw_args;
-      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
-      switch (pos_args) {
-        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        CYTHON_FALLTHROUGH;
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-        CYTHON_FALLTHROUGH;
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      kw_args = PyDict_Size(__pyx_kwds);
-      switch (pos_args) {
-        case  0:
-        if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_value)) != 0)) kw_args--;
-        else goto __pyx_L5_argtuple_error;
-        CYTHON_FALLTHROUGH;
-        case  1:
-        if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_limit);
-          if (value) { values[1] = value; kw_args--; }
-        }
-      }
-      if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "checkLimitLrs") < 0)) __PYX_ERR(0, 171, __pyx_L3_error)
-      }
-    } else {
-      switch (PyTuple_GET_SIZE(__pyx_args)) {
-        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        CYTHON_FALLTHROUGH;
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-        break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-    }
-    __pyx_v_value = values[0];
-    __pyx_v_limit = values[1];
-  }
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("checkLimitLrs", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 171, __pyx_L3_error)
-  __pyx_L3_error:;
-  __Pyx_AddTraceback("polygonFitCython.checkLimitLrs", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_16polygonFitCython_12checkLimitLrs(__pyx_self, __pyx_v_value, __pyx_v_limit);
-
-  /* function exit code */
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_16polygonFitCython_12checkLimitLrs(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_value, PyObject *__pyx_v_limit) {
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("checkLimitLrs", 0);
-
-  /* "polygonFitCython.pyx":172
- * 
- * def checkLimitLrs(value, limit = 50):
- *     if (np.abs(value) > limit):             # <<<<<<<<<<<<<<
- *         return value / np.abs(value) * limit
- *     else :
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_abs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 172, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_3);
-    if (likely(__pyx_t_2)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
-      __Pyx_INCREF(__pyx_t_2);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_3, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_v_value) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_value);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyObject_RichCompare(__pyx_t_1, __pyx_v_limit, Py_GT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 172, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 172, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (__pyx_t_4) {
-
-    /* "polygonFitCython.pyx":173
- * def checkLimitLrs(value, limit = 50):
- *     if (np.abs(value) > limit):
- *         return value / np.abs(value) * limit             # <<<<<<<<<<<<<<
- *     else :
- *         return value
- */
-    __Pyx_XDECREF(__pyx_r);
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 173, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_abs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_2);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-        __Pyx_INCREF(__pyx_t_1);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_2, function);
-      }
-    }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_1, __pyx_v_value) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_value);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 173, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_v_value, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Multiply(__pyx_t_2, __pyx_v_limit); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 173, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-
-    /* "polygonFitCython.pyx":172
- * 
- * def checkLimitLrs(value, limit = 50):
- *     if (np.abs(value) > limit):             # <<<<<<<<<<<<<<
- *         return value / np.abs(value) * limit
- *     else :
- */
-  }
-
-  /* "polygonFitCython.pyx":175
- *         return value / np.abs(value) * limit
- *     else :
- *         return value             # <<<<<<<<<<<<<<
- * 
- * def getOffset(double old, double new):
- */
-  /*else*/ {
-    __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_v_value);
-    __pyx_r = __pyx_v_value;
-    goto __pyx_L0;
-  }
-
-  /* "polygonFitCython.pyx":171
- *         return value
- * 
- * def checkLimitLrs(value, limit = 50):             # <<<<<<<<<<<<<<
- *     if (np.abs(value) > limit):
- *         return value / np.abs(value) * limit
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("polygonFitCython.checkLimitLrs", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "polygonFitCython.pyx":177
- *         return value
  * 
  * def getOffset(double old, double new):             # <<<<<<<<<<<<<<
- *     if np.abs(old - new) == 0:
- *         return 0
+ *     # if np.abs(old - new) == 0:
+ *     #     return 0
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_15getOffset(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_15getOffset = {"getOffset", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_15getOffset, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_16polygonFitCython_15getOffset(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_16polygonFitCython_13getOffset(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_16polygonFitCython_13getOffset = {"getOffset", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_13getOffset, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_16polygonFitCython_13getOffset(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   double __pyx_v_old;
   double __pyx_v_new;
   int __pyx_lineno = 0;
@@ -5224,11 +5034,11 @@ static PyObject *__pyx_pw_16polygonFitCython_15getOffset(PyObject *__pyx_self, P
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_new)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("getOffset", 1, 2, 2, 1); __PYX_ERR(0, 177, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("getOffset", 1, 2, 2, 1); __PYX_ERR(0, 172, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "getOffset") < 0)) __PYX_ERR(0, 177, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "getOffset") < 0)) __PYX_ERR(0, 172, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -5236,154 +5046,58 @@ static PyObject *__pyx_pw_16polygonFitCython_15getOffset(PyObject *__pyx_self, P
       values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
     }
-    __pyx_v_old = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_old == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 177, __pyx_L3_error)
-    __pyx_v_new = __pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_new == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 177, __pyx_L3_error)
+    __pyx_v_old = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_old == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 172, __pyx_L3_error)
+    __pyx_v_new = __pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_new == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 172, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("getOffset", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 177, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("getOffset", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 172, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("polygonFitCython.getOffset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_16polygonFitCython_14getOffset(__pyx_self, __pyx_v_old, __pyx_v_new);
+  __pyx_r = __pyx_pf_16polygonFitCython_12getOffset(__pyx_self, __pyx_v_old, __pyx_v_new);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_14getOffset(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_old, double __pyx_v_new) {
+static PyObject *__pyx_pf_16polygonFitCython_12getOffset(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_old, double __pyx_v_new) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  PyObject *__pyx_t_4 = NULL;
-  int __pyx_t_5;
-  PyObject *__pyx_t_6 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("getOffset", 0);
 
-  /* "polygonFitCython.pyx":178
- * 
- * def getOffset(double old, double new):
- *     if np.abs(old - new) == 0:             # <<<<<<<<<<<<<<
- *         return 0
- *     else:
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_abs); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyFloat_FromDouble((__pyx_v_old - __pyx_v_new)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
-    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
-    if (likely(__pyx_t_4)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
-      __Pyx_INCREF(__pyx_t_4);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_3, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 178, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (__pyx_t_5) {
-
-    /* "polygonFitCython.pyx":179
- * def getOffset(double old, double new):
- *     if np.abs(old - new) == 0:
- *         return 0             # <<<<<<<<<<<<<<
- *     else:
- *         return (old - new) / np.abs(old - new)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_int_0);
-    __pyx_r = __pyx_int_0;
-    goto __pyx_L0;
-
-    /* "polygonFitCython.pyx":178
- * 
- * def getOffset(double old, double new):
- *     if np.abs(old - new) == 0:             # <<<<<<<<<<<<<<
- *         return 0
- *     else:
- */
-  }
-
-  /* "polygonFitCython.pyx":181
- *         return 0
- *     else:
- *         return (old - new) / np.abs(old - new)             # <<<<<<<<<<<<<<
- * 
- * 
- */
-  /*else*/ {
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_3 = PyFloat_FromDouble((__pyx_v_old - __pyx_v_new)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 181, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_abs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 181, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble((__pyx_v_old - __pyx_v_new)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_6 = NULL;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
-      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_4);
-      if (likely(__pyx_t_6)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-        __Pyx_INCREF(__pyx_t_6);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_4, function);
-      }
-    }
-    __pyx_t_1 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_6, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_2);
-    __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 181, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 181, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_r = __pyx_t_4;
-    __pyx_t_4 = 0;
-    goto __pyx_L0;
-  }
-
   /* "polygonFitCython.pyx":177
- *         return value
+ *     # else:
+ *     #     return (old - new) / np.abs(old - new)
+ *     return (old - new)             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_1 = PyFloat_FromDouble((__pyx_v_old - __pyx_v_new)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 177, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* "polygonFitCython.pyx":172
+ * 
  * 
  * def getOffset(double old, double new):             # <<<<<<<<<<<<<<
- *     if np.abs(old - new) == 0:
- *         return 0
+ *     # if np.abs(old - new) == 0:
+ *     #     return 0
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_XDECREF(__pyx_t_6);
   __Pyx_AddTraceback("polygonFitCython.getOffset", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
@@ -5392,7 +5106,7 @@ static PyObject *__pyx_pf_16polygonFitCython_14getOffset(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":184
+/* "polygonFitCython.pyx":180
  * 
  * 
  * def openFile(basePath):             # <<<<<<<<<<<<<<
@@ -5401,20 +5115,20 @@ static PyObject *__pyx_pf_16polygonFitCython_14getOffset(CYTHON_UNUSED PyObject 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_17openFile(PyObject *__pyx_self, PyObject *__pyx_v_basePath); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_17openFile = {"openFile", (PyCFunction)__pyx_pw_16polygonFitCython_17openFile, METH_O, 0};
-static PyObject *__pyx_pw_16polygonFitCython_17openFile(PyObject *__pyx_self, PyObject *__pyx_v_basePath) {
+static PyObject *__pyx_pw_16polygonFitCython_15openFile(PyObject *__pyx_self, PyObject *__pyx_v_basePath); /*proto*/
+static PyMethodDef __pyx_mdef_16polygonFitCython_15openFile = {"openFile", (PyCFunction)__pyx_pw_16polygonFitCython_15openFile, METH_O, 0};
+static PyObject *__pyx_pw_16polygonFitCython_15openFile(PyObject *__pyx_self, PyObject *__pyx_v_basePath) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("openFile (wrapper)", 0);
-  __pyx_r = __pyx_pf_16polygonFitCython_16openFile(__pyx_self, ((PyObject *)__pyx_v_basePath));
+  __pyx_r = __pyx_pf_16polygonFitCython_14openFile(__pyx_self, ((PyObject *)__pyx_v_basePath));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_basePath) {
+static PyObject *__pyx_pf_16polygonFitCython_14openFile(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_basePath) {
   PyObject *__pyx_v_root = NULL;
   PyObject *__pyx_v_frame = NULL;
   PyObject *__pyx_v_path = NULL;
@@ -5428,16 +5142,16 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("openFile", 0);
 
-  /* "polygonFitCython.pyx":185
+  /* "polygonFitCython.pyx":181
  * 
  * def openFile(basePath):
  *     root = tk.Tk()             # <<<<<<<<<<<<<<
  *     root.geometry('320x240')
  *     root.title('open filedialog')
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_tk); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 185, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_tk); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_Tk); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 185, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_Tk); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -5452,20 +5166,20 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 185, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_root = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":186
+  /* "polygonFitCython.pyx":182
  * def openFile(basePath):
  *     root = tk.Tk()
  *     root.geometry('320x240')             # <<<<<<<<<<<<<<
  *     root.title('open filedialog')
  *     root.withdraw()
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root, __pyx_n_s_geometry); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 186, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root, __pyx_n_s_geometry); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 182, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -5479,19 +5193,19 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_kp_s_320x240) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_kp_s_320x240);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 186, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 182, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":187
+  /* "polygonFitCython.pyx":183
  *     root = tk.Tk()
  *     root.geometry('320x240')
  *     root.title('open filedialog')             # <<<<<<<<<<<<<<
  *     root.withdraw()
  *     frame = tk.Frame(root)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 183, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -5505,19 +5219,19 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_kp_s_open_filedialog) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_kp_s_open_filedialog);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 187, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 183, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":188
+  /* "polygonFitCython.pyx":184
  *     root.geometry('320x240')
  *     root.title('open filedialog')
  *     root.withdraw()             # <<<<<<<<<<<<<<
  *     frame = tk.Frame(root)
  *     frame.pack()
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root, __pyx_n_s_withdraw); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root, __pyx_n_s_withdraw); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -5531,21 +5245,21 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":189
+  /* "polygonFitCython.pyx":185
  *     root.title('open filedialog')
  *     root.withdraw()
  *     frame = tk.Frame(root)             # <<<<<<<<<<<<<<
  *     frame.pack()
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_tk); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 189, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_tk); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 185, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Frame); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 189, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Frame); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 185, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -5560,20 +5274,20 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_v_root) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_root);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 189, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 185, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_frame = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":190
+  /* "polygonFitCython.pyx":186
  *     root.withdraw()
  *     frame = tk.Frame(root)
  *     frame.pack()             # <<<<<<<<<<<<<<
  * 
  *     path = fd.askopenfilename(initialdir = basePath, title = 'select File', filetypes = (("all files", "*.*"), ("image files", "*.tif"), ("text files", "*.txt")))
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_frame, __pyx_n_s_pack); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_frame, __pyx_n_s_pack); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -5587,36 +5301,36 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 190, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 186, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":192
+  /* "polygonFitCython.pyx":188
  *     frame.pack()
  * 
  *     path = fd.askopenfilename(initialdir = basePath, title = 'select File', filetypes = (("all files", "*.*"), ("image files", "*.tif"), ("text files", "*.txt")))             # <<<<<<<<<<<<<<
  * 
  *     return path
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fd); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_fd); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_askopenfilename); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_askopenfilename); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_initialdir, __pyx_v_basePath) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_title, __pyx_kp_s_select_File) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_filetypes, __pyx_tuple__5) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 192, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_initialdir, __pyx_v_basePath) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_title, __pyx_kp_s_select_File) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_filetypes, __pyx_tuple__5) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_path = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "polygonFitCython.pyx":194
+  /* "polygonFitCython.pyx":190
  *     path = fd.askopenfilename(initialdir = basePath, title = 'select File', filetypes = (("all files", "*.*"), ("image files", "*.tif"), ("text files", "*.txt")))
  * 
  *     return path             # <<<<<<<<<<<<<<
@@ -5628,7 +5342,7 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   __pyx_r = __pyx_v_path;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":184
+  /* "polygonFitCython.pyx":180
  * 
  * 
  * def openFile(basePath):             # <<<<<<<<<<<<<<
@@ -5652,7 +5366,7 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":198
+/* "polygonFitCython.pyx":194
  * 
  * # cv2   : cpython
  * def getSegmentedImagByKmeans(imgArray, k = 2):             # <<<<<<<<<<<<<<
@@ -5661,9 +5375,9 @@ static PyObject *__pyx_pf_16polygonFitCython_16openFile(CYTHON_UNUSED PyObject *
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_19getSegmentedImagByKmeans(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_19getSegmentedImagByKmeans = {"getSegmentedImagByKmeans", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_19getSegmentedImagByKmeans, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_16polygonFitCython_19getSegmentedImagByKmeans(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_16polygonFitCython_17getSegmentedImagByKmeans(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_16polygonFitCython_17getSegmentedImagByKmeans = {"getSegmentedImagByKmeans", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_17getSegmentedImagByKmeans, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_16polygonFitCython_17getSegmentedImagByKmeans(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_imgArray = 0;
   PyObject *__pyx_v_k = 0;
   int __pyx_lineno = 0;
@@ -5700,7 +5414,7 @@ static PyObject *__pyx_pw_16polygonFitCython_19getSegmentedImagByKmeans(PyObject
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "getSegmentedImagByKmeans") < 0)) __PYX_ERR(0, 198, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "getSegmentedImagByKmeans") < 0)) __PYX_ERR(0, 194, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -5716,20 +5430,20 @@ static PyObject *__pyx_pw_16polygonFitCython_19getSegmentedImagByKmeans(PyObject
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("getSegmentedImagByKmeans", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 198, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("getSegmentedImagByKmeans", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 194, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("polygonFitCython.getSegmentedImagByKmeans", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(__pyx_self, __pyx_v_imgArray, __pyx_v_k);
+  __pyx_r = __pyx_pf_16polygonFitCython_16getSegmentedImagByKmeans(__pyx_self, __pyx_v_imgArray, __pyx_v_k);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_imgArray, PyObject *__pyx_v_k) {
+static PyObject *__pyx_pf_16polygonFitCython_16getSegmentedImagByKmeans(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_imgArray, PyObject *__pyx_v_k) {
   PyObject *__pyx_v_pixel_values = NULL;
   PyObject *__pyx_v_criteria = NULL;
   CYTHON_UNUSED PyObject *__pyx_v___ = NULL;
@@ -5750,19 +5464,19 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("getSegmentedImagByKmeans", 0);
 
-  /* "polygonFitCython.pyx":199
+  /* "polygonFitCython.pyx":195
  * # cv2   : cpython
  * def getSegmentedImagByKmeans(imgArray, k = 2):
  *     pixel_values = np.float32(imgArray.reshape((-1, 3)))             # <<<<<<<<<<<<<<
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
  *     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_imgArray, __pyx_n_s_reshape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_imgArray, __pyx_n_s_reshape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -5776,7 +5490,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   }
   __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_tuple__6) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_tuple__6);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = NULL;
@@ -5792,34 +5506,34 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_pixel_values = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":200
+  /* "polygonFitCython.pyx":196
  * def getSegmentedImagByKmeans(imgArray, k = 2):
  *     pixel_values = np.float32(imgArray.reshape((-1, 3)))
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)             # <<<<<<<<<<<<<<
  *     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
  *     centers = np.uint8(centers)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_TERM_CRITERIA_EPS); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_TERM_CRITERIA_EPS); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_TERM_CRITERIA_MAX_ITER); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_TERM_CRITERIA_MAX_ITER); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Add(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Add(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
@@ -5833,21 +5547,21 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   __pyx_v_criteria = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":201
+  /* "polygonFitCython.pyx":197
  *     pixel_values = np.float32(imgArray.reshape((-1, 3)))
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
  *     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)             # <<<<<<<<<<<<<<
  *     centers = np.uint8(centers)
  *     labels = labels.flatten()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_kmeans); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_kmeans); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_cv2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_KMEANS_RANDOM_CENTERS); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_KMEANS_RANDOM_CENTERS); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
@@ -5865,7 +5579,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[7] = {__pyx_t_1, __pyx_v_pixel_values, __pyx_v_k, Py_None, __pyx_v_criteria, __pyx_int_10, __pyx_t_4};
-    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_6, 6+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_6, 6+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -5874,14 +5588,14 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[7] = {__pyx_t_1, __pyx_v_pixel_values, __pyx_v_k, Py_None, __pyx_v_criteria, __pyx_int_10, __pyx_t_4};
-    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_6, 6+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_6, 6+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(6+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(6+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_1) {
       __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1); __pyx_t_1 = NULL;
@@ -5904,7 +5618,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
     __Pyx_GIVEREF(__pyx_t_4);
     PyTuple_SET_ITEM(__pyx_t_5, 5+__pyx_t_6, __pyx_t_4);
     __pyx_t_4 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
@@ -5915,7 +5629,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
     if (unlikely(size != 3)) {
       if (size > 3) __Pyx_RaiseTooManyValuesError(3);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 201, __pyx_L1_error)
+      __PYX_ERR(0, 197, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -5931,17 +5645,17 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
     __Pyx_INCREF(__pyx_t_5);
     __Pyx_INCREF(__pyx_t_4);
     #else
-    __pyx_t_3 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_3 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_5 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_4 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     #endif
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_1 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __pyx_t_1 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext;
@@ -5951,7 +5665,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
     __Pyx_GOTREF(__pyx_t_5);
     index = 2; __pyx_t_4 = __pyx_t_7(__pyx_t_1); if (unlikely(!__pyx_t_4)) goto __pyx_L3_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_4);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_1), 3) < 0) __PYX_ERR(0, 201, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_1), 3) < 0) __PYX_ERR(0, 197, __pyx_L1_error)
     __pyx_t_7 = NULL;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     goto __pyx_L4_unpacking_done;
@@ -5959,7 +5673,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 201, __pyx_L1_error)
+    __PYX_ERR(0, 197, __pyx_L1_error)
     __pyx_L4_unpacking_done:;
   }
   __pyx_v___ = __pyx_t_3;
@@ -5969,16 +5683,16 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   __pyx_v_centers = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "polygonFitCython.pyx":202
+  /* "polygonFitCython.pyx":198
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
  *     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
  *     centers = np.uint8(centers)             # <<<<<<<<<<<<<<
  *     labels = labels.flatten()
  *     segmentedImage = centers[labels].reshape(imgArray.shape)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 198, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_uint8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 198, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = NULL;
@@ -5993,20 +5707,20 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   }
   __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_v_centers) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_centers);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 202, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 198, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF_SET(__pyx_v_centers, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":203
+  /* "polygonFitCython.pyx":199
  *     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
  *     centers = np.uint8(centers)
  *     labels = labels.flatten()             # <<<<<<<<<<<<<<
  *     segmentedImage = centers[labels].reshape(imgArray.shape)
  *     return segmentedImage
  */
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_labels, __pyx_n_s_flatten); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_labels, __pyx_n_s_flatten); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 199, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -6020,25 +5734,25 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   }
   __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 203, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF_SET(__pyx_v_labels, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":204
+  /* "polygonFitCython.pyx":200
  *     centers = np.uint8(centers)
  *     labels = labels.flatten()
  *     segmentedImage = centers[labels].reshape(imgArray.shape)             # <<<<<<<<<<<<<<
  *     return segmentedImage
  * 
  */
-  __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_centers, __pyx_v_labels); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_centers, __pyx_v_labels); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 200, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_reshape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_reshape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 200, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_imgArray, __pyx_n_s_shape); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_imgArray, __pyx_n_s_shape); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 200, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -6053,13 +5767,13 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_3, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_segmentedImage = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":205
+  /* "polygonFitCython.pyx":201
  *     labels = labels.flatten()
  *     segmentedImage = centers[labels].reshape(imgArray.shape)
  *     return segmentedImage             # <<<<<<<<<<<<<<
@@ -6071,7 +5785,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   __pyx_r = __pyx_v_segmentedImage;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":198
+  /* "polygonFitCython.pyx":194
  * 
  * # cv2   : cpython
  * def getSegmentedImagByKmeans(imgArray, k = 2):             # <<<<<<<<<<<<<<
@@ -6100,7 +5814,7 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":210
+/* "polygonFitCython.pyx":206
  * 
  * 
  * def cartesianToPolarcoord(DTYPE_t x, DTYPE_t y, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
@@ -6109,9 +5823,9 @@ static PyObject *__pyx_pf_16polygonFitCython_18getSegmentedImagByKmeans(CYTHON_U
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_21cartesianToPolarcoord(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_21cartesianToPolarcoord = {"cartesianToPolarcoord", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_21cartesianToPolarcoord, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_16polygonFitCython_21cartesianToPolarcoord(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_16polygonFitCython_19cartesianToPolarcoord(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_16polygonFitCython_19cartesianToPolarcoord = {"cartesianToPolarcoord", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_19cartesianToPolarcoord, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_16polygonFitCython_19cartesianToPolarcoord(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_x;
   __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_y;
   PyArrayObject *__pyx_v_centroid = 0;
@@ -6146,17 +5860,17 @@ static PyObject *__pyx_pw_16polygonFitCython_21cartesianToPolarcoord(PyObject *_
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_y)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("cartesianToPolarcoord", 1, 3, 3, 1); __PYX_ERR(0, 210, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("cartesianToPolarcoord", 1, 3, 3, 1); __PYX_ERR(0, 206, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_centroid)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("cartesianToPolarcoord", 1, 3, 3, 2); __PYX_ERR(0, 210, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("cartesianToPolarcoord", 1, 3, 3, 2); __PYX_ERR(0, 206, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "cartesianToPolarcoord") < 0)) __PYX_ERR(0, 210, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "cartesianToPolarcoord") < 0)) __PYX_ERR(0, 206, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 3) {
       goto __pyx_L5_argtuple_error;
@@ -6165,20 +5879,20 @@ static PyObject *__pyx_pw_16polygonFitCython_21cartesianToPolarcoord(PyObject *_
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
       values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
     }
-    __pyx_v_x = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_x == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 210, __pyx_L3_error)
-    __pyx_v_y = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_y == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 210, __pyx_L3_error)
+    __pyx_v_x = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_x == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 206, __pyx_L3_error)
+    __pyx_v_y = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_y == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 206, __pyx_L3_error)
     __pyx_v_centroid = ((PyArrayObject *)values[2]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("cartesianToPolarcoord", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 210, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("cartesianToPolarcoord", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 206, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("polygonFitCython.cartesianToPolarcoord", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_centroid), __pyx_ptype_5numpy_ndarray, 0, "centroid", 0))) __PYX_ERR(0, 210, __pyx_L1_error)
-  __pyx_r = __pyx_pf_16polygonFitCython_20cartesianToPolarcoord(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_centroid);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_centroid), __pyx_ptype_5numpy_ndarray, 0, "centroid", 0))) __PYX_ERR(0, 206, __pyx_L1_error)
+  __pyx_r = __pyx_pf_16polygonFitCython_18cartesianToPolarcoord(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_centroid);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6189,7 +5903,7 @@ static PyObject *__pyx_pw_16polygonFitCython_21cartesianToPolarcoord(PyObject *_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_x, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_y, PyArrayObject *__pyx_v_centroid) {
+static PyObject *__pyx_pf_16polygonFitCython_18cartesianToPolarcoord(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_x, __pyx_t_16polygonFitCython_DTYPE_t __pyx_v_y, PyArrayObject *__pyx_v_centroid) {
   PyObject *__pyx_v_rho = NULL;
   PyObject *__pyx_v_phi = NULL;
   PyObject *__pyx_r = NULL;
@@ -6207,57 +5921,57 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("cartesianToPolarcoord", 0);
 
-  /* "polygonFitCython.pyx":211
+  /* "polygonFitCython.pyx":207
  * 
  * def cartesianToPolarcoord(DTYPE_t x, DTYPE_t y, np.ndarray centroid not None):
  *     x = x - centroid[0]             # <<<<<<<<<<<<<<
  *     y = y - centroid[1]
  *     rho = np.sqrt(x**2 + y**2)
  */
-  __pyx_t_1 = __Pyx_PyInt_From_npy_long(__pyx_v_x); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 211, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_npy_long(__pyx_v_x); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 211, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyNumber_Subtract(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 211, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Subtract(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = __Pyx_PyInt_As_npy_long(__pyx_t_3); if (unlikely((__pyx_t_4 == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 211, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_npy_long(__pyx_t_3); if (unlikely((__pyx_t_4 == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 207, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_x = __pyx_t_4;
 
-  /* "polygonFitCython.pyx":212
+  /* "polygonFitCython.pyx":208
  * def cartesianToPolarcoord(DTYPE_t x, DTYPE_t y, np.ndarray centroid not None):
  *     x = x - centroid[0]
  *     y = y - centroid[1]             # <<<<<<<<<<<<<<
  *     rho = np.sqrt(x**2 + y**2)
  *     phi = np.arctan2(y, x)
  */
-  __pyx_t_3 = __Pyx_PyInt_From_npy_long(__pyx_v_y); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 212, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_npy_long(__pyx_v_y); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 212, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = PyNumber_Subtract(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 212, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Subtract(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = __Pyx_PyInt_As_npy_long(__pyx_t_1); if (unlikely((__pyx_t_4 == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 212, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_As_npy_long(__pyx_t_1); if (unlikely((__pyx_t_4 == ((npy_long)-1)) && PyErr_Occurred())) __PYX_ERR(0, 208, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_y = __pyx_t_4;
 
-  /* "polygonFitCython.pyx":213
+  /* "polygonFitCython.pyx":209
  *     x = x - centroid[0]
  *     y = y - centroid[1]
  *     rho = np.sqrt(x**2 + y**2)             # <<<<<<<<<<<<<<
  *     phi = np.arctan2(y, x)
  *     return [rho, phi]
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sqrt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 213, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sqrt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_npy_long((__Pyx_pow___pyx_t_16polygonFitCython_DTYPE_t(__pyx_v_x, 2) + __Pyx_pow___pyx_t_16polygonFitCython_DTYPE_t(__pyx_v_y, 2))); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_npy_long((__Pyx_pow___pyx_t_16polygonFitCython_DTYPE_t(__pyx_v_x, 2) + __Pyx_pow___pyx_t_16polygonFitCython_DTYPE_t(__pyx_v_y, 2))); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -6272,27 +5986,27 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 213, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 209, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_rho = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":214
+  /* "polygonFitCython.pyx":210
  *     y = y - centroid[1]
  *     rho = np.sqrt(x**2 + y**2)
  *     phi = np.arctan2(y, x)             # <<<<<<<<<<<<<<
  *     return [rho, phi]
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 214, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_arctan2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_arctan2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyInt_From_npy_long(__pyx_v_y); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 214, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_npy_long(__pyx_v_y); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyInt_From_npy_long(__pyx_v_x); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 214, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_npy_long(__pyx_v_x); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_6 = NULL;
   __pyx_t_7 = 0;
@@ -6309,7 +6023,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_3, __pyx_t_5};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -6319,7 +6033,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_3, __pyx_t_5};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -6327,7 +6041,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   } else
   #endif
   {
-    __pyx_t_8 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __pyx_t_8 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     if (__pyx_t_6) {
       __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -6338,7 +6052,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
     PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_7, __pyx_t_5);
     __pyx_t_3 = 0;
     __pyx_t_5 = 0;
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   }
@@ -6346,7 +6060,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   __pyx_v_phi = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":215
+  /* "polygonFitCython.pyx":211
  *     rho = np.sqrt(x**2 + y**2)
  *     phi = np.arctan2(y, x)
  *     return [rho, phi]             # <<<<<<<<<<<<<<
@@ -6354,7 +6068,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 215, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 211, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_v_rho);
   __Pyx_GIVEREF(__pyx_v_rho);
@@ -6366,7 +6080,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":210
+  /* "polygonFitCython.pyx":206
  * 
  * 
  * def cartesianToPolarcoord(DTYPE_t x, DTYPE_t y, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
@@ -6392,7 +6106,7 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":217
+/* "polygonFitCython.pyx":213
  *     return [rho, phi]
  * 
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
@@ -6401,9 +6115,9 @@ static PyObject *__pyx_pf_16polygonFitCython_20cartesianToPolarcoord(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_23PolarToCartesian(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_23PolarToCartesian = {"PolarToCartesian", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_23PolarToCartesian, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_16polygonFitCython_23PolarToCartesian(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_16polygonFitCython_21PolarToCartesian(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_16polygonFitCython_21PolarToCartesian = {"PolarToCartesian", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_21PolarToCartesian, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_16polygonFitCython_21PolarToCartesian(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_r;
   __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_p;
   PyArrayObject *__pyx_v_centroid = 0;
@@ -6438,17 +6152,17 @@ static PyObject *__pyx_pw_16polygonFitCython_23PolarToCartesian(PyObject *__pyx_
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_p)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PolarToCartesian", 1, 3, 3, 1); __PYX_ERR(0, 217, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PolarToCartesian", 1, 3, 3, 1); __PYX_ERR(0, 213, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_centroid)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PolarToCartesian", 1, 3, 3, 2); __PYX_ERR(0, 217, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PolarToCartesian", 1, 3, 3, 2); __PYX_ERR(0, 213, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "PolarToCartesian") < 0)) __PYX_ERR(0, 217, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "PolarToCartesian") < 0)) __PYX_ERR(0, 213, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 3) {
       goto __pyx_L5_argtuple_error;
@@ -6457,20 +6171,20 @@ static PyObject *__pyx_pw_16polygonFitCython_23PolarToCartesian(PyObject *__pyx_
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
       values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
     }
-    __pyx_v_r = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_r == ((npy_float64)-1)) && PyErr_Occurred())) __PYX_ERR(0, 217, __pyx_L3_error)
-    __pyx_v_p = __pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_p == ((npy_float64)-1)) && PyErr_Occurred())) __PYX_ERR(0, 217, __pyx_L3_error)
+    __pyx_v_r = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_r == ((npy_float64)-1)) && PyErr_Occurred())) __PYX_ERR(0, 213, __pyx_L3_error)
+    __pyx_v_p = __pyx_PyFloat_AsDouble(values[1]); if (unlikely((__pyx_v_p == ((npy_float64)-1)) && PyErr_Occurred())) __PYX_ERR(0, 213, __pyx_L3_error)
     __pyx_v_centroid = ((PyArrayObject *)values[2]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("PolarToCartesian", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 217, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("PolarToCartesian", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 213, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("polygonFitCython.PolarToCartesian", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_centroid), __pyx_ptype_5numpy_ndarray, 0, "centroid", 0))) __PYX_ERR(0, 217, __pyx_L1_error)
-  __pyx_r = __pyx_pf_16polygonFitCython_22PolarToCartesian(__pyx_self, __pyx_v_r, __pyx_v_p, __pyx_v_centroid);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_centroid), __pyx_ptype_5numpy_ndarray, 0, "centroid", 0))) __PYX_ERR(0, 213, __pyx_L1_error)
+  __pyx_r = __pyx_pf_16polygonFitCython_20PolarToCartesian(__pyx_self, __pyx_v_r, __pyx_v_p, __pyx_v_centroid);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6481,7 +6195,7 @@ static PyObject *__pyx_pw_16polygonFitCython_23PolarToCartesian(PyObject *__pyx_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_r, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_p, PyArrayObject *__pyx_v_centroid) {
+static PyObject *__pyx_pf_16polygonFitCython_20PolarToCartesian(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_r, __pyx_t_16polygonFitCython_DTYPE_F_t __pyx_v_p, PyArrayObject *__pyx_v_centroid) {
   PyObject *__pyx_v_x = NULL;
   PyObject *__pyx_v_y = NULL;
   PyObject *__pyx_r = NULL;
@@ -6500,31 +6214,31 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PolarToCartesian", 0);
 
-  /* "polygonFitCython.pyx":218
+  /* "polygonFitCython.pyx":214
  * 
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):
  *     x = np.int32(np.around(r * np.cos(p))) + centroid[0]             # <<<<<<<<<<<<<<
  *     y = np.int32(np.around(r * np.sin(p))) + centroid[1]
  *     return [x, y]
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_around); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_around); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_r); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_r); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_cos); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_cos); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = PyFloat_FromDouble(__pyx_v_p); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_7 = PyFloat_FromDouble(__pyx_v_p); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_9 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
@@ -6539,10 +6253,10 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_6 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_9, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 218, __pyx_L1_error)
+  if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyNumber_Multiply(__pyx_t_4, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_8 = PyNumber_Multiply(__pyx_t_4, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -6559,7 +6273,7 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_2 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_6, __pyx_t_8) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_8);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -6575,43 +6289,43 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 218, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = PyNumber_Add(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Add(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_x = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":219
+  /* "polygonFitCython.pyx":215
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):
  *     x = np.int32(np.around(r * np.cos(p))) + centroid[0]
  *     y = np.int32(np.around(r * np.sin(p))) + centroid[1]             # <<<<<<<<<<<<<<
  *     return [x, y]
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_around); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_around); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_r); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_r); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sin); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sin); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_p); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_p); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_9 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
@@ -6626,10 +6340,10 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_6 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_9, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 219, __pyx_L1_error)
+  if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = PyNumber_Multiply(__pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_7 = PyNumber_Multiply(__pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -6646,7 +6360,7 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_3 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_6, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_7);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 219, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __pyx_t_8 = NULL;
@@ -6662,19 +6376,19 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_2 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_8, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 219, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_centroid), 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Add(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 215, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_y = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "polygonFitCython.pyx":220
+  /* "polygonFitCython.pyx":216
  *     x = np.int32(np.around(r * np.cos(p))) + centroid[0]
  *     y = np.int32(np.around(r * np.sin(p))) + centroid[1]
  *     return [x, y]             # <<<<<<<<<<<<<<
@@ -6682,7 +6396,7 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 220, __pyx_L1_error)
+  __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 216, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_v_x);
   __Pyx_GIVEREF(__pyx_v_x);
@@ -6694,7 +6408,7 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":217
+  /* "polygonFitCython.pyx":213
  *     return [rho, phi]
  * 
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
@@ -6723,7 +6437,7 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":222
+/* "polygonFitCython.pyx":218
  *     return [x, y]
  * 
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):             # <<<<<<<<<<<<<<
@@ -6732,17 +6446,17 @@ static PyObject *__pyx_pf_16polygonFitCython_22PolarToCartesian(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_25getOrderedMatrixByRightClock(PyObject *__pyx_self, PyObject *__pyx_v_originalPoints); /*proto*/
-static PyMethodDef __pyx_mdef_16polygonFitCython_25getOrderedMatrixByRightClock = {"getOrderedMatrixByRightClock", (PyCFunction)__pyx_pw_16polygonFitCython_25getOrderedMatrixByRightClock, METH_O, 0};
-static PyObject *__pyx_pw_16polygonFitCython_25getOrderedMatrixByRightClock(PyObject *__pyx_self, PyObject *__pyx_v_originalPoints) {
+static PyObject *__pyx_pw_16polygonFitCython_23getOrderedMatrixByRightClock(PyObject *__pyx_self, PyObject *__pyx_v_originalPoints); /*proto*/
+static PyMethodDef __pyx_mdef_16polygonFitCython_23getOrderedMatrixByRightClock = {"getOrderedMatrixByRightClock", (PyCFunction)__pyx_pw_16polygonFitCython_23getOrderedMatrixByRightClock, METH_O, 0};
+static PyObject *__pyx_pw_16polygonFitCython_23getOrderedMatrixByRightClock(PyObject *__pyx_self, PyObject *__pyx_v_originalPoints) {
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("getOrderedMatrixByRightClock (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_originalPoints), __pyx_ptype_5numpy_ndarray, 1, "originalPoints", 0))) __PYX_ERR(0, 222, __pyx_L1_error)
-  __pyx_r = __pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(__pyx_self, ((PyArrayObject *)__pyx_v_originalPoints));
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_originalPoints), __pyx_ptype_5numpy_ndarray, 1, "originalPoints", 0))) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_r = __pyx_pf_16polygonFitCython_22getOrderedMatrixByRightClock(__pyx_self, ((PyArrayObject *)__pyx_v_originalPoints));
 
   /* function exit code */
   goto __pyx_L0;
@@ -6753,7 +6467,7 @@ static PyObject *__pyx_pw_16polygonFitCython_25getOrderedMatrixByRightClock(PyOb
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":228
+/* "polygonFitCython.pyx":224
  *         polarCoord.append(cartesianToPolarcoord(o[0], o[1], centroid))
  * 
  *     polarSorted = sorted(polarCoord, key=lambda k: k[1])             # <<<<<<<<<<<<<<
@@ -6784,7 +6498,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(CYTHON_UNUSED PyObject *__pyx_self,
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("lambda", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_k, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 228, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_k, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 224, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -6801,7 +6515,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(CYTHON_UNUSED PyObject *__pyx_self,
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":222
+/* "polygonFitCython.pyx":218
  *     return [x, y]
  * 
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):             # <<<<<<<<<<<<<<
@@ -6809,7 +6523,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(CYTHON_UNUSED PyObject *__pyx_self,
  *     polarCoord = []
  */
 
-static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints) {
+static PyObject *__pyx_pf_16polygonFitCython_22getOrderedMatrixByRightClock(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints) {
   PyObject *__pyx_v_centroid = NULL;
   PyObject *__pyx_v_polarCoord = NULL;
   PyObject *__pyx_v_o = NULL;
@@ -6837,54 +6551,54 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("getOrderedMatrixByRightClock", 0);
 
-  /* "polygonFitCython.pyx":223
+  /* "polygonFitCython.pyx":219
  * 
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):
  *     centroid = np.array([np.int32( np.mean([o[0] for o in originalPoints]) ), np.int32( np.mean([o[1] for o in originalPoints]) )])             # <<<<<<<<<<<<<<
  *     polarCoord = []
  *     for o in originalPoints:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_mean); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_mean); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (likely(PyList_CheckExact(((PyObject *)__pyx_v_originalPoints))) || PyTuple_CheckExact(((PyObject *)__pyx_v_originalPoints))) {
     __pyx_t_8 = ((PyObject *)__pyx_v_originalPoints); __Pyx_INCREF(__pyx_t_8); __pyx_t_9 = 0;
     __pyx_t_10 = NULL;
   } else {
-    __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(((PyObject *)__pyx_v_originalPoints)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(((PyObject *)__pyx_v_originalPoints)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_10 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_10 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 219, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_10)) {
       if (likely(PyList_CheckExact(__pyx_t_8))) {
         if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_8)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_11 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_11); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_11 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_11); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 219, __pyx_L1_error)
         #else
-        __pyx_t_11 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_11 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 219, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         #endif
       } else {
         if (__pyx_t_9 >= PyTuple_GET_SIZE(__pyx_t_8)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_11 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_11); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_11 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_9); __Pyx_INCREF(__pyx_t_11); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 219, __pyx_L1_error)
         #else
-        __pyx_t_11 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_11 = PySequence_ITEM(__pyx_t_8, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 219, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         #endif
       }
@@ -6894,7 +6608,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 223, __pyx_L1_error)
+          else __PYX_ERR(0, 219, __pyx_L1_error)
         }
         break;
       }
@@ -6902,9 +6616,9 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     }
     __Pyx_XDECREF_SET(__pyx_v_o, __pyx_t_11);
     __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_GetItemInt(__pyx_v_o, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_GetItemInt(__pyx_v_o, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_11))) __PYX_ERR(0, 223, __pyx_L1_error)
+    if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_11))) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -6921,7 +6635,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   __pyx_t_4 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_8, __pyx_t_6) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 223, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_7 = NULL;
@@ -6937,45 +6651,45 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   __pyx_t_2 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_7, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 223, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int32); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int32); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_mean); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_mean); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   if (likely(PyList_CheckExact(((PyObject *)__pyx_v_originalPoints))) || PyTuple_CheckExact(((PyObject *)__pyx_v_originalPoints))) {
     __pyx_t_11 = ((PyObject *)__pyx_v_originalPoints); __Pyx_INCREF(__pyx_t_11); __pyx_t_9 = 0;
     __pyx_t_10 = NULL;
   } else {
-    __pyx_t_9 = -1; __pyx_t_11 = PyObject_GetIter(((PyObject *)__pyx_v_originalPoints)); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_9 = -1; __pyx_t_11 = PyObject_GetIter(((PyObject *)__pyx_v_originalPoints)); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_10 = Py_TYPE(__pyx_t_11)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_10 = Py_TYPE(__pyx_t_11)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 219, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_10)) {
       if (likely(PyList_CheckExact(__pyx_t_11))) {
         if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_11)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_12 = PyList_GET_ITEM(__pyx_t_11, __pyx_t_9); __Pyx_INCREF(__pyx_t_12); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_12 = PyList_GET_ITEM(__pyx_t_11, __pyx_t_9); __Pyx_INCREF(__pyx_t_12); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 219, __pyx_L1_error)
         #else
-        __pyx_t_12 = PySequence_ITEM(__pyx_t_11, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_12 = PySequence_ITEM(__pyx_t_11, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 219, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         #endif
       } else {
         if (__pyx_t_9 >= PyTuple_GET_SIZE(__pyx_t_11)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_12 = PyTuple_GET_ITEM(__pyx_t_11, __pyx_t_9); __Pyx_INCREF(__pyx_t_12); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_12 = PyTuple_GET_ITEM(__pyx_t_11, __pyx_t_9); __Pyx_INCREF(__pyx_t_12); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 219, __pyx_L1_error)
         #else
-        __pyx_t_12 = PySequence_ITEM(__pyx_t_11, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 223, __pyx_L1_error)
+        __pyx_t_12 = PySequence_ITEM(__pyx_t_11, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 219, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         #endif
       }
@@ -6985,7 +6699,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 223, __pyx_L1_error)
+          else __PYX_ERR(0, 219, __pyx_L1_error)
         }
         break;
       }
@@ -6993,9 +6707,9 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     }
     __Pyx_XDECREF_SET(__pyx_v_o, __pyx_t_12);
     __pyx_t_12 = 0;
-    __pyx_t_12 = __Pyx_GetItemInt(__pyx_v_o, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_GetItemInt(__pyx_v_o, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
-    if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_12))) __PYX_ERR(0, 223, __pyx_L1_error)
+    if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_12))) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
   }
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -7012,7 +6726,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   __pyx_t_4 = (__pyx_t_11) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_11, __pyx_t_6) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_6);
   __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 223, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __pyx_t_8 = NULL;
@@ -7028,10 +6742,10 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   __pyx_t_5 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_8, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 223, __pyx_L1_error)
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 223, __pyx_L1_error)
+  __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_GIVEREF(__pyx_t_2);
   PyList_SET_ITEM(__pyx_t_7, 0, __pyx_t_2);
@@ -7052,25 +6766,25 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_7);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 223, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_centroid = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":224
+  /* "polygonFitCython.pyx":220
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):
  *     centroid = np.array([np.int32( np.mean([o[0] for o in originalPoints]) ), np.int32( np.mean([o[1] for o in originalPoints]) )])
  *     polarCoord = []             # <<<<<<<<<<<<<<
  *     for o in originalPoints:
  *         polarCoord.append(cartesianToPolarcoord(o[0], o[1], centroid))
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 224, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 220, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_polarCoord = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":225
+  /* "polygonFitCython.pyx":221
  *     centroid = np.array([np.int32( np.mean([o[0] for o in originalPoints]) ), np.int32( np.mean([o[1] for o in originalPoints]) )])
  *     polarCoord = []
  *     for o in originalPoints:             # <<<<<<<<<<<<<<
@@ -7081,26 +6795,26 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     __pyx_t_1 = ((PyObject *)__pyx_v_originalPoints); __Pyx_INCREF(__pyx_t_1); __pyx_t_9 = 0;
     __pyx_t_10 = NULL;
   } else {
-    __pyx_t_9 = -1; __pyx_t_1 = PyObject_GetIter(((PyObject *)__pyx_v_originalPoints)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 225, __pyx_L1_error)
+    __pyx_t_9 = -1; __pyx_t_1 = PyObject_GetIter(((PyObject *)__pyx_v_originalPoints)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 221, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_10 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 225, __pyx_L1_error)
+    __pyx_t_10 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 221, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_10)) {
       if (likely(PyList_CheckExact(__pyx_t_1))) {
         if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 221, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         if (__pyx_t_9 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 221, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
@@ -7110,7 +6824,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 225, __pyx_L1_error)
+          else __PYX_ERR(0, 221, __pyx_L1_error)
         }
         break;
       }
@@ -7119,18 +6833,18 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     __Pyx_XDECREF_SET(__pyx_v_o, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "polygonFitCython.pyx":226
+    /* "polygonFitCython.pyx":222
  *     polarCoord = []
  *     for o in originalPoints:
  *         polarCoord.append(cartesianToPolarcoord(o[0], o[1], centroid))             # <<<<<<<<<<<<<<
  * 
  *     polarSorted = sorted(polarCoord, key=lambda k: k[1])
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_cartesianToPolarcoord); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 226, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_cartesianToPolarcoord); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_o, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 226, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_o, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_o, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_o, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_4 = NULL;
     __pyx_t_13 = 0;
@@ -7147,7 +6861,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_t_5, __pyx_t_2, __pyx_v_centroid};
-      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 222, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -7157,7 +6871,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_t_5, __pyx_t_2, __pyx_v_centroid};
-      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 222, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -7165,7 +6879,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     } else
     #endif
     {
-      __pyx_t_8 = PyTuple_New(3+__pyx_t_13); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __pyx_t_8 = PyTuple_New(3+__pyx_t_13); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 222, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       if (__pyx_t_4) {
         __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -7179,15 +6893,15 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
       PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_13, __pyx_v_centroid);
       __pyx_t_5 = 0;
       __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_8, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 222, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_polarCoord, __pyx_t_3); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 226, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_polarCoord, __pyx_t_3); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "polygonFitCython.pyx":225
+    /* "polygonFitCython.pyx":221
  *     centroid = np.array([np.int32( np.mean([o[0] for o in originalPoints]) ), np.int32( np.mean([o[1] for o in originalPoints]) )])
  *     polarCoord = []
  *     for o in originalPoints:             # <<<<<<<<<<<<<<
@@ -7197,44 +6911,44 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":228
+  /* "polygonFitCython.pyx":224
  *         polarCoord.append(cartesianToPolarcoord(o[0], o[1], centroid))
  * 
  *     polarSorted = sorted(polarCoord, key=lambda k: k[1])             # <<<<<<<<<<<<<<
  * 
  *     orderedPoints = []
  */
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 228, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 224, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_v_polarCoord);
   __Pyx_GIVEREF(__pyx_v_polarCoord);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_polarCoord);
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 224, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_16polygonFitCython_28getOrderedMatrixByRightClock_lambda, 0, __pyx_n_s_getOrderedMatrixByRightClock_loc, NULL, __pyx_n_s_polygonFitCython, __pyx_d, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 228, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_16polygonFitCython_28getOrderedMatrixByRightClock_lambda, 0, __pyx_n_s_getOrderedMatrixByRightClock_loc, NULL, __pyx_n_s_polygonFitCython, __pyx_d, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 224, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_key, __pyx_t_7) < 0) __PYX_ERR(0, 228, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_key, __pyx_t_7) < 0) __PYX_ERR(0, 224, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_builtin_sorted, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 228, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_builtin_sorted, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 224, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_polarSorted = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "polygonFitCython.pyx":230
+  /* "polygonFitCython.pyx":226
  *     polarSorted = sorted(polarCoord, key=lambda k: k[1])
  * 
  *     orderedPoints = []             # <<<<<<<<<<<<<<
  *     for p in polarSorted:
  *         orderedPoints.append(PolarToCartesian(p[0], p[1], centroid))
  */
-  __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 230, __pyx_L1_error)
+  __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_v_orderedPoints = ((PyObject*)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "polygonFitCython.pyx":231
+  /* "polygonFitCython.pyx":227
  * 
  *     orderedPoints = []
  *     for p in polarSorted:             # <<<<<<<<<<<<<<
@@ -7245,26 +6959,26 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     __pyx_t_7 = __pyx_v_polarSorted; __Pyx_INCREF(__pyx_t_7); __pyx_t_9 = 0;
     __pyx_t_10 = NULL;
   } else {
-    __pyx_t_9 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_v_polarSorted); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 231, __pyx_L1_error)
+    __pyx_t_9 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_v_polarSorted); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 227, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_10 = Py_TYPE(__pyx_t_7)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 231, __pyx_L1_error)
+    __pyx_t_10 = Py_TYPE(__pyx_t_7)->tp_iternext; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 227, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_10)) {
       if (likely(PyList_CheckExact(__pyx_t_7))) {
         if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_7)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 231, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 227, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 231, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 227, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         if (__pyx_t_9 >= PyTuple_GET_SIZE(__pyx_t_7)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 231, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_7, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(0, 227, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 231, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_7, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 227, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
@@ -7274,7 +6988,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 231, __pyx_L1_error)
+          else __PYX_ERR(0, 227, __pyx_L1_error)
         }
         break;
       }
@@ -7283,18 +6997,18 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     __Pyx_XDECREF_SET(__pyx_v_p, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "polygonFitCython.pyx":232
+    /* "polygonFitCython.pyx":228
  *     orderedPoints = []
  *     for p in polarSorted:
  *         orderedPoints.append(PolarToCartesian(p[0], p[1], centroid))             # <<<<<<<<<<<<<<
  * 
  *     return np.array(orderedPoints)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_PolarToCartesian); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 232, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_PolarToCartesian); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 228, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_p, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 232, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_p, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 228, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_p, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 232, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_p, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 228, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_5 = NULL;
     __pyx_t_13 = 0;
@@ -7311,7 +7025,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_1)) {
       PyObject *__pyx_temp[4] = {__pyx_t_5, __pyx_t_8, __pyx_t_2, __pyx_v_centroid};
-      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -7321,7 +7035,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
       PyObject *__pyx_temp[4] = {__pyx_t_5, __pyx_t_8, __pyx_t_2, __pyx_v_centroid};
-      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_13, 3+__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -7329,7 +7043,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
     } else
     #endif
     {
-      __pyx_t_4 = PyTuple_New(3+__pyx_t_13); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 232, __pyx_L1_error)
+      __pyx_t_4 = PyTuple_New(3+__pyx_t_13); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 228, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       if (__pyx_t_5) {
         __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -7343,15 +7057,15 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
       PyTuple_SET_ITEM(__pyx_t_4, 2+__pyx_t_13, __pyx_v_centroid);
       __pyx_t_8 = 0;
       __pyx_t_2 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_orderedPoints, __pyx_t_3); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 232, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_orderedPoints, __pyx_t_3); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 228, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "polygonFitCython.pyx":231
+    /* "polygonFitCython.pyx":227
  * 
  *     orderedPoints = []
  *     for p in polarSorted:             # <<<<<<<<<<<<<<
@@ -7361,7 +7075,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "polygonFitCython.pyx":234
+  /* "polygonFitCython.pyx":230
  *         orderedPoints.append(PolarToCartesian(p[0], p[1], centroid))
  * 
  *     return np.array(orderedPoints)             # <<<<<<<<<<<<<<
@@ -7369,9 +7083,9 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 234, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 234, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -7386,14 +7100,14 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   }
   __pyx_t_7 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_v_orderedPoints) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_orderedPoints);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 234, __pyx_L1_error)
+  if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_7;
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":222
+  /* "polygonFitCython.pyx":218
  *     return [x, y]
  * 
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):             # <<<<<<<<<<<<<<
@@ -7427,7 +7141,7 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":238
+/* "polygonFitCython.pyx":234
  * 
  * 
  * def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direction, int ind, np.ndarray offsetLists, np.ndarray lrs, np.ndarray lrsStd, np.ndarray lrsSum, double alphaMean, double alphaStd, double alphaSum ):             # <<<<<<<<<<<<<<
@@ -7436,10 +7150,10 @@ static PyObject *__pyx_pf_16polygonFitCython_24getOrderedMatrixByRightClock(CYTH
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_27calRegresssionByAxis(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_16polygonFitCython_26calRegresssionByAxis[] = "\n    ax = 0 is x axis\n    ax = 1 is y axis\n    ";
-static PyMethodDef __pyx_mdef_16polygonFitCython_27calRegresssionByAxis = {"calRegresssionByAxis", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_27calRegresssionByAxis, METH_VARARGS|METH_KEYWORDS, __pyx_doc_16polygonFitCython_26calRegresssionByAxis};
-static PyObject *__pyx_pw_16polygonFitCython_27calRegresssionByAxis(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_16polygonFitCython_25calRegresssionByAxis(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_16polygonFitCython_24calRegresssionByAxis[] = "\n    ax = 0 is x axis\n    ax = 1 is y axis\n    ";
+static PyMethodDef __pyx_mdef_16polygonFitCython_25calRegresssionByAxis = {"calRegresssionByAxis", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_25calRegresssionByAxis, METH_VARARGS|METH_KEYWORDS, __pyx_doc_16polygonFitCython_24calRegresssionByAxis};
+static PyObject *__pyx_pw_16polygonFitCython_25calRegresssionByAxis(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_imgArray = 0;
   PyArrayObject *__pyx_v_pts = 0;
   int __pyx_v_ax;
@@ -7501,71 +7215,71 @@ static PyObject *__pyx_pw_16polygonFitCython_27calRegresssionByAxis(PyObject *__
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_pts)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 1); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 1); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ax)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 2); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 2); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_direction)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 3); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 3); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
         if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ind)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 4); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 4); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  5:
         if (likely((values[5] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_offsetLists)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 5); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 5); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  6:
         if (likely((values[6] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_lrs)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 6); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 6); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  7:
         if (likely((values[7] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_lrsStd)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 7); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 7); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  8:
         if (likely((values[8] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_lrsSum)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 8); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 8); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  9:
         if (likely((values[9] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_alphaMean)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 9); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 9); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case 10:
         if (likely((values[10] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_alphaStd)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 10); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 10); __PYX_ERR(0, 234, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case 11:
         if (likely((values[11] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_alphaSum)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 11); __PYX_ERR(0, 238, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, 11); __PYX_ERR(0, 234, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "calRegresssionByAxis") < 0)) __PYX_ERR(0, 238, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "calRegresssionByAxis") < 0)) __PYX_ERR(0, 234, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 12) {
       goto __pyx_L5_argtuple_error;
@@ -7585,32 +7299,32 @@ static PyObject *__pyx_pw_16polygonFitCython_27calRegresssionByAxis(PyObject *__
     }
     __pyx_v_imgArray = ((PyArrayObject *)values[0]);
     __pyx_v_pts = ((PyArrayObject *)values[1]);
-    __pyx_v_ax = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_ax == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
-    __pyx_v_direction = __Pyx_PyInt_As_int(values[3]); if (unlikely((__pyx_v_direction == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
-    __pyx_v_ind = __Pyx_PyInt_As_int(values[4]); if (unlikely((__pyx_v_ind == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
+    __pyx_v_ax = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_ax == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
+    __pyx_v_direction = __Pyx_PyInt_As_int(values[3]); if (unlikely((__pyx_v_direction == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
+    __pyx_v_ind = __Pyx_PyInt_As_int(values[4]); if (unlikely((__pyx_v_ind == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
     __pyx_v_offsetLists = ((PyArrayObject *)values[5]);
     __pyx_v_lrs = ((PyArrayObject *)values[6]);
     __pyx_v_lrsStd = ((PyArrayObject *)values[7]);
     __pyx_v_lrsSum = ((PyArrayObject *)values[8]);
-    __pyx_v_alphaMean = __pyx_PyFloat_AsDouble(values[9]); if (unlikely((__pyx_v_alphaMean == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
-    __pyx_v_alphaStd = __pyx_PyFloat_AsDouble(values[10]); if (unlikely((__pyx_v_alphaStd == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
-    __pyx_v_alphaSum = __pyx_PyFloat_AsDouble(values[11]); if (unlikely((__pyx_v_alphaSum == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
+    __pyx_v_alphaMean = __pyx_PyFloat_AsDouble(values[9]); if (unlikely((__pyx_v_alphaMean == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
+    __pyx_v_alphaStd = __pyx_PyFloat_AsDouble(values[10]); if (unlikely((__pyx_v_alphaStd == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
+    __pyx_v_alphaSum = __pyx_PyFloat_AsDouble(values[11]); if (unlikely((__pyx_v_alphaSum == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 238, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calRegresssionByAxis", 1, 12, 12, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 234, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("polygonFitCython.calRegresssionByAxis", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_imgArray), __pyx_ptype_5numpy_ndarray, 1, "imgArray", 0))) __PYX_ERR(0, 238, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_pts), __pyx_ptype_5numpy_ndarray, 1, "pts", 0))) __PYX_ERR(0, 238, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_offsetLists), __pyx_ptype_5numpy_ndarray, 1, "offsetLists", 0))) __PYX_ERR(0, 238, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_lrs), __pyx_ptype_5numpy_ndarray, 1, "lrs", 0))) __PYX_ERR(0, 238, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_lrsStd), __pyx_ptype_5numpy_ndarray, 1, "lrsStd", 0))) __PYX_ERR(0, 238, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_lrsSum), __pyx_ptype_5numpy_ndarray, 1, "lrsSum", 0))) __PYX_ERR(0, 238, __pyx_L1_error)
-  __pyx_r = __pyx_pf_16polygonFitCython_26calRegresssionByAxis(__pyx_self, __pyx_v_imgArray, __pyx_v_pts, __pyx_v_ax, __pyx_v_direction, __pyx_v_ind, __pyx_v_offsetLists, __pyx_v_lrs, __pyx_v_lrsStd, __pyx_v_lrsSum, __pyx_v_alphaMean, __pyx_v_alphaStd, __pyx_v_alphaSum);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_imgArray), __pyx_ptype_5numpy_ndarray, 1, "imgArray", 0))) __PYX_ERR(0, 234, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_pts), __pyx_ptype_5numpy_ndarray, 1, "pts", 0))) __PYX_ERR(0, 234, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_offsetLists), __pyx_ptype_5numpy_ndarray, 1, "offsetLists", 0))) __PYX_ERR(0, 234, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_lrs), __pyx_ptype_5numpy_ndarray, 1, "lrs", 0))) __PYX_ERR(0, 234, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_lrsStd), __pyx_ptype_5numpy_ndarray, 1, "lrsStd", 0))) __PYX_ERR(0, 234, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_lrsSum), __pyx_ptype_5numpy_ndarray, 1, "lrsSum", 0))) __PYX_ERR(0, 234, __pyx_L1_error)
+  __pyx_r = __pyx_pf_16polygonFitCython_24calRegresssionByAxis(__pyx_self, __pyx_v_imgArray, __pyx_v_pts, __pyx_v_ax, __pyx_v_direction, __pyx_v_ind, __pyx_v_offsetLists, __pyx_v_lrs, __pyx_v_lrsStd, __pyx_v_lrsSum, __pyx_v_alphaMean, __pyx_v_alphaStd, __pyx_v_alphaSum);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7621,15 +7335,17 @@ static PyObject *__pyx_pw_16polygonFitCython_27calRegresssionByAxis(PyObject *__
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_imgArray, PyArrayObject *__pyx_v_pts, int __pyx_v_ax, int __pyx_v_direction, int __pyx_v_ind, PyArrayObject *__pyx_v_offsetLists, PyArrayObject *__pyx_v_lrs, PyArrayObject *__pyx_v_lrsStd, PyArrayObject *__pyx_v_lrsSum, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum) {
+static PyObject *__pyx_pf_16polygonFitCython_24calRegresssionByAxis(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_imgArray, PyArrayObject *__pyx_v_pts, int __pyx_v_ax, int __pyx_v_direction, int __pyx_v_ind, PyArrayObject *__pyx_v_offsetLists, PyArrayObject *__pyx_v_lrs, PyArrayObject *__pyx_v_lrsStd, PyArrayObject *__pyx_v_lrsSum, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum) {
   CYTHON_UNUSED PyObject *__pyx_v_st = NULL;
-  PyObject *__pyx_v_size = NULL;
+  PyObject *__pyx_v_acceleration = NULL;
   PyObject *__pyx_v_oldP = NULL;
   PyObject *__pyx_v_lineX = NULL;
   PyObject *__pyx_v_lineY = NULL;
   PyObject *__pyx_v_oldStd = NULL;
   PyObject *__pyx_v_oldMean = NULL;
   PyObject *__pyx_v_oldSum = NULL;
+  PyObject *__pyx_v_pts2 = NULL;
+  PyObject *__pyx_v_offsetValue = NULL;
   PyObject *__pyx_v_newP = NULL;
   PyObject *__pyx_v_newStd = NULL;
   PyObject *__pyx_v_newMean = NULL;
@@ -7656,19 +7372,19 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("calRegresssionByAxis", 0);
 
-  /* "polygonFitCython.pyx":244
+  /* "polygonFitCython.pyx":240
  *     '''
  * 
  *     print( ' point : ' , str(pts[ind]))             # <<<<<<<<<<<<<<
  * 
  *     if ax == 1:
  */
-  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 244, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 244, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 244, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_kp_s_point_2);
   __Pyx_GIVEREF(__pyx_kp_s_point_2);
@@ -7676,60 +7392,118 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_2);
   __pyx_t_2 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 244, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":246
+  /* "polygonFitCython.pyx":242
  *     print( ' point : ' , str(pts[ind]))
  * 
  *     if ax == 1:             # <<<<<<<<<<<<<<
  *         print('-----Y----')
- *     else :
+ *         plt.title('Y')
  */
   __pyx_t_3 = ((__pyx_v_ax == 1) != 0);
   if (__pyx_t_3) {
 
-    /* "polygonFitCython.pyx":247
+    /* "polygonFitCython.pyx":243
  * 
  *     if ax == 1:
  *         print('-----Y----')             # <<<<<<<<<<<<<<
+ *         plt.title('Y')
+ *     else :
+ */
+    if (__Pyx_PrintOne(0, __pyx_kp_s_Y) < 0) __PYX_ERR(0, 243, __pyx_L1_error)
+
+    /* "polygonFitCython.pyx":244
+ *     if ax == 1:
+ *         print('-----Y----')
+ *         plt.title('Y')             # <<<<<<<<<<<<<<
  *     else :
  *         print('---- X ----')
  */
-    if (__Pyx_PrintOne(0, __pyx_kp_s_Y) < 0) __PYX_ERR(0, 247, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 244, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_title); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 244, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_4);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_4, function);
+      }
+    }
+    __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_2, __pyx_n_s_Y_2) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_n_s_Y_2);
+    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 244, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "polygonFitCython.pyx":246
+    /* "polygonFitCython.pyx":242
  *     print( ' point : ' , str(pts[ind]))
  * 
  *     if ax == 1:             # <<<<<<<<<<<<<<
  *         print('-----Y----')
- *     else :
+ *         plt.title('Y')
  */
     goto __pyx_L3;
   }
 
-  /* "polygonFitCython.pyx":249
- *         print('-----Y----')
+  /* "polygonFitCython.pyx":246
+ *         plt.title('Y')
  *     else :
  *         print('---- X ----')             # <<<<<<<<<<<<<<
- * 
+ *         plt.title('X')
  * 
  */
   /*else*/ {
-    if (__Pyx_PrintOne(0, __pyx_kp_s_X) < 0) __PYX_ERR(0, 249, __pyx_L1_error)
+    if (__Pyx_PrintOne(0, __pyx_kp_s_X) < 0) __PYX_ERR(0, 246, __pyx_L1_error)
+
+    /* "polygonFitCython.pyx":247
+ *     else :
+ *         print('---- X ----')
+ *         plt.title('X')             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_plt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 247, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_title); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 247, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+      if (likely(__pyx_t_4)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+        __Pyx_INCREF(__pyx_t_4);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_2, function);
+      }
+    }
+    __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_n_s_X_2) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_n_s_X_2);
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 247, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
   __pyx_L3:;
 
-  /* "polygonFitCython.pyx":252
+  /* "polygonFitCython.pyx":250
  * 
  * 
  *     st = time.time()             # <<<<<<<<<<<<<<
  * 
- *     size = 1
+ *     acceleration = 5
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 252, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 250, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 252, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 250, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -7744,35 +7518,35 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 252, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 250, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_st = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":254
+  /* "polygonFitCython.pyx":252
  *     st = time.time()
  * 
- *     size = 1             # <<<<<<<<<<<<<<
+ *     acceleration = 5             # <<<<<<<<<<<<<<
  *     oldP = copy.copy(pts[ind])
  *     lineX, lineY = getLineProfile(pts, imgArray)
  */
-  __Pyx_INCREF(__pyx_int_1);
-  __pyx_v_size = __pyx_int_1;
+  __Pyx_INCREF(__pyx_int_5);
+  __pyx_v_acceleration = __pyx_int_5;
 
-  /* "polygonFitCython.pyx":255
+  /* "polygonFitCython.pyx":253
  * 
- *     size = 1
+ *     acceleration = 5
  *     oldP = copy.copy(pts[ind])             # <<<<<<<<<<<<<<
  *     lineX, lineY = getLineProfile(pts, imgArray)
  *     oldStd, oldMean, oldSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_copy); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_copy); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_copy); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
@@ -7787,20 +7561,20 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_oldP = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":256
- *     size = 1
+  /* "polygonFitCython.pyx":254
+ *     acceleration = 5
  *     oldP = copy.copy(pts[ind])
  *     lineX, lineY = getLineProfile(pts, imgArray)             # <<<<<<<<<<<<<<
  *     oldStd, oldMean, oldSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_getLineProfile); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 256, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_getLineProfile); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   __pyx_t_6 = 0;
@@ -7817,7 +7591,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_pts), ((PyObject *)__pyx_v_imgArray)};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
@@ -7825,13 +7599,13 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_pts), ((PyObject *)__pyx_v_imgArray)};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_4) {
       __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -7842,7 +7616,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_INCREF(((PyObject *)__pyx_v_imgArray));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_imgArray));
     PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
@@ -7853,7 +7627,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     if (unlikely(size != 2)) {
       if (size > 2) __Pyx_RaiseTooManyValuesError(2);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 256, __pyx_L1_error)
+      __PYX_ERR(0, 254, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -7866,15 +7640,15 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_5);
     #else
-    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_5 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     #endif
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_4 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 256, __pyx_L1_error)
+    __pyx_t_4 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = Py_TYPE(__pyx_t_4)->tp_iternext;
@@ -7882,7 +7656,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_GOTREF(__pyx_t_2);
     index = 1; __pyx_t_5 = __pyx_t_7(__pyx_t_4); if (unlikely(!__pyx_t_5)) goto __pyx_L4_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_5);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_4), 2) < 0) __PYX_ERR(0, 256, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_4), 2) < 0) __PYX_ERR(0, 254, __pyx_L1_error)
     __pyx_t_7 = NULL;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     goto __pyx_L5_unpacking_done;
@@ -7890,7 +7664,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_7 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 256, __pyx_L1_error)
+    __PYX_ERR(0, 254, __pyx_L1_error)
     __pyx_L5_unpacking_done:;
   }
   __pyx_v_lineX = __pyx_t_2;
@@ -7898,16 +7672,16 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   __pyx_v_lineY = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":257
+  /* "polygonFitCython.pyx":255
  *     oldP = copy.copy(pts[ind])
  *     lineX, lineY = getLineProfile(pts, imgArray)
  *     oldStd, oldMean, oldSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))             # <<<<<<<<<<<<<<
  * 
- * 
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_getStdOfArea); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 257, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_getStdOfArea); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 255, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_getOneMetricForCalStd); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 257, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_getOneMetricForCalStd); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_8 = NULL;
   __pyx_t_6 = 0;
@@ -7924,7 +7698,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_4)) {
     PyObject *__pyx_temp[4] = {__pyx_t_8, ((PyObject *)__pyx_v_imgArray), __pyx_v_lineX, __pyx_v_lineY};
-    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_GOTREF(__pyx_t_2);
   } else
@@ -7932,13 +7706,13 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
     PyObject *__pyx_temp[4] = {__pyx_t_8, ((PyObject *)__pyx_v_imgArray), __pyx_v_lineX, __pyx_v_lineY};
-    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   {
-    __pyx_t_9 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_9 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     if (__pyx_t_8) {
       __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __pyx_t_8 = NULL;
@@ -7952,7 +7726,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_INCREF(__pyx_v_lineY);
     __Pyx_GIVEREF(__pyx_v_lineY);
     PyTuple_SET_ITEM(__pyx_t_9, 2+__pyx_t_6, __pyx_v_lineY);
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_9, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_9, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -7972,7 +7746,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_5)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_imgArray), __pyx_t_2};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -7981,14 +7755,14 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_imgArray), __pyx_t_2};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   } else
   #endif
   {
-    __pyx_t_9 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_9 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     if (__pyx_t_4) {
       __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -7999,7 +7773,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_GIVEREF(__pyx_t_2);
     PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_6, __pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_9, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_9, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
@@ -8010,7 +7784,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     if (unlikely(size != 3)) {
       if (size > 3) __Pyx_RaiseTooManyValuesError(3);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 257, __pyx_L1_error)
+      __PYX_ERR(0, 255, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -8026,17 +7800,17 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_INCREF(__pyx_t_9);
     __Pyx_INCREF(__pyx_t_2);
     #else
-    __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_9 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_9 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_2 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_2 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     #endif
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_4 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 257, __pyx_L1_error)
+    __pyx_t_4 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = Py_TYPE(__pyx_t_4)->tp_iternext;
@@ -8046,7 +7820,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_GOTREF(__pyx_t_9);
     index = 2; __pyx_t_2 = __pyx_t_7(__pyx_t_4); if (unlikely(!__pyx_t_2)) goto __pyx_L6_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_2);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_4), 3) < 0) __PYX_ERR(0, 257, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_4), 3) < 0) __PYX_ERR(0, 255, __pyx_L1_error)
     __pyx_t_7 = NULL;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     goto __pyx_L7_unpacking_done;
@@ -8054,7 +7828,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_7 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 257, __pyx_L1_error)
+    __PYX_ERR(0, 255, __pyx_L1_error)
     __pyx_L7_unpacking_done:;
   }
   __pyx_v_oldStd = __pyx_t_5;
@@ -8064,428 +7838,62 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   __pyx_v_oldSum = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":260
+  /* "polygonFitCython.pyx":257
+ *     oldStd, oldMean, oldSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
  * 
- * 
- *     plt.title('old points')             # <<<<<<<<<<<<<<
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)             # <<<<<<<<<<<<<<
+ *     # plt.title('old points')
  *     plt.imshow(imgArray)
- *     plt.scatter(lineX, lineY, s = 1)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 260, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_title); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 260, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
-    if (likely(__pyx_t_2)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-      __Pyx_INCREF(__pyx_t_2);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_9, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_9, __pyx_t_2, __pyx_kp_s_old_points) : __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_kp_s_old_points);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "polygonFitCython.pyx":261
- * 
- *     plt.title('old points')
- *     plt.imshow(imgArray)             # <<<<<<<<<<<<<<
- *     plt.scatter(lineX, lineY, s = 1)
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_plt); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 261, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_imshow); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 261, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_9)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_9);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_9, ((PyObject *)__pyx_v_imgArray)) : __Pyx_PyObject_CallOneArg(__pyx_t_2, ((PyObject *)__pyx_v_imgArray));
-  __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 261, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "polygonFitCython.pyx":262
- *     plt.title('old points')
- *     plt.imshow(imgArray)
- *     plt.scatter(lineX, lineY, s = 1)             # <<<<<<<<<<<<<<
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
- *     plt.show()
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 262, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_scatter); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 262, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 262, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_v_lineX);
-  __Pyx_GIVEREF(__pyx_v_lineX);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_lineX);
-  __Pyx_INCREF(__pyx_v_lineY);
-  __Pyx_GIVEREF(__pyx_v_lineY);
-  PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_v_lineY);
-  __pyx_t_9 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 262, __pyx_L1_error)
+  __pyx_t_9 = PyList_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_s, __pyx_int_1) < 0) __PYX_ERR(0, 262, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 262, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "polygonFitCython.pyx":263
- *     plt.imshow(imgArray)
- *     plt.scatter(lineX, lineY, s = 1)
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')             # <<<<<<<<<<<<<<
- *     plt.show()
- * 
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_scatter); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_1);
-  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
-  __Pyx_GIVEREF(__pyx_t_2);
-  PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_2);
+  PyList_SET_ITEM(__pyx_t_9, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 263, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 263, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_c, __pyx_n_s_w) < 0) __PYX_ERR(0, 263, __pyx_L1_error)
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_5, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 263, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "polygonFitCython.pyx":264
- *     plt.scatter(lineX, lineY, s = 1)
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
- *     plt.show()             # <<<<<<<<<<<<<<
- * 
- *     print('when increase ' + str(offsetLists[ind][ax]))
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 264, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_5);
-    if (likely(__pyx_t_2)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-      __Pyx_INCREF(__pyx_t_2);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_5, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 264, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "polygonFitCython.pyx":266
- *     plt.show()
- * 
- *     print('when increase ' + str(offsetLists[ind][ax]))             # <<<<<<<<<<<<<<
- * 
- * 
- */
-  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 266, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_1, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 266, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 266, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Add(__pyx_kp_s_when_increase, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 266, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 266, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "polygonFitCython.pyx":269
- * 
- * 
- *     if offsetLists[ind][ax] == 0:             # <<<<<<<<<<<<<<
- *         offsetLists[ind][ax] = 1
- * 
- */
-  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 269, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_5, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 269, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 269, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 269, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (__pyx_t_3) {
-
-    /* "polygonFitCython.pyx":270
- * 
- *     if offsetLists[ind][ax] == 0:
- *         offsetLists[ind][ax] = 1             # <<<<<<<<<<<<<<
- * 
- * 
- */
-    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 270, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_5, __pyx_v_ax, __pyx_int_1, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 270, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-    /* "polygonFitCython.pyx":269
- * 
- * 
- *     if offsetLists[ind][ax] == 0:             # <<<<<<<<<<<<<<
- *         offsetLists[ind][ax] = 1
- * 
- */
-  }
-
-  /* "polygonFitCython.pyx":273
- * 
- * 
- *     if ax == 0:             # <<<<<<<<<<<<<<
- *         pts[ind] = increaseX(pts[ind],  offsetLists[ind][ax])
- *     else :
- */
-  __pyx_t_3 = ((__pyx_v_ax == 0) != 0);
-  if (__pyx_t_3) {
-
-    /* "polygonFitCython.pyx":274
- * 
- *     if ax == 0:
- *         pts[ind] = increaseX(pts[ind],  offsetLists[ind][ax])             # <<<<<<<<<<<<<<
- *     else :
- *         pts[ind] = increaseY(pts[ind],  offsetLists[ind][ax])
- */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_increaseX); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 274, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 274, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 274, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_9, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 274, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = NULL;
-    __pyx_t_6 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_1);
-      if (likely(__pyx_t_9)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-        __Pyx_INCREF(__pyx_t_9);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_1, function);
-        __pyx_t_6 = 1;
-      }
-    }
-    #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_2, __pyx_t_4};
-      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 274, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    } else
-    #endif
-    #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_2, __pyx_t_4};
-      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 274, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    } else
-    #endif
-    {
-      __pyx_t_8 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 274, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_8);
-      if (__pyx_t_9) {
-        __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_9); __pyx_t_9 = NULL;
-      }
-      __Pyx_GIVEREF(__pyx_t_2);
-      PyTuple_SET_ITEM(__pyx_t_8, 0+__pyx_t_6, __pyx_t_2);
-      __Pyx_GIVEREF(__pyx_t_4);
-      PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_6, __pyx_t_4);
-      __pyx_t_2 = 0;
-      __pyx_t_4 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_8, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 274, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_5, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 274, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-    /* "polygonFitCython.pyx":273
- * 
- * 
- *     if ax == 0:             # <<<<<<<<<<<<<<
- *         pts[ind] = increaseX(pts[ind],  offsetLists[ind][ax])
- *     else :
- */
-    goto __pyx_L9;
-  }
-
-  /* "polygonFitCython.pyx":276
- *         pts[ind] = increaseX(pts[ind],  offsetLists[ind][ax])
- *     else :
- *         pts[ind] = increaseY(pts[ind],  offsetLists[ind][ax])             # <<<<<<<<<<<<<<
- * 
- *     newP = copy.copy(pts[ind])
- */
-  /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_increaseY); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 276, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 276, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 276, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_4, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 276, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = NULL;
-    __pyx_t_6 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_1, function);
-        __pyx_t_6 = 1;
-      }
-    }
-    #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_t_8, __pyx_t_2};
-      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 276, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    } else
-    #endif
-    #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_t_8, __pyx_t_2};
-      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 276, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    } else
-    #endif
-    {
-      __pyx_t_9 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 276, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_9);
-      if (__pyx_t_4) {
-        __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_4); __pyx_t_4 = NULL;
-      }
-      __Pyx_GIVEREF(__pyx_t_8);
-      PyTuple_SET_ITEM(__pyx_t_9, 0+__pyx_t_6, __pyx_t_8);
-      __Pyx_GIVEREF(__pyx_t_2);
-      PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_6, __pyx_t_2);
-      __pyx_t_8 = 0;
-      __pyx_t_2 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_9, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 276, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_5, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 276, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  }
-  __pyx_L9:;
-
-  /* "polygonFitCython.pyx":278
- *         pts[ind] = increaseY(pts[ind],  offsetLists[ind][ax])
- * 
- *     newP = copy.copy(pts[ind])             # <<<<<<<<<<<<<<
- *     lineX, lineY = getLineProfile(pts, imgArray)
- *     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_copy); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 278, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_copy); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 278, __pyx_L1_error)
+  __Pyx_INCREF(((PyObject *)__pyx_v_pts));
+  __Pyx_GIVEREF(((PyObject *)__pyx_v_pts));
+  PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)__pyx_v_pts));
+  __Pyx_GIVEREF(__pyx_t_9);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_9);
+  __pyx_t_9 = 0;
+  __pyx_t_9 = PyTuple_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 278, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_9);
-    if (likely(__pyx_t_2)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-      __Pyx_INCREF(__pyx_t_2);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_9, function);
-    }
-  }
-  __pyx_t_5 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_9, __pyx_t_2, __pyx_t_1) : __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 278, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 257, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_9, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 257, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_v_newP = __pyx_t_5;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_pts2 = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":279
- * 
- *     newP = copy.copy(pts[ind])
- *     lineX, lineY = getLineProfile(pts, imgArray)             # <<<<<<<<<<<<<<
- *     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
- * 
+  /* "polygonFitCython.pyx":259
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)
+ *     # plt.title('old points')
+ *     plt.imshow(imgArray)             # <<<<<<<<<<<<<<
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], '--', c='gray')
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'gray')
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_getLineProfile); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 279, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 259, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_imshow); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 259, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
-  __pyx_t_6 = 0;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
     __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_9);
     if (likely(__pyx_t_1)) {
@@ -8493,111 +7901,367 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_9, function);
-      __pyx_t_6 = 1;
     }
   }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_9)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_pts), ((PyObject *)__pyx_v_imgArray)};
-    __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_9, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_GOTREF(__pyx_t_5);
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_9)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_pts), ((PyObject *)__pyx_v_imgArray)};
-    __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_9, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_GOTREF(__pyx_t_5);
-  } else
-  #endif
-  {
-    __pyx_t_2 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    if (__pyx_t_1) {
-      __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1); __pyx_t_1 = NULL;
-    }
-    __Pyx_INCREF(((PyObject *)__pyx_v_pts));
-    __Pyx_GIVEREF(((PyObject *)__pyx_v_pts));
-    PyTuple_SET_ITEM(__pyx_t_2, 0+__pyx_t_6, ((PyObject *)__pyx_v_pts));
-    __Pyx_INCREF(((PyObject *)__pyx_v_imgArray));
-    __Pyx_GIVEREF(((PyObject *)__pyx_v_imgArray));
-    PyTuple_SET_ITEM(__pyx_t_2, 1+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  }
+  __pyx_t_5 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_9, __pyx_t_1, ((PyObject *)__pyx_v_imgArray)) : __Pyx_PyObject_CallOneArg(__pyx_t_9, ((PyObject *)__pyx_v_imgArray));
+  __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 259, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if ((likely(PyTuple_CheckExact(__pyx_t_5))) || (PyList_CheckExact(__pyx_t_5))) {
-    PyObject* sequence = __pyx_t_5;
-    Py_ssize_t size = __Pyx_PySequence_SIZE(sequence);
-    if (unlikely(size != 2)) {
-      if (size > 2) __Pyx_RaiseTooManyValuesError(2);
-      else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 279, __pyx_L1_error)
-    }
-    #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-    if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_9 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 1); 
-    } else {
-      __pyx_t_9 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_2 = PyList_GET_ITEM(sequence, 1); 
-    }
-    __Pyx_INCREF(__pyx_t_9);
-    __Pyx_INCREF(__pyx_t_2);
-    #else
-    __pyx_t_9 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_2 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    #endif
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  } else {
-    Py_ssize_t index = -1;
-    __pyx_t_1 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 279, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext;
-    index = 0; __pyx_t_9 = __pyx_t_7(__pyx_t_1); if (unlikely(!__pyx_t_9)) goto __pyx_L10_unpacking_failed;
-    __Pyx_GOTREF(__pyx_t_9);
-    index = 1; __pyx_t_2 = __pyx_t_7(__pyx_t_1); if (unlikely(!__pyx_t_2)) goto __pyx_L10_unpacking_failed;
-    __Pyx_GOTREF(__pyx_t_2);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_1), 2) < 0) __PYX_ERR(0, 279, __pyx_L1_error)
-    __pyx_t_7 = NULL;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    goto __pyx_L11_unpacking_done;
-    __pyx_L10_unpacking_failed:;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_7 = NULL;
-    if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 279, __pyx_L1_error)
-    __pyx_L11_unpacking_done:;
-  }
-  __Pyx_DECREF_SET(__pyx_v_lineX, __pyx_t_9);
-  __pyx_t_9 = 0;
-  __Pyx_DECREF_SET(__pyx_v_lineY, __pyx_t_2);
-  __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":280
- *     newP = copy.copy(pts[ind])
- *     lineX, lineY = getLineProfile(pts, imgArray)
- *     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))             # <<<<<<<<<<<<<<
+  /* "polygonFitCython.pyx":260
+ *     # plt.title('old points')
+ *     plt.imshow(imgArray)
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], '--', c='gray')             # <<<<<<<<<<<<<<
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'gray')
+ *     # plt.show()
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_plot); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_pts2, __pyx_tuple__8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_v_pts2, __pyx_tuple__9); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_5);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_5);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
+  __Pyx_INCREF(__pyx_kp_s__10);
+  __Pyx_GIVEREF(__pyx_kp_s__10);
+  PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_kp_s__10);
+  __pyx_t_5 = 0;
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_c, __pyx_n_s_gray) < 0) __PYX_ERR(0, 260, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "polygonFitCython.pyx":261
+ *     plt.imshow(imgArray)
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], '--', c='gray')
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'gray')             # <<<<<<<<<<<<<<
+ *     # plt.show()
+ * 
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_scatter); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_5, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_GIVEREF(__pyx_t_2);
+  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_9);
+  PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_9);
+  __pyx_t_2 = 0;
+  __pyx_t_9 = 0;
+  __pyx_t_9 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 261, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_c, __pyx_n_s_gray) < 0) __PYX_ERR(0, 261, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_5, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 261, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "polygonFitCython.pyx":265
+ * 
+ * 
+ *     offsetValue = offsetLists[ind][ax] * np.random.uniform(-1, 1, 1)[0]             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_getStdOfArea); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 280, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 265, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_getOneMetricForCalStd); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 280, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_2, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_random); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_uniform); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = PyNumber_Multiply(__pyx_t_9, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_offsetValue = __pyx_t_5;
+  __pyx_t_5 = 0;
+
+  /* "polygonFitCython.pyx":268
+ * 
+ * 
+ *     if offsetValue == 0:             # <<<<<<<<<<<<<<
+ *         offsetValue = 1
+ * 
+ */
+  __pyx_t_5 = __Pyx_PyInt_EqObjC(__pyx_v_offsetValue, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 268, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 268, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (__pyx_t_3) {
+
+    /* "polygonFitCython.pyx":269
+ * 
+ *     if offsetValue == 0:
+ *         offsetValue = 1             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+    __Pyx_INCREF(__pyx_int_1);
+    __Pyx_DECREF_SET(__pyx_v_offsetValue, __pyx_int_1);
+
+    /* "polygonFitCython.pyx":268
+ * 
+ * 
+ *     if offsetValue == 0:             # <<<<<<<<<<<<<<
+ *         offsetValue = 1
+ * 
+ */
+  }
+
+  /* "polygonFitCython.pyx":272
+ * 
+ * 
+ *     print('when increase ' + str(offsetValue))             # <<<<<<<<<<<<<<
+ * 
+ *     if ax == 0:
+ */
+  __pyx_t_5 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offsetValue); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_2 = PyNumber_Add(__pyx_kp_s_when_increase, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 272, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "polygonFitCython.pyx":274
+ *     print('when increase ' + str(offsetValue))
+ * 
+ *     if ax == 0:             # <<<<<<<<<<<<<<
+ *         pts[ind] = increaseX(pts[ind],  offsetValue)
+ *     else :
+ */
+  __pyx_t_3 = ((__pyx_v_ax == 0) != 0);
+  if (__pyx_t_3) {
+
+    /* "polygonFitCython.pyx":275
+ * 
+ *     if ax == 0:
+ *         pts[ind] = increaseX(pts[ind],  offsetValue)             # <<<<<<<<<<<<<<
+ *     else :
+ *         pts[ind] = increaseY(pts[ind],  offsetValue)
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_increaseX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 275, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 275, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_9);
+    __pyx_t_1 = NULL;
+    __pyx_t_6 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_1);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __pyx_t_6 = 1;
+      }
+    }
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_9, __pyx_v_offsetValue};
+      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 275, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_9, __pyx_v_offsetValue};
+      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 275, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    } else
+    #endif
+    {
+      __pyx_t_4 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 275, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      if (__pyx_t_1) {
+        __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1); __pyx_t_1 = NULL;
+      }
+      __Pyx_GIVEREF(__pyx_t_9);
+      PyTuple_SET_ITEM(__pyx_t_4, 0+__pyx_t_6, __pyx_t_9);
+      __Pyx_INCREF(__pyx_v_offsetValue);
+      __Pyx_GIVEREF(__pyx_v_offsetValue);
+      PyTuple_SET_ITEM(__pyx_t_4, 1+__pyx_t_6, __pyx_v_offsetValue);
+      __pyx_t_9 = 0;
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 275, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 275, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+    /* "polygonFitCython.pyx":274
+ *     print('when increase ' + str(offsetValue))
+ * 
+ *     if ax == 0:             # <<<<<<<<<<<<<<
+ *         pts[ind] = increaseX(pts[ind],  offsetValue)
+ *     else :
+ */
+    goto __pyx_L9;
+  }
+
+  /* "polygonFitCython.pyx":277
+ *         pts[ind] = increaseX(pts[ind],  offsetValue)
+ *     else :
+ *         pts[ind] = increaseY(pts[ind],  offsetValue)             # <<<<<<<<<<<<<<
+ * 
+ *     newP = copy.copy(pts[ind])
+ */
+  /*else*/ {
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_increaseY); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 277, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 277, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_9 = NULL;
+    __pyx_t_6 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_9)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_9);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __pyx_t_6 = 1;
+      }
+    }
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_4, __pyx_v_offsetValue};
+      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_4, __pyx_v_offsetValue};
+      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    } else
+    #endif
+    {
+      __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 277, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      if (__pyx_t_9) {
+        __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_9); __pyx_t_9 = NULL;
+      }
+      __Pyx_GIVEREF(__pyx_t_4);
+      PyTuple_SET_ITEM(__pyx_t_1, 0+__pyx_t_6, __pyx_t_4);
+      __Pyx_INCREF(__pyx_v_offsetValue);
+      __Pyx_GIVEREF(__pyx_v_offsetValue);
+      PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_6, __pyx_v_offsetValue);
+      __pyx_t_4 = 0;
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 277, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 277, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  }
+  __pyx_L9:;
+
+  /* "polygonFitCython.pyx":279
+ *         pts[ind] = increaseY(pts[ind],  offsetValue)
+ * 
+ *     newP = copy.copy(pts[ind])             # <<<<<<<<<<<<<<
+ *     lineX, lineY = getLineProfile(pts, imgArray)
+ *     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_copy); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 279, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_copy); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 279, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_8 = NULL;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 279, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_4 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_4)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_4);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_4, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 279, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_newP = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "polygonFitCython.pyx":280
+ * 
+ *     newP = copy.copy(pts[ind])
+ *     lineX, lineY = getLineProfile(pts, imgArray)             # <<<<<<<<<<<<<<
+ *     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))
+ * 
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_getLineProfile); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 280, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = NULL;
   __pyx_t_6 = 0;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_8)) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_5)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_8);
+      __Pyx_INCREF(__pyx_t_5);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_1, function);
       __pyx_t_6 = 1;
@@ -8605,358 +8269,307 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   }
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[4] = {__pyx_t_8, ((PyObject *)__pyx_v_imgArray), __pyx_v_lineX, __pyx_v_lineY};
-    __pyx_t_9 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __Pyx_GOTREF(__pyx_t_9);
+    PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_pts), ((PyObject *)__pyx_v_imgArray)};
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[4] = {__pyx_t_8, ((PyObject *)__pyx_v_imgArray), __pyx_v_lineX, __pyx_v_lineY};
-    __pyx_t_9 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __Pyx_GOTREF(__pyx_t_9);
-  } else
-  #endif
-  {
-    __pyx_t_4 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    if (__pyx_t_8) {
-      __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_8); __pyx_t_8 = NULL;
-    }
-    __Pyx_INCREF(((PyObject *)__pyx_v_imgArray));
-    __Pyx_GIVEREF(((PyObject *)__pyx_v_imgArray));
-    PyTuple_SET_ITEM(__pyx_t_4, 0+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
-    __Pyx_INCREF(__pyx_v_lineX);
-    __Pyx_GIVEREF(__pyx_v_lineX);
-    PyTuple_SET_ITEM(__pyx_t_4, 1+__pyx_t_6, __pyx_v_lineX);
-    __Pyx_INCREF(__pyx_v_lineY);
-    __Pyx_GIVEREF(__pyx_v_lineY);
-    PyTuple_SET_ITEM(__pyx_t_4, 2+__pyx_t_6, __pyx_v_lineY);
-    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  }
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = NULL;
-  __pyx_t_6 = 0;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_1);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-      __pyx_t_6 = 1;
-    }
-  }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_imgArray), __pyx_t_9};
-    __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_imgArray), __pyx_t_9};
-    __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_pts), ((PyObject *)__pyx_v_imgArray)};
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   {
     __pyx_t_4 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 280, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (__pyx_t_1) {
-      __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1); __pyx_t_1 = NULL;
+    if (__pyx_t_5) {
+      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5); __pyx_t_5 = NULL;
     }
+    __Pyx_INCREF(((PyObject *)__pyx_v_pts));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_pts));
+    PyTuple_SET_ITEM(__pyx_t_4, 0+__pyx_t_6, ((PyObject *)__pyx_v_pts));
     __Pyx_INCREF(((PyObject *)__pyx_v_imgArray));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_imgArray));
-    PyTuple_SET_ITEM(__pyx_t_4, 0+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
-    __Pyx_GIVEREF(__pyx_t_9);
-    PyTuple_SET_ITEM(__pyx_t_4, 1+__pyx_t_6, __pyx_t_9);
-    __pyx_t_9 = 0;
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_4, 1+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if ((likely(PyTuple_CheckExact(__pyx_t_5))) || (PyList_CheckExact(__pyx_t_5))) {
-    PyObject* sequence = __pyx_t_5;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
+    PyObject* sequence = __pyx_t_2;
     Py_ssize_t size = __Pyx_PySequence_SIZE(sequence);
-    if (unlikely(size != 3)) {
-      if (size > 3) __Pyx_RaiseTooManyValuesError(3);
+    if (unlikely(size != 2)) {
+      if (size > 2) __Pyx_RaiseTooManyValuesError(2);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
       __PYX_ERR(0, 280, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
+      __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0); 
       __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1); 
-      __pyx_t_9 = PyTuple_GET_ITEM(sequence, 2); 
     } else {
-      __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
+      __pyx_t_1 = PyList_GET_ITEM(sequence, 0); 
       __pyx_t_4 = PyList_GET_ITEM(sequence, 1); 
-      __pyx_t_9 = PyList_GET_ITEM(sequence, 2); 
     }
-    __Pyx_INCREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_t_1);
     __Pyx_INCREF(__pyx_t_4);
-    __Pyx_INCREF(__pyx_t_9);
     #else
-    __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_1 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_4 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 280, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_9 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 280, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
     #endif
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_1 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __pyx_t_5 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_7 = Py_TYPE(__pyx_t_5)->tp_iternext;
+    index = 0; __pyx_t_1 = __pyx_t_7(__pyx_t_5); if (unlikely(!__pyx_t_1)) goto __pyx_L10_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext;
-    index = 0; __pyx_t_2 = __pyx_t_7(__pyx_t_1); if (unlikely(!__pyx_t_2)) goto __pyx_L12_unpacking_failed;
-    __Pyx_GOTREF(__pyx_t_2);
-    index = 1; __pyx_t_4 = __pyx_t_7(__pyx_t_1); if (unlikely(!__pyx_t_4)) goto __pyx_L12_unpacking_failed;
+    index = 1; __pyx_t_4 = __pyx_t_7(__pyx_t_5); if (unlikely(!__pyx_t_4)) goto __pyx_L10_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_4);
-    index = 2; __pyx_t_9 = __pyx_t_7(__pyx_t_1); if (unlikely(!__pyx_t_9)) goto __pyx_L12_unpacking_failed;
-    __Pyx_GOTREF(__pyx_t_9);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_1), 3) < 0) __PYX_ERR(0, 280, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_5), 2) < 0) __PYX_ERR(0, 280, __pyx_L1_error)
     __pyx_t_7 = NULL;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    goto __pyx_L13_unpacking_done;
-    __pyx_L12_unpacking_failed:;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    goto __pyx_L11_unpacking_done;
+    __pyx_L10_unpacking_failed:;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_7 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
     __PYX_ERR(0, 280, __pyx_L1_error)
+    __pyx_L11_unpacking_done:;
+  }
+  __Pyx_DECREF_SET(__pyx_v_lineX, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __Pyx_DECREF_SET(__pyx_v_lineY, __pyx_t_4);
+  __pyx_t_4 = 0;
+
+  /* "polygonFitCython.pyx":281
+ *     newP = copy.copy(pts[ind])
+ *     lineX, lineY = getLineProfile(pts, imgArray)
+ *     newStd, newMean, newSum = getStdOfArea(imgArray, getOneMetricForCalStd(imgArray, lineX, lineY))             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_getStdOfArea); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 281, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_getOneMetricForCalStd); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 281, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_9 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+    __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_5);
+    if (likely(__pyx_t_9)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+      __Pyx_INCREF(__pyx_t_9);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_5, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_5)) {
+    PyObject *__pyx_temp[4] = {__pyx_t_9, ((PyObject *)__pyx_v_imgArray), __pyx_v_lineX, __pyx_v_lineY};
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
+    PyObject *__pyx_temp[4] = {__pyx_t_9, ((PyObject *)__pyx_v_imgArray), __pyx_v_lineX, __pyx_v_lineY};
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+  } else
+  #endif
+  {
+    __pyx_t_8 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    if (__pyx_t_9) {
+      __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_9); __pyx_t_9 = NULL;
+    }
+    __Pyx_INCREF(((PyObject *)__pyx_v_imgArray));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_imgArray));
+    PyTuple_SET_ITEM(__pyx_t_8, 0+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
+    __Pyx_INCREF(__pyx_v_lineX);
+    __Pyx_GIVEREF(__pyx_v_lineX);
+    PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_6, __pyx_v_lineX);
+    __Pyx_INCREF(__pyx_v_lineY);
+    __Pyx_GIVEREF(__pyx_v_lineY);
+    PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_6, __pyx_v_lineY);
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_4, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_4)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_imgArray), __pyx_t_1};
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_imgArray), __pyx_t_1};
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_8 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    if (__pyx_t_5) {
+      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_5); __pyx_t_5 = NULL;
+    }
+    __Pyx_INCREF(((PyObject *)__pyx_v_imgArray));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_imgArray));
+    PyTuple_SET_ITEM(__pyx_t_8, 0+__pyx_t_6, ((PyObject *)__pyx_v_imgArray));
+    __Pyx_GIVEREF(__pyx_t_1);
+    PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_6, __pyx_t_1);
+    __pyx_t_1 = 0;
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
+    PyObject* sequence = __pyx_t_2;
+    Py_ssize_t size = __Pyx_PySequence_SIZE(sequence);
+    if (unlikely(size != 3)) {
+      if (size > 3) __Pyx_RaiseTooManyValuesError(3);
+      else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
+      __PYX_ERR(0, 281, __pyx_L1_error)
+    }
+    #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
+    if (likely(PyTuple_CheckExact(sequence))) {
+      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 0); 
+      __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_1 = PyTuple_GET_ITEM(sequence, 2); 
+    } else {
+      __pyx_t_4 = PyList_GET_ITEM(sequence, 0); 
+      __pyx_t_8 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_1 = PyList_GET_ITEM(sequence, 2); 
+    }
+    __Pyx_INCREF(__pyx_t_4);
+    __Pyx_INCREF(__pyx_t_8);
+    __Pyx_INCREF(__pyx_t_1);
+    #else
+    __pyx_t_4 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_8 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_1 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    #endif
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  } else {
+    Py_ssize_t index = -1;
+    __pyx_t_5 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_7 = Py_TYPE(__pyx_t_5)->tp_iternext;
+    index = 0; __pyx_t_4 = __pyx_t_7(__pyx_t_5); if (unlikely(!__pyx_t_4)) goto __pyx_L12_unpacking_failed;
+    __Pyx_GOTREF(__pyx_t_4);
+    index = 1; __pyx_t_8 = __pyx_t_7(__pyx_t_5); if (unlikely(!__pyx_t_8)) goto __pyx_L12_unpacking_failed;
+    __Pyx_GOTREF(__pyx_t_8);
+    index = 2; __pyx_t_1 = __pyx_t_7(__pyx_t_5); if (unlikely(!__pyx_t_1)) goto __pyx_L12_unpacking_failed;
+    __Pyx_GOTREF(__pyx_t_1);
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_7(__pyx_t_5), 3) < 0) __PYX_ERR(0, 281, __pyx_L1_error)
+    __pyx_t_7 = NULL;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    goto __pyx_L13_unpacking_done;
+    __pyx_L12_unpacking_failed:;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_7 = NULL;
+    if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
+    __PYX_ERR(0, 281, __pyx_L1_error)
     __pyx_L13_unpacking_done:;
   }
-  __pyx_v_newStd = __pyx_t_2;
-  __pyx_t_2 = 0;
-  __pyx_v_newMean = __pyx_t_4;
+  __pyx_v_newStd = __pyx_t_4;
   __pyx_t_4 = 0;
-  __pyx_v_newSum = __pyx_t_9;
-  __pyx_t_9 = 0;
+  __pyx_v_newMean = __pyx_t_8;
+  __pyx_t_8 = 0;
+  __pyx_v_newSum = __pyx_t_1;
+  __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":283
+  /* "polygonFitCython.pyx":284
  * 
  * 
  *     print('newStd - oldStd  = ' + str(newStd - oldStd) )             # <<<<<<<<<<<<<<
  *     print('newMean - oldMean  = ' + str(newMean - oldMean) )
  * 
  */
-  __pyx_t_5 = PyNumber_Subtract(__pyx_v_newStd, __pyx_v_oldStd); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 283, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_9 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 283, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Add(__pyx_kp_s_newStd_oldStd, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 283, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 283, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_2 = PyNumber_Subtract(__pyx_v_newStd, __pyx_v_oldStd); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 284, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 284, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = PyNumber_Add(__pyx_kp_s_newStd_oldStd, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 284, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 284, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":284
+  /* "polygonFitCython.pyx":285
  * 
  *     print('newStd - oldStd  = ' + str(newStd - oldStd) )
  *     print('newMean - oldMean  = ' + str(newMean - oldMean) )             # <<<<<<<<<<<<<<
  * 
- *     plt.title('new points')
- */
-  __pyx_t_5 = PyNumber_Subtract(__pyx_v_newMean, __pyx_v_oldMean); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 284, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_9 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 284, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Add(__pyx_kp_s_newMean_oldMean, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 284, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 284, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "polygonFitCython.pyx":286
- *     print('newMean - oldMean  = ' + str(newMean - oldMean) )
- * 
- *     plt.title('new points')             # <<<<<<<<<<<<<<
- *     plt.imshow(imgArray)
- *     plt.scatter(lineX, lineY, s = 1)
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_plt); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_title); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
-    __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_4);
-    if (likely(__pyx_t_9)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-      __Pyx_INCREF(__pyx_t_9);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_4, function);
-    }
-  }
-  __pyx_t_5 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_9, __pyx_kp_s_new_points) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_kp_s_new_points);
-  __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "polygonFitCython.pyx":287
- * 
- *     plt.title('new points')
- *     plt.imshow(imgArray)             # <<<<<<<<<<<<<<
- *     plt.scatter(lineX, lineY, s = 1)
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_plt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_imshow); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
-    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_9);
-    if (likely(__pyx_t_4)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-      __Pyx_INCREF(__pyx_t_4);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_9, function);
-    }
-  }
-  __pyx_t_5 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_9, __pyx_t_4, ((PyObject *)__pyx_v_imgArray)) : __Pyx_PyObject_CallOneArg(__pyx_t_9, ((PyObject *)__pyx_v_imgArray));
-  __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "polygonFitCython.pyx":288
- *     plt.title('new points')
- *     plt.imshow(imgArray)
- *     plt.scatter(lineX, lineY, s = 1)             # <<<<<<<<<<<<<<
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
- *     plt.show()
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_scatter); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_INCREF(__pyx_v_lineX);
-  __Pyx_GIVEREF(__pyx_v_lineX);
-  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_lineX);
-  __Pyx_INCREF(__pyx_v_lineY);
-  __Pyx_GIVEREF(__pyx_v_lineY);
-  PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_lineY);
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_s, __pyx_int_1) < 0) __PYX_ERR(0, 288, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "polygonFitCython.pyx":289
- *     plt.imshow(imgArray)
- *     plt.scatter(lineX, lineY, s = 1)
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')             # <<<<<<<<<<<<<<
- *     plt.show()
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 289, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Subtract(__pyx_v_newMean, __pyx_v_oldMean); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_scatter); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 285, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 289, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Add(__pyx_kp_s_newMean_oldMean, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 285, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GIVEREF(__pyx_t_5);
-  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_5);
-  __Pyx_GIVEREF(__pyx_t_9);
-  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_9);
-  __pyx_t_5 = 0;
-  __pyx_t_9 = 0;
-  __pyx_t_9 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 289, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_c, __pyx_n_s_w) < 0) __PYX_ERR(0, 289, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_2, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "polygonFitCython.pyx":290
- *     plt.scatter(lineX, lineY, s = 1)
- *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
- *     plt.show()             # <<<<<<<<<<<<<<
- * 
- *     denominator =  oldP[ax]- newP[ax]
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_plt); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 290, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_show); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 290, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_9)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_9);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-    }
-  }
-  __pyx_t_5 = (__pyx_t_9) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_9) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 290, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
   /* "polygonFitCython.pyx":292
- *     plt.show()
+ * 
  * 
  *     denominator =  oldP[ax]- newP[ax]             # <<<<<<<<<<<<<<
  *     if denominator == 0:
  *         denominator = 1
  */
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_oldP, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_newP, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 292, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_oldP, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_9 = PyNumber_Subtract(__pyx_t_5, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_v_newP, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_8 = PyNumber_Subtract(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_denominator = __pyx_t_9;
-  __pyx_t_9 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_denominator = __pyx_t_8;
+  __pyx_t_8 = 0;
 
   /* "polygonFitCython.pyx":293
  * 
@@ -8965,10 +8578,10 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  *         denominator = 1
  * 
  */
-  __pyx_t_9 = __Pyx_PyInt_EqObjC(__pyx_v_denominator, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 293, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 293, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __pyx_t_8 = __Pyx_PyInt_EqObjC(__pyx_v_denominator, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 293, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 293, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   if (__pyx_t_3) {
 
     /* "polygonFitCython.pyx":294
@@ -8976,7 +8589,7 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  *     if denominator == 0:
  *         denominator = 1             # <<<<<<<<<<<<<<
  * 
- *     offsetStd =    checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size * alphaStd / denominator  )
+ *     offsetStd =    checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * acceleration * alphaStd / denominator  )
  */
     __Pyx_INCREF(__pyx_int_1);
     __Pyx_DECREF_SET(__pyx_v_denominator, __pyx_int_1);
@@ -8993,21 +8606,21 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   /* "polygonFitCython.pyx":296
  *         denominator = 1
  * 
- *     offsetStd =    checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size * alphaStd / denominator  )             # <<<<<<<<<<<<<<
+ *     offsetStd =    checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * acceleration * alphaStd / denominator  )             # <<<<<<<<<<<<<<
  *     # print('getOffset(oldStd, newStd ) : ' + str(getOffset(oldStd, newStd )))
- *     # print('lrsStd : ' + str(lrsStd[ind][0]))
+ *     print('lrsStd : ' + str(lrsStd[ind][0]))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_checkLimit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 296, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_checkLimit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_getOffset); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_1 = NULL;
+  __pyx_t_5 = NULL;
   __pyx_t_6 = 0;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
-    if (likely(__pyx_t_1)) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+    if (likely(__pyx_t_5)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-      __Pyx_INCREF(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_5);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_4, function);
       __pyx_t_6 = 1;
@@ -9015,195 +8628,131 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   }
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_4)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_newStd, __pyx_v_oldStd};
-    __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 296, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_GOTREF(__pyx_t_5);
+    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_newStd, __pyx_v_oldStd};
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 296, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_newStd, __pyx_v_oldStd};
-    __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 296, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_GOTREF(__pyx_t_5);
+    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_newStd, __pyx_v_oldStd};
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 296, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   {
-    __pyx_t_8 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 296, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
-    if (__pyx_t_1) {
-      __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_1); __pyx_t_1 = NULL;
+    __pyx_t_9 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 296, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_9);
+    if (__pyx_t_5) {
+      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_5); __pyx_t_5 = NULL;
     }
     __Pyx_INCREF(__pyx_v_newStd);
     __Pyx_GIVEREF(__pyx_v_newStd);
-    PyTuple_SET_ITEM(__pyx_t_8, 0+__pyx_t_6, __pyx_v_newStd);
+    PyTuple_SET_ITEM(__pyx_t_9, 0+__pyx_t_6, __pyx_v_newStd);
     __Pyx_INCREF(__pyx_v_oldStd);
     __Pyx_GIVEREF(__pyx_v_oldStd);
-    PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_6, __pyx_v_oldStd);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 296, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_6, __pyx_v_oldStd);
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_9, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 296, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 296, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyNumber_Multiply(__pyx_t_5, __pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __pyx_t_4 = PyNumber_Multiply(__pyx_t_2, __pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyNumber_Multiply(__pyx_t_4, __pyx_v_size); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 296, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __pyx_t_9 = PyNumber_Multiply(__pyx_t_4, __pyx_v_acceleration); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = PyFloat_FromDouble(__pyx_v_alphaStd); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = PyNumber_Multiply(__pyx_t_8, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 296, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_9, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_v_denominator); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyNumber_Divide(__pyx_t_2, __pyx_v_denominator); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 296, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_5)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_2)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_2);
       __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
     }
   }
-  __pyx_t_9 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_4);
-  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_8 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_2, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 296, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_offsetStd = __pyx_t_9;
-  __pyx_t_9 = 0;
+  if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 296, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_offsetStd = __pyx_t_8;
+  __pyx_t_8 = 0;
+
+  /* "polygonFitCython.pyx":298
+ *     offsetStd =    checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * acceleration * alphaStd / denominator  )
+ *     # print('getOffset(oldStd, newStd ) : ' + str(getOffset(oldStd, newStd )))
+ *     print('lrsStd : ' + str(lrsStd[ind][0]))             # <<<<<<<<<<<<<<
+ *     # print('denominator : ' + str(denominator))
+ *     # print('alphaStd : ' + str(alphaStd ))
+ */
+  __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_8, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = PyNumber_Add(__pyx_kp_s_lrsStd_2, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 298, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "polygonFitCython.pyx":301
+ *     # print('denominator : ' + str(denominator))
+ *     # print('alphaStd : ' + str(alphaStd ))
+ *     print('offsetStd : ' + str(offsetStd) )             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offsetStd); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 301, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_8 = PyNumber_Add(__pyx_kp_s_offsetStd, __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 301, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_8) < 0) __PYX_ERR(0, 301, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
   /* "polygonFitCython.pyx":304
  * 
  * 
- *     offsetMean = checkLimit( getOffset(oldMean, newMean) * lrs[ind][0] * size  * direction * alphaMean / denominator  )             # <<<<<<<<<<<<<<
- *     print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))
+ *     offsetMean = checkLimit( getOffset(oldMean, newMean) * lrs[ind][0] * acceleration  * direction * alphaMean / denominator  )             # <<<<<<<<<<<<<<
+ *     # print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))
  *     print('lrs : ' + str(lrs[ind][0]))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_checkLimit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_checkLimit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_getOffset); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_getOffset); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_8 = NULL;
-  __pyx_t_6 = 0;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
-    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_5);
-    if (likely(__pyx_t_8)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-      __Pyx_INCREF(__pyx_t_8);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_5, function);
-      __pyx_t_6 = 1;
-    }
-  }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_5)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_oldMean, __pyx_v_newMean};
-    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __Pyx_GOTREF(__pyx_t_4);
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_oldMean, __pyx_v_newMean};
-    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __Pyx_GOTREF(__pyx_t_4);
-  } else
-  #endif
-  {
-    __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 304, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (__pyx_t_8) {
-      __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_8); __pyx_t_8 = NULL;
-    }
-    __Pyx_INCREF(__pyx_v_oldMean);
-    __Pyx_GIVEREF(__pyx_v_oldMean);
-    PyTuple_SET_ITEM(__pyx_t_1, 0+__pyx_t_6, __pyx_v_oldMean);
-    __Pyx_INCREF(__pyx_v_newMean);
-    __Pyx_GIVEREF(__pyx_v_newMean);
-    PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_6, __pyx_v_newMean);
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  }
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Multiply(__pyx_t_4, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Multiply(__pyx_t_5, __pyx_v_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_direction); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_4 = PyNumber_Multiply(__pyx_t_1, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyFloat_FromDouble(__pyx_v_alphaMean); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = PyNumber_Multiply(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_1, __pyx_v_denominator); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_1);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-    }
-  }
-  __pyx_t_9 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_1, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_5);
-  __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 304, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_offsetMean = __pyx_t_9;
-  __pyx_t_9 = 0;
-
-  /* "polygonFitCython.pyx":305
- * 
- *     offsetMean = checkLimit( getOffset(oldMean, newMean) * lrs[ind][0] * size  * direction * alphaMean / denominator  )
- *     print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))             # <<<<<<<<<<<<<<
- *     print('lrs : ' + str(lrs[ind][0]))
- *     print('denominator : ' + str(denominator))
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_getOffset); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 305, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = NULL;
+  __pyx_t_9 = NULL;
   __pyx_t_6 = 0;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_5)) {
+    __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_9)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(__pyx_t_9);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_2, function);
       __pyx_t_6 = 1;
@@ -9211,124 +8760,128 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   }
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_oldMean, __pyx_v_newMean};
-    __pyx_t_9 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 305, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GOTREF(__pyx_t_9);
+    PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_v_oldMean, __pyx_v_newMean};
+    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __Pyx_GOTREF(__pyx_t_4);
   } else
   #endif
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_oldMean, __pyx_v_newMean};
-    __pyx_t_9 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 305, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GOTREF(__pyx_t_9);
+    PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_v_oldMean, __pyx_v_newMean};
+    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __Pyx_GOTREF(__pyx_t_4);
   } else
   #endif
   {
-    __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 305, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (__pyx_t_5) {
-      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_5); __pyx_t_5 = NULL;
+    __pyx_t_5 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (__pyx_t_9) {
+      __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_9); __pyx_t_9 = NULL;
     }
     __Pyx_INCREF(__pyx_v_oldMean);
     __Pyx_GIVEREF(__pyx_v_oldMean);
-    PyTuple_SET_ITEM(__pyx_t_1, 0+__pyx_t_6, __pyx_v_oldMean);
+    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_6, __pyx_v_oldMean);
     __Pyx_INCREF(__pyx_v_newMean);
     __Pyx_GIVEREF(__pyx_v_newMean);
-    PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_6, __pyx_v_newMean);
-    __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 305, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, __pyx_v_newMean);
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 305, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = PyNumber_Add(__pyx_kp_s_getOffset_oldStd_newStd, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 305, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_9) < 0) __PYX_ERR(0, 305, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = PyNumber_Multiply(__pyx_t_2, __pyx_v_acceleration); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_direction); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_4 = PyNumber_Multiply(__pyx_t_5, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = PyFloat_FromDouble(__pyx_v_alphaMean); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_5 = PyNumber_Multiply(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_v_denominator); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_8 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_5, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 304, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_offsetMean = __pyx_t_8;
+  __pyx_t_8 = 0;
 
   /* "polygonFitCython.pyx":306
- *     offsetMean = checkLimit( getOffset(oldMean, newMean) * lrs[ind][0] * size  * direction * alphaMean / denominator  )
- *     print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))
+ *     offsetMean = checkLimit( getOffset(oldMean, newMean) * lrs[ind][0] * acceleration  * direction * alphaMean / denominator  )
+ *     # print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))
  *     print('lrs : ' + str(lrs[ind][0]))             # <<<<<<<<<<<<<<
- *     print('denominator : ' + str(denominator))
- *     print('alphaMean : ' + str(alphaMean ))
+ *     # print('denominator : ' + str(denominator))
+ *     # print('alphaMean : ' + str(alphaMean ))
  */
-  __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_9, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyNumber_Add(__pyx_kp_s_lrs_2, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 306, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "polygonFitCython.pyx":307
- *     print('getOffset(oldStd, newStd ) : ' + str(  getOffset(oldMean, newMean) ))
- *     print('lrs : ' + str(lrs[ind][0]))
- *     print('denominator : ' + str(denominator))             # <<<<<<<<<<<<<<
- *     print('alphaMean : ' + str(alphaMean ))
- *     print('offsetMean : ' + str(offsetMean))
- */
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_denominator); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 307, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_9 = PyNumber_Add(__pyx_kp_s_denominator, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 307, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_9) < 0) __PYX_ERR(0, 307, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-
-  /* "polygonFitCython.pyx":308
- *     print('lrs : ' + str(lrs[ind][0]))
- *     print('denominator : ' + str(denominator))
- *     print('alphaMean : ' + str(alphaMean ))             # <<<<<<<<<<<<<<
- *     print('offsetMean : ' + str(offsetMean))
- * 
- */
-  __pyx_t_9 = PyFloat_FromDouble(__pyx_v_alphaMean); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 308, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 308, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = PyNumber_Add(__pyx_kp_s_alphaMean_2, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 308, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_9) < 0) __PYX_ERR(0, 308, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_8, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = PyNumber_Add(__pyx_kp_s_lrs_2, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 306, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "polygonFitCython.pyx":309
- *     print('denominator : ' + str(denominator))
- *     print('alphaMean : ' + str(alphaMean ))
+ *     # print('denominator : ' + str(denominator))
+ *     # print('alphaMean : ' + str(alphaMean ))
  *     print('offsetMean : ' + str(offsetMean))             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_9 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offsetMean); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 309, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_2 = PyNumber_Add(__pyx_kp_s_offsetMean, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 309, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 309, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offsetMean); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 309, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_8 = PyNumber_Add(__pyx_kp_s_offsetMean, __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 309, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_8) < 0) __PYX_ERR(0, 309, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
   /* "polygonFitCython.pyx":312
  * 
  * 
- *     offsetSum = checkLimit( getOffset(oldSum, newSum) * lrsSum[ind][0] * size  * alphaSum / denominator  )             # <<<<<<<<<<<<<<
- * 
+ *     offsetSum = checkLimit( getOffset(oldSum, newSum) * lrsSum[ind][0] * acceleration  * alphaSum / denominator  )             # <<<<<<<<<<<<<<
+ *     print('offsetSum : ' + str(offsetSum))
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_checkLimit); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 312, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_checkLimit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_getOffset); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_4 = NULL;
@@ -9346,120 +8899,177 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_5)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_oldSum, __pyx_v_newSum};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 312, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_oldSum, __pyx_v_newSum};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 312, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_GOTREF(__pyx_t_2);
   } else
   #endif
   {
-    __pyx_t_8 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 312, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_9 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 312, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_9);
     if (__pyx_t_4) {
-      __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_4); __pyx_t_4 = NULL;
+      __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_4); __pyx_t_4 = NULL;
     }
     __Pyx_INCREF(__pyx_v_oldSum);
     __Pyx_GIVEREF(__pyx_v_oldSum);
-    PyTuple_SET_ITEM(__pyx_t_8, 0+__pyx_t_6, __pyx_v_oldSum);
+    PyTuple_SET_ITEM(__pyx_t_9, 0+__pyx_t_6, __pyx_v_oldSum);
     __Pyx_INCREF(__pyx_v_newSum);
     __Pyx_GIVEREF(__pyx_v_newSum);
-    PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_6, __pyx_v_newSum);
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 312, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_6, __pyx_v_newSum);
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_9, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 312, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Multiply(__pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __pyx_t_5 = PyNumber_Multiply(__pyx_t_2, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyNumber_Multiply(__pyx_t_5, __pyx_v_size); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 312, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __pyx_t_9 = PyNumber_Multiply(__pyx_t_5, __pyx_v_acceleration); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = PyFloat_FromDouble(__pyx_v_alphaSum); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = PyNumber_Multiply(__pyx_t_8, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(__pyx_t_9, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_2, __pyx_v_denominator); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_2)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_2);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_8 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_2, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_offsetSum = __pyx_t_8;
+  __pyx_t_8 = 0;
+
+  /* "polygonFitCython.pyx":313
+ * 
+ *     offsetSum = checkLimit( getOffset(oldSum, newSum) * lrsSum[ind][0] * acceleration  * alphaSum / denominator  )
+ *     print('offsetSum : ' + str(offsetSum))             # <<<<<<<<<<<<<<
+ * 
+ *     offset = offsetStd + offsetMean + offsetSum
+ */
+  __pyx_t_8 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offsetSum); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_1 = PyNumber_Add(__pyx_kp_s_offsetSum, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 313, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_1, __pyx_v_denominator); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 312, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 313, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "polygonFitCython.pyx":315
+ *     print('offsetSum : ' + str(offsetSum))
+ * 
+ *     offset = offsetStd + offsetMean + offsetSum             # <<<<<<<<<<<<<<
+ *     # offset = offsetStd + offsetMean
+ * 
+ */
+  __pyx_t_1 = PyNumber_Add(__pyx_v_offsetStd, __pyx_v_offsetMean); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 315, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_8 = PyNumber_Add(__pyx_t_1, __pyx_v_offsetSum); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 315, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_offset = __pyx_t_8;
+  __pyx_t_8 = 0;
+
+  /* "polygonFitCython.pyx":318
+ *     # offset = offsetStd + offsetMean
+ * 
+ *     if np.abs(offsetMean) > 2 :             # <<<<<<<<<<<<<<
+ *         offsetLists[ind][ax] = offset
+ *         print('result offset : '  + str(offset))
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 318, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_abs); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_9);
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
     if (likely(__pyx_t_1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_9, function);
+      __Pyx_DECREF_SET(__pyx_t_5, function);
     }
   }
-  __pyx_t_2 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_9, __pyx_t_1, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_9, __pyx_t_5);
+  __pyx_t_8 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_v_offsetMean) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_offsetMean);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 318, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_v_offsetSum = __pyx_t_2;
-  __pyx_t_2 = 0;
+  __pyx_t_5 = PyObject_RichCompare(__pyx_t_8, __pyx_int_2, Py_GT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 318, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 318, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (__pyx_t_3) {
 
-  /* "polygonFitCython.pyx":315
+    /* "polygonFitCython.pyx":319
  * 
- * 
- *     offset = offsetStd + offsetMean + offsetSum             # <<<<<<<<<<<<<<
- *     offsetLists[ind][ax] = offset
+ *     if np.abs(offsetMean) > 2 :
+ *         offsetLists[ind][ax] = offset             # <<<<<<<<<<<<<<
+ *         print('result offset : '  + str(offset))
  * 
  */
-  __pyx_t_2 = PyNumber_Add(__pyx_v_offsetStd, __pyx_v_offsetMean); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 315, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_9 = PyNumber_Add(__pyx_t_2, __pyx_v_offsetSum); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 315, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_offset = __pyx_t_9;
-  __pyx_t_9 = 0;
+    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 319, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_5, __pyx_v_ax, __pyx_v_offset, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 319, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":316
- * 
- *     offset = offsetStd + offsetMean + offsetSum
- *     offsetLists[ind][ax] = offset             # <<<<<<<<<<<<<<
+    /* "polygonFitCython.pyx":320
+ *     if np.abs(offsetMean) > 2 :
+ *         offsetLists[ind][ax] = offset
+ *         print('result offset : '  + str(offset))             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_offsetLists), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 316, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  if (unlikely(__Pyx_SetItemInt(__pyx_t_9, __pyx_v_ax, __pyx_v_offset, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 316, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __pyx_t_5 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offset); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 320, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_8 = PyNumber_Add(__pyx_kp_s_result_offset, __pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 320, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (__Pyx_PrintOne(0, __pyx_t_8) < 0) __PYX_ERR(0, 320, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "polygonFitCython.pyx":321
- *     # print('offset STd : ' , checkLimit( getOffset(newStd, oldStd) * lrsStd[ind][0] * size ) / denominator)
- *     # print('offset Mean : ' , checkLimit( getOffset(newMean, oldMean) * lrs[ind][0] * size  ) * direction / denominator)
- *     print('result offset : '  + str(offset))             # <<<<<<<<<<<<<<
+    /* "polygonFitCython.pyx":318
+ *     # offset = offsetStd + offsetMean
  * 
- *     if ax == 0:
+ *     if np.abs(offsetMean) > 2 :             # <<<<<<<<<<<<<<
+ *         offsetLists[ind][ax] = offset
+ *         print('result offset : '  + str(offset))
  */
-  __pyx_t_9 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_v_offset); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 321, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_2 = PyNumber_Add(__pyx_kp_s_result_offset, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 321, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_2) < 0) __PYX_ERR(0, 321, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  }
 
   /* "polygonFitCython.pyx":323
- *     print('result offset : '  + str(offset))
+ * 
  * 
  *     if ax == 0:             # <<<<<<<<<<<<<<
  *         pts[ind] = increaseX(oldP, offset)
@@ -9475,64 +9085,64 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  *     else :
  *         pts[ind] = increaseY(oldP, offset)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_increaseX); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 324, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_5 = NULL;
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_increaseX); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 324, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_1 = NULL;
     __pyx_t_6 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
-      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_9);
-      if (likely(__pyx_t_5)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-        __Pyx_INCREF(__pyx_t_5);
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_1);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_9, function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
         __pyx_t_6 = 1;
       }
     }
     #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_9)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_oldP, __pyx_v_offset};
-      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_9, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 324, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GOTREF(__pyx_t_2);
+    if (PyFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_oldP, __pyx_v_offset};
+      __pyx_t_8 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 324, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_8);
     } else
     #endif
     #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_9)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_oldP, __pyx_v_offset};
-      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_9, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 324, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GOTREF(__pyx_t_2);
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_oldP, __pyx_v_offset};
+      __pyx_t_8 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 324, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_8);
     } else
     #endif
     {
-      __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 324, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      if (__pyx_t_5) {
-        __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_5); __pyx_t_5 = NULL;
+      __pyx_t_2 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 324, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      if (__pyx_t_1) {
+        __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1); __pyx_t_1 = NULL;
       }
       __Pyx_INCREF(__pyx_v_oldP);
       __Pyx_GIVEREF(__pyx_v_oldP);
-      PyTuple_SET_ITEM(__pyx_t_1, 0+__pyx_t_6, __pyx_v_oldP);
+      PyTuple_SET_ITEM(__pyx_t_2, 0+__pyx_t_6, __pyx_v_oldP);
       __Pyx_INCREF(__pyx_v_offset);
       __Pyx_GIVEREF(__pyx_v_offset);
-      PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_6, __pyx_v_offset);
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 324, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      PyTuple_SET_ITEM(__pyx_t_2, 1+__pyx_t_6, __pyx_v_offset);
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 324, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 324, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_8, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 324, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
     /* "polygonFitCython.pyx":323
- *     print('result offset : '  + str(offset))
+ * 
  * 
  *     if ax == 0:             # <<<<<<<<<<<<<<
  *         pts[ind] = increaseX(oldP, offset)
  *     else :
  */
-    goto __pyx_L15;
+    goto __pyx_L16;
   }
 
   /* "polygonFitCython.pyx":326
@@ -9540,117 +9150,264 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  *     else :
  *         pts[ind] = increaseY(oldP, offset)             # <<<<<<<<<<<<<<
  * 
- *     # print('new mean : ', newMean, '  old mean : ',  oldMean)
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_increaseY); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 326, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_1 = NULL;
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_increaseY); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 326, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_2 = NULL;
     __pyx_t_6 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_9))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_9);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
-        __Pyx_INCREF(__pyx_t_1);
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_2);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_9, function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
         __pyx_t_6 = 1;
       }
     }
     #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_9)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_oldP, __pyx_v_offset};
-      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_9, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __Pyx_GOTREF(__pyx_t_2);
+    if (PyFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_oldP, __pyx_v_offset};
+      __pyx_t_8 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_8);
     } else
     #endif
     #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_9)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_oldP, __pyx_v_offset};
-      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_9, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __Pyx_GOTREF(__pyx_t_2);
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_oldP, __pyx_v_offset};
+      __pyx_t_8 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GOTREF(__pyx_t_8);
     } else
     #endif
     {
-      __pyx_t_5 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 326, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      if (__pyx_t_1) {
-        __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1); __pyx_t_1 = NULL;
+      __pyx_t_1 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      if (__pyx_t_2) {
+        __Pyx_GIVEREF(__pyx_t_2); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_2); __pyx_t_2 = NULL;
       }
       __Pyx_INCREF(__pyx_v_oldP);
       __Pyx_GIVEREF(__pyx_v_oldP);
-      PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_6, __pyx_v_oldP);
+      PyTuple_SET_ITEM(__pyx_t_1, 0+__pyx_t_6, __pyx_v_oldP);
       __Pyx_INCREF(__pyx_v_offset);
       __Pyx_GIVEREF(__pyx_v_offset);
-      PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, __pyx_v_offset);
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 326, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_6, __pyx_v_offset);
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 326, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 326, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, __pyx_t_8, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 326, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   }
-  __pyx_L15:;
+  __pyx_L16:;
 
-  /* "polygonFitCython.pyx":332
+  /* "polygonFitCython.pyx":328
+ *         pts[ind] = increaseY(oldP, offset)
+ * 
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)             # <<<<<<<<<<<<<<
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], c='w')
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_8);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_t_8);
+  __pyx_t_8 = 0;
+  __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_INCREF(((PyObject *)__pyx_v_pts));
+  __Pyx_GIVEREF(((PyObject *)__pyx_v_pts));
+  PyTuple_SET_ITEM(__pyx_t_8, 0, ((PyObject *)__pyx_v_pts));
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_8);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_8);
+  __pyx_t_8 = 0;
+  __pyx_t_8 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 328, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 328, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __Pyx_DECREF_SET(__pyx_v_pts2, __pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "polygonFitCython.pyx":329
+ * 
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], c='w')             # <<<<<<<<<<<<<<
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
+ *     plt.show()
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_plot); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_pts2, __pyx_tuple__8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_v_pts2, __pyx_tuple__9); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_GIVEREF(__pyx_t_2);
+  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_1);
+  __pyx_t_2 = 0;
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_c, __pyx_n_s_w) < 0) __PYX_ERR(0, 329, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_5, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 329, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "polygonFitCython.pyx":330
+ *     pts2 = np.concatenate((pts, [pts[0]]), axis = 0)
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], c='w')
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')             # <<<<<<<<<<<<<<
+ *     plt.show()
+ * 
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_scatter); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_pts), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_5);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_5);
+  __Pyx_GIVEREF(__pyx_t_8);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_8);
+  __pyx_t_5 = 0;
+  __pyx_t_8 = 0;
+  __pyx_t_8 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 330, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_8, __pyx_n_s_c, __pyx_n_s_w) < 0) __PYX_ERR(0, 330, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "polygonFitCython.pyx":331
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], c='w')
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'w')
+ *     plt.show()             # <<<<<<<<<<<<<<
+ * 
+ *     # print('new mean : ', newMean, '  old mean : ',  oldMean)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_plt); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_show); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_8)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_8);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_5 = (__pyx_t_8) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_8) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "polygonFitCython.pyx":337
  * 
  * 
  *     if (newMean - oldMean) * direction > 0:             # <<<<<<<<<<<<<<
  *         lrs[ind][ax] = lrs[ind][ax] / Lambda
  *         # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
  */
-  __pyx_t_2 = PyNumber_Subtract(__pyx_v_newMean, __pyx_v_oldMean); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 332, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_direction); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 332, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_5 = PyNumber_Multiply(__pyx_t_2, __pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 332, __pyx_L1_error)
+  __pyx_t_5 = PyNumber_Subtract(__pyx_v_newMean, __pyx_v_oldMean); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 337, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-  __pyx_t_9 = PyObject_RichCompare(__pyx_t_5, __pyx_int_0, Py_GT); __Pyx_XGOTREF(__pyx_t_9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 332, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_direction); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_8 = PyNumber_Multiply(__pyx_t_5, __pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 332, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = PyObject_RichCompare(__pyx_t_8, __pyx_int_0, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "polygonFitCython.pyx":333
+    /* "polygonFitCython.pyx":338
  * 
  *     if (newMean - oldMean) * direction > 0:
  *         lrs[ind][ax] = lrs[ind][ax] / Lambda             # <<<<<<<<<<<<<<
  *         # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
  *     else :
  */
-    __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 333, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_9, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 333, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 333, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 333, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 338, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 333, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_9, __pyx_v_ax, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 333, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_8, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_2, __pyx_v_ax, __pyx_t_5, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "polygonFitCython.pyx":332
+    /* "polygonFitCython.pyx":337
  * 
  * 
  *     if (newMean - oldMean) * direction > 0:             # <<<<<<<<<<<<<<
  *         lrs[ind][ax] = lrs[ind][ax] / Lambda
  *         # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
  */
-    goto __pyx_L16;
+    goto __pyx_L17;
   }
 
-  /* "polygonFitCython.pyx":336
+  /* "polygonFitCython.pyx":341
  *         # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
  *     else :
  *         lrs[ind][ax] = lrs[ind][ax] * Lambda             # <<<<<<<<<<<<<<
@@ -9658,72 +9415,72 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  * 
  */
   /*else*/ {
-    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 336, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_2, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 336, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 336, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = PyNumber_Multiply(__pyx_t_9, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 336, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 336, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_2, __pyx_v_ax, __pyx_t_5, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 336, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_8 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 341, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrs), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_5, __pyx_v_ax, __pyx_t_8, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 341, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   }
-  __pyx_L16:;
+  __pyx_L17:;
 
-  /* "polygonFitCython.pyx":339
+  /* "polygonFitCython.pyx":344
  *         # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
  * 
  *     if newStd > oldStd:             # <<<<<<<<<<<<<<
  *         lrsStd[ind][ax] = lrsStd[ind][ax] * Lambda
  *         # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
  */
-  __pyx_t_5 = PyObject_RichCompare(__pyx_v_newStd, __pyx_v_oldStd, Py_GT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 339, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 339, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_8 = PyObject_RichCompare(__pyx_v_newStd, __pyx_v_oldStd, Py_GT); __Pyx_XGOTREF(__pyx_t_8); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 344, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   if (__pyx_t_3) {
 
-    /* "polygonFitCython.pyx":340
+    /* "polygonFitCython.pyx":345
  * 
  *     if newStd > oldStd:
  *         lrsStd[ind][ax] = lrsStd[ind][ax] * Lambda             # <<<<<<<<<<<<<<
  *         # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
  *     else :
  */
-    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 340, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 345, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_8, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 345, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 340, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 345, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_2 = PyNumber_Multiply(__pyx_t_5, __pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 345, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 340, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_9 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 340, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 345, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_8, __pyx_v_ax, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 345, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 340, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_5, __pyx_v_ax, __pyx_t_9, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 340, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "polygonFitCython.pyx":339
+    /* "polygonFitCython.pyx":344
  *         # print('lrs[ind][ax] : ' + str(lrs[ind][ax]))
  * 
  *     if newStd > oldStd:             # <<<<<<<<<<<<<<
  *         lrsStd[ind][ax] = lrsStd[ind][ax] * Lambda
  *         # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
  */
-    goto __pyx_L17;
+    goto __pyx_L18;
   }
 
-  /* "polygonFitCython.pyx":343
+  /* "polygonFitCython.pyx":348
  *         # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
  *     else :
  *         lrsStd[ind][ax] = lrsStd[ind][ax] / Lambda             # <<<<<<<<<<<<<<
@@ -9731,72 +9488,72 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  * 
  */
   /*else*/ {
-    __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 343, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_9, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 343, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 343, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_9); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 343, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 343, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_9, __pyx_v_ax, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 343, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_8, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsStd), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_2, __pyx_v_ax, __pyx_t_5, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
-  __pyx_L17:;
+  __pyx_L18:;
 
-  /* "polygonFitCython.pyx":346
+  /* "polygonFitCython.pyx":351
  *         # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
  * 
  *     if newSum > oldSum:             # <<<<<<<<<<<<<<
  *         lrsSum[ind][ax] = lrsSum[ind][ax] * Lambda
  *         # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
  */
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_newSum, __pyx_v_oldSum, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 346, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 346, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_5 = PyObject_RichCompare(__pyx_v_newSum, __pyx_v_oldSum, Py_GT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 351, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 351, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   if (__pyx_t_3) {
 
-    /* "polygonFitCython.pyx":347
+    /* "polygonFitCython.pyx":352
  * 
  *     if newSum > oldSum:
  *         lrsSum[ind][ax] = lrsSum[ind][ax] * Lambda             # <<<<<<<<<<<<<<
  *         # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
  *     else :
  */
-    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 347, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_9 = __Pyx_GetItemInt(__pyx_t_2, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 347, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 347, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = PyNumber_Multiply(__pyx_t_9, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 347, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 347, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_2, __pyx_v_ax, __pyx_t_5, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 347, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_8 = PyNumber_Multiply(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_5, __pyx_v_ax, __pyx_t_8, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "polygonFitCython.pyx":346
+    /* "polygonFitCython.pyx":351
  *         # print('lrsStd[ind][ax] : ' + str(lrsStd[ind][ax]))
  * 
  *     if newSum > oldSum:             # <<<<<<<<<<<<<<
  *         lrsSum[ind][ax] = lrsSum[ind][ax] * Lambda
  *         # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
  */
-    goto __pyx_L18;
+    goto __pyx_L19;
   }
 
-  /* "polygonFitCython.pyx":350
+  /* "polygonFitCython.pyx":355
  *         # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
  *     else :
  *         lrsSum[ind][ax] = lrsSum[ind][ax] / Lambda             # <<<<<<<<<<<<<<
@@ -9804,56 +9561,56 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  * 
  */
   /*else*/ {
-    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 355, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_8, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_5, __pyx_v_ax, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 355, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Lambda); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_9 = __Pyx_PyNumber_Divide(__pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 350, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_9);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 355, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    if (unlikely(__Pyx_SetItemInt(__pyx_t_8, __pyx_v_ax, __pyx_t_2, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 355, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_GetItemInt(((PyObject *)__pyx_v_lrsSum), __pyx_v_ind, int, 1, __Pyx_PyInt_From_int, 0, 1, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    if (unlikely(__Pyx_SetItemInt(__pyx_t_5, __pyx_v_ax, __pyx_t_9, int, 1, __Pyx_PyInt_From_int, 0, 1, 1) < 0)) __PYX_ERR(0, 350, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   }
-  __pyx_L18:;
+  __pyx_L19:;
 
-  /* "polygonFitCython.pyx":353
+  /* "polygonFitCython.pyx":358
  *         # print('lrsSum[ind][ax] : ' + str(lrsSum[ind][ax]))
  * 
  *     end = time.time()             # <<<<<<<<<<<<<<
  *     # print('calRegresssionByAxis : ' + str(end-st) )
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 353, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_time); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 358, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 358, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 353, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_5)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_5);
+    if (likely(__pyx_t_8)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+      __Pyx_INCREF(__pyx_t_8);
       __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
+      __Pyx_DECREF_SET(__pyx_t_5, function);
     }
   }
-  __pyx_t_9 = (__pyx_t_5) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_5) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 353, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_end = __pyx_t_9;
-  __pyx_t_9 = 0;
+  __pyx_t_2 = (__pyx_t_8) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_8) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 358, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_v_end = __pyx_t_2;
+  __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":356
+  /* "polygonFitCython.pyx":361
  *     # print('calRegresssionByAxis : ' + str(end-st) )
  * 
  *     return pts, lrs, lrsStd, lrsSum, newSum, offsetLists             # <<<<<<<<<<<<<<
@@ -9861,31 +9618,31 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_9 = PyTuple_New(6); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 356, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_9);
+  __pyx_t_2 = PyTuple_New(6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 361, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(((PyObject *)__pyx_v_pts));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_pts));
-  PyTuple_SET_ITEM(__pyx_t_9, 0, ((PyObject *)__pyx_v_pts));
+  PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_pts));
   __Pyx_INCREF(((PyObject *)__pyx_v_lrs));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_lrs));
-  PyTuple_SET_ITEM(__pyx_t_9, 1, ((PyObject *)__pyx_v_lrs));
+  PyTuple_SET_ITEM(__pyx_t_2, 1, ((PyObject *)__pyx_v_lrs));
   __Pyx_INCREF(((PyObject *)__pyx_v_lrsStd));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_lrsStd));
-  PyTuple_SET_ITEM(__pyx_t_9, 2, ((PyObject *)__pyx_v_lrsStd));
+  PyTuple_SET_ITEM(__pyx_t_2, 2, ((PyObject *)__pyx_v_lrsStd));
   __Pyx_INCREF(((PyObject *)__pyx_v_lrsSum));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_lrsSum));
-  PyTuple_SET_ITEM(__pyx_t_9, 3, ((PyObject *)__pyx_v_lrsSum));
+  PyTuple_SET_ITEM(__pyx_t_2, 3, ((PyObject *)__pyx_v_lrsSum));
   __Pyx_INCREF(__pyx_v_newSum);
   __Pyx_GIVEREF(__pyx_v_newSum);
-  PyTuple_SET_ITEM(__pyx_t_9, 4, __pyx_v_newSum);
+  PyTuple_SET_ITEM(__pyx_t_2, 4, __pyx_v_newSum);
   __Pyx_INCREF(((PyObject *)__pyx_v_offsetLists));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_offsetLists));
-  PyTuple_SET_ITEM(__pyx_t_9, 5, ((PyObject *)__pyx_v_offsetLists));
-  __pyx_r = __pyx_t_9;
-  __pyx_t_9 = 0;
+  PyTuple_SET_ITEM(__pyx_t_2, 5, ((PyObject *)__pyx_v_offsetLists));
+  __pyx_r = __pyx_t_2;
+  __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":238
+  /* "polygonFitCython.pyx":234
  * 
  * 
  * def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direction, int ind, np.ndarray offsetLists, np.ndarray lrs, np.ndarray lrsStd, np.ndarray lrsSum, double alphaMean, double alphaStd, double alphaSum ):             # <<<<<<<<<<<<<<
@@ -9905,13 +9662,15 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_st);
-  __Pyx_XDECREF(__pyx_v_size);
+  __Pyx_XDECREF(__pyx_v_acceleration);
   __Pyx_XDECREF(__pyx_v_oldP);
   __Pyx_XDECREF(__pyx_v_lineX);
   __Pyx_XDECREF(__pyx_v_lineY);
   __Pyx_XDECREF(__pyx_v_oldStd);
   __Pyx_XDECREF(__pyx_v_oldMean);
   __Pyx_XDECREF(__pyx_v_oldSum);
+  __Pyx_XDECREF(__pyx_v_pts2);
+  __Pyx_XDECREF(__pyx_v_offsetValue);
   __Pyx_XDECREF(__pyx_v_newP);
   __Pyx_XDECREF(__pyx_v_newStd);
   __Pyx_XDECREF(__pyx_v_newMean);
@@ -9927,19 +9686,19 @@ static PyObject *__pyx_pf_16polygonFitCython_26calRegresssionByAxis(CYTHON_UNUSE
   return __pyx_r;
 }
 
-/* "polygonFitCython.pyx":364
+/* "polygonFitCython.pyx":369
  * 
  * 
- * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, double alphaSum = 0.3, int direction = -1):             # <<<<<<<<<<<<<<
+ * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 1, double alphaStd = 1, double alphaSum = 0.01, int direction = -1):             # <<<<<<<<<<<<<<
  *     '''
  *     Parameters
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_16polygonFitCython_29pologonFit(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_16polygonFitCython_28pologonFit[] = "\n    Parameters\n\n    originalPoints : list[list]\n        insert initial points atleast 4\n\n    actureArea : the area of fit image\n    ";
-static PyMethodDef __pyx_mdef_16polygonFitCython_29pologonFit = {"pologonFit", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_29pologonFit, METH_VARARGS|METH_KEYWORDS, __pyx_doc_16polygonFitCython_28pologonFit};
-static PyObject *__pyx_pw_16polygonFitCython_29pologonFit(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_16polygonFitCython_27pologonFit(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_16polygonFitCython_26pologonFit[] = "\n    Parameters\n\n    originalPoints : list[list]\n        insert initial points atleast 4\n\n    actureArea : the area of fit image\n    ";
+static PyMethodDef __pyx_mdef_16polygonFitCython_27pologonFit = {"pologonFit", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_16polygonFitCython_27pologonFit, METH_VARARGS|METH_KEYWORDS, __pyx_doc_16polygonFitCython_26pologonFit};
+static PyObject *__pyx_pw_16polygonFitCython_27pologonFit(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_originalPoints = 0;
   int __pyx_v_imagePath;
   int __pyx_v_iterationLimit;
@@ -10020,7 +9779,7 @@ static PyObject *__pyx_pw_16polygonFitCython_29pologonFit(PyObject *__pyx_self, 
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "pologonFit") < 0)) __PYX_ERR(0, 364, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "pologonFit") < 0)) __PYX_ERR(0, 369, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -10043,46 +9802,46 @@ static PyObject *__pyx_pw_16polygonFitCython_29pologonFit(PyObject *__pyx_self, 
     }
     __pyx_v_originalPoints = ((PyArrayObject *)values[0]);
     if (values[1]) {
-      __pyx_v_imagePath = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_imagePath == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L3_error)
+      __pyx_v_imagePath = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_imagePath == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 369, __pyx_L3_error)
     } else {
       __pyx_v_imagePath = ((int)0);
     }
     if (values[2]) {
-      __pyx_v_iterationLimit = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_iterationLimit == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L3_error)
+      __pyx_v_iterationLimit = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_iterationLimit == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 369, __pyx_L3_error)
     } else {
       __pyx_v_iterationLimit = ((int)20);
     }
     if (values[3]) {
-      __pyx_v_alphaMean = __pyx_PyFloat_AsDouble(values[3]); if (unlikely((__pyx_v_alphaMean == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L3_error)
+      __pyx_v_alphaMean = __pyx_PyFloat_AsDouble(values[3]); if (unlikely((__pyx_v_alphaMean == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 369, __pyx_L3_error)
     } else {
-      __pyx_v_alphaMean = ((double)2.0);
+      __pyx_v_alphaMean = ((double)1.0);
     }
     if (values[4]) {
-      __pyx_v_alphaStd = __pyx_PyFloat_AsDouble(values[4]); if (unlikely((__pyx_v_alphaStd == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L3_error)
+      __pyx_v_alphaStd = __pyx_PyFloat_AsDouble(values[4]); if (unlikely((__pyx_v_alphaStd == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 369, __pyx_L3_error)
     } else {
       __pyx_v_alphaStd = ((double)1.0);
     }
     if (values[5]) {
-      __pyx_v_alphaSum = __pyx_PyFloat_AsDouble(values[5]); if (unlikely((__pyx_v_alphaSum == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L3_error)
+      __pyx_v_alphaSum = __pyx_PyFloat_AsDouble(values[5]); if (unlikely((__pyx_v_alphaSum == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 369, __pyx_L3_error)
     } else {
-      __pyx_v_alphaSum = ((double)0.3);
+      __pyx_v_alphaSum = ((double)0.01);
     }
     if (values[6]) {
-      __pyx_v_direction = __Pyx_PyInt_As_int(values[6]); if (unlikely((__pyx_v_direction == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L3_error)
+      __pyx_v_direction = __Pyx_PyInt_As_int(values[6]); if (unlikely((__pyx_v_direction == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 369, __pyx_L3_error)
     } else {
       __pyx_v_direction = ((int)-1);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("pologonFit", 0, 1, 7, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 364, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("pologonFit", 0, 1, 7, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 369, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("polygonFitCython.pologonFit", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_originalPoints), __pyx_ptype_5numpy_ndarray, 1, "originalPoints", 0))) __PYX_ERR(0, 364, __pyx_L1_error)
-  __pyx_r = __pyx_pf_16polygonFitCython_28pologonFit(__pyx_self, __pyx_v_originalPoints, __pyx_v_imagePath, __pyx_v_iterationLimit, __pyx_v_alphaMean, __pyx_v_alphaStd, __pyx_v_alphaSum, __pyx_v_direction);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_originalPoints), __pyx_ptype_5numpy_ndarray, 1, "originalPoints", 0))) __PYX_ERR(0, 369, __pyx_L1_error)
+  __pyx_r = __pyx_pf_16polygonFitCython_26pologonFit(__pyx_self, __pyx_v_originalPoints, __pyx_v_imagePath, __pyx_v_iterationLimit, __pyx_v_alphaMean, __pyx_v_alphaStd, __pyx_v_alphaSum, __pyx_v_direction);
 
   /* function exit code */
   goto __pyx_L0;
@@ -10093,7 +9852,7 @@ static PyObject *__pyx_pw_16polygonFitCython_29pologonFit(PyObject *__pyx_self, 
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints, int __pyx_v_imagePath, int __pyx_v_iterationLimit, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum, int __pyx_v_direction) {
+static PyObject *__pyx_pf_16polygonFitCython_26pologonFit(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_originalPoints, int __pyx_v_imagePath, int __pyx_v_iterationLimit, double __pyx_v_alphaMean, double __pyx_v_alphaStd, double __pyx_v_alphaSum, int __pyx_v_direction) {
   PyObject *__pyx_v_st = NULL;
   PyObject *__pyx_v_imgPath = NULL;
   PyObject *__pyx_v_img = NULL;
@@ -10135,16 +9894,16 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("pologonFit", 0);
 
-  /* "polygonFitCython.pyx":373
+  /* "polygonFitCython.pyx":378
  *     actureArea : the area of fit image
  *     '''
  *     st = time.time()             # <<<<<<<<<<<<<<
  *     if imagePath == False:
  *         imgPath = openFile('C:\\')
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 373, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 378, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 373, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 378, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -10159,13 +9918,13 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 373, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 378, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_st = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":374
+  /* "polygonFitCython.pyx":379
  *     '''
  *     st = time.time()
  *     if imagePath == False:             # <<<<<<<<<<<<<<
@@ -10175,14 +9934,14 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   __pyx_t_4 = ((__pyx_v_imagePath == 0) != 0);
   if (__pyx_t_4) {
 
-    /* "polygonFitCython.pyx":375
+    /* "polygonFitCython.pyx":380
  *     st = time.time()
  *     if imagePath == False:
  *         imgPath = openFile('C:\\')             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_openFile); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 375, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_openFile); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 380, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_2 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -10196,13 +9955,13 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
     }
     __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_kp_s_C) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_kp_s_C);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 375, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_v_imgPath = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "polygonFitCython.pyx":374
+    /* "polygonFitCython.pyx":379
  *     '''
  *     st = time.time()
  *     if imagePath == False:             # <<<<<<<<<<<<<<
@@ -10211,19 +9970,19 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
  */
   }
 
-  /* "polygonFitCython.pyx":378
+  /* "polygonFitCython.pyx":383
  * 
  * 
  *     img = plt.imread(imgPath)             # <<<<<<<<<<<<<<
  * 
  *     plt.imshow(img);plt.show()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 378, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 383, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_imread); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 378, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_imread); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 383, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_v_imgPath)) { __Pyx_RaiseUnboundLocalError("imgPath"); __PYX_ERR(0, 378, __pyx_L1_error) }
+  if (unlikely(!__pyx_v_imgPath)) { __Pyx_RaiseUnboundLocalError("imgPath"); __PYX_ERR(0, 383, __pyx_L1_error) }
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
     __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
@@ -10236,22 +9995,22 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_v_imgPath) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_imgPath);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 378, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 383, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_img = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":380
+  /* "polygonFitCython.pyx":385
  *     img = plt.imread(imgPath)
  * 
  *     plt.imshow(img);plt.show()             # <<<<<<<<<<<<<<
  * 
  *     # imgArray = getSegmentedImagByKmeans(img)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_plt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_imshow); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_imshow); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -10266,13 +10025,13 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_v_img) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_img);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 380, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -10287,24 +10046,24 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 380, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":383
+  /* "polygonFitCython.pyx":388
  * 
  *     # imgArray = getSegmentedImagByKmeans(img)
  *     imgArray = np.array(img[:, :, 0])             # <<<<<<<<<<<<<<
  * 
  *     pts = getOrderedMatrixByRightClock(originalPoints)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 383, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 388, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 383, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_img, __pyx_tuple__8); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 383, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_img, __pyx_tuple__12); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 388, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -10319,20 +10078,20 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 383, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_imgArray = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":385
+  /* "polygonFitCython.pyx":390
  *     imgArray = np.array(img[:, :, 0])
  * 
  *     pts = getOrderedMatrixByRightClock(originalPoints)             # <<<<<<<<<<<<<<
  * 
  *     plt.imshow(imgArray);
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_getOrderedMatrixByRightClock); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_getOrderedMatrixByRightClock); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 390, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -10346,22 +10105,22 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, ((PyObject *)__pyx_v_originalPoints)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_originalPoints));
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 390, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_pts = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":387
+  /* "polygonFitCython.pyx":392
  *     pts = getOrderedMatrixByRightClock(originalPoints)
  * 
  *     plt.imshow(imgArray);             # <<<<<<<<<<<<<<
  *     plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')
  *     plt.show();
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 387, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 392, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_imshow); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 387, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_imshow); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 392, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -10376,49 +10135,49 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_v_imgArray) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_imgArray);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 387, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 392, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":388
+  /* "polygonFitCython.pyx":393
  * 
  *     plt.imshow(imgArray);
  *     plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')             # <<<<<<<<<<<<<<
  *     plt.show();
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_scatter); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_scatter); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (likely(PyList_CheckExact(__pyx_v_pts)) || PyTuple_CheckExact(__pyx_v_pts)) {
     __pyx_t_3 = __pyx_v_pts; __Pyx_INCREF(__pyx_t_3); __pyx_t_6 = 0;
     __pyx_t_7 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_pts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_pts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_7 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 393, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_7)) {
       if (likely(PyList_CheckExact(__pyx_t_3))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 393, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 393, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         #endif
       }
@@ -10428,7 +10187,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 388, __pyx_L1_error)
+          else __PYX_ERR(0, 393, __pyx_L1_error)
         }
         break;
       }
@@ -10436,38 +10195,38 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
     }
     __Pyx_XDECREF_SET(__pyx_v_p, __pyx_t_5);
     __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_p, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_p, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_5))) __PYX_ERR(0, 388, __pyx_L1_error)
+    if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_5))) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (likely(PyList_CheckExact(__pyx_v_pts)) || PyTuple_CheckExact(__pyx_v_pts)) {
     __pyx_t_5 = __pyx_v_pts; __Pyx_INCREF(__pyx_t_5); __pyx_t_6 = 0;
     __pyx_t_7 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_v_pts); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_v_pts); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_7 = Py_TYPE(__pyx_t_5)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_7 = Py_TYPE(__pyx_t_5)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 393, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_7)) {
       if (likely(PyList_CheckExact(__pyx_t_5))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_5)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_8 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_8); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_8 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_8); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 393, __pyx_L1_error)
         #else
-        __pyx_t_8 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_8 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 393, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_5)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_8 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_8); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_8 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_8); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 393, __pyx_L1_error)
         #else
-        __pyx_t_8 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_8 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 393, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         #endif
       }
@@ -10477,7 +10236,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 388, __pyx_L1_error)
+          else __PYX_ERR(0, 393, __pyx_L1_error)
         }
         break;
       }
@@ -10485,13 +10244,13 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
     }
     __Pyx_XDECREF_SET(__pyx_v_p, __pyx_t_8);
     __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_p, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 388, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_p, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    if (unlikely(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_t_8))) __PYX_ERR(0, 388, __pyx_L1_error)
+    if (unlikely(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_t_8))) __PYX_ERR(0, 393, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
@@ -10499,27 +10258,27 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_3);
   __pyx_t_1 = 0;
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 388, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_c, __pyx_n_s_r) < 0) __PYX_ERR(0, 388, __pyx_L1_error)
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 393, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_c, __pyx_n_s_r) < 0) __PYX_ERR(0, 393, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":389
+  /* "polygonFitCython.pyx":394
  *     plt.imshow(imgArray);
  *     plt.scatter([p[0] for p in pts], [p[1] for p in pts], s = 50, c = 'r')
  *     plt.show();             # <<<<<<<<<<<<<<
  * 
- *     offsetLists = np.ones_like(pts) * 2
+ *     offsetLists = np.ones_like(pts) * 20
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 389, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 394, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 389, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 394, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -10534,21 +10293,21 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 389, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 394, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":391
+  /* "polygonFitCython.pyx":396
  *     plt.show();
  * 
- *     offsetLists = np.ones_like(pts) * 2             # <<<<<<<<<<<<<<
+ *     offsetLists = np.ones_like(pts) * 20             # <<<<<<<<<<<<<<
  *     lrs = np.ones_like(pts) * 10
  *     lrsStd = np.ones_like(pts) * 10
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 391, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 396, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 391, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 396, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -10563,25 +10322,25 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_pts) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_pts);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 391, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 396, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Multiply(__pyx_t_1, __pyx_int_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 391, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Multiply(__pyx_t_1, __pyx_int_20); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 396, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_offsetLists = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "polygonFitCython.pyx":392
+  /* "polygonFitCython.pyx":397
  * 
- *     offsetLists = np.ones_like(pts) * 2
+ *     offsetLists = np.ones_like(pts) * 20
  *     lrs = np.ones_like(pts) * 10             # <<<<<<<<<<<<<<
  *     lrsStd = np.ones_like(pts) * 10
- *     lrsSum = np.ones_like(pts) * 5
+ *     lrsSum = np.ones_like(pts) * 1e-3
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 392, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 397, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 392, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 397, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
@@ -10596,25 +10355,25 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_v_pts) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_pts);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 392, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 397, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Multiply(__pyx_t_3, __pyx_int_10); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 392, __pyx_L1_error)
+  __pyx_t_5 = PyNumber_Multiply(__pyx_t_3, __pyx_int_10); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 397, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_lrs = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":393
- *     offsetLists = np.ones_like(pts) * 2
+  /* "polygonFitCython.pyx":398
+ *     offsetLists = np.ones_like(pts) * 20
  *     lrs = np.ones_like(pts) * 10
  *     lrsStd = np.ones_like(pts) * 10             # <<<<<<<<<<<<<<
- *     lrsSum = np.ones_like(pts) * 5
+ *     lrsSum = np.ones_like(pts) * 1e-3
  *     global Lambda
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 393, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 398, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 398, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -10629,25 +10388,25 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_v_pts) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_pts);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 393, __pyx_L1_error)
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 398, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Multiply(__pyx_t_5, __pyx_int_10); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Multiply(__pyx_t_5, __pyx_int_10); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 398, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_lrsStd = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":394
+  /* "polygonFitCython.pyx":399
  *     lrs = np.ones_like(pts) * 10
  *     lrsStd = np.ones_like(pts) * 10
- *     lrsSum = np.ones_like(pts) * 5             # <<<<<<<<<<<<<<
+ *     lrsSum = np.ones_like(pts) * 1e-3             # <<<<<<<<<<<<<<
  *     global Lambda
- *     Lambda = 5
+ *     Lambda = 1.2
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 394, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 394, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_ones_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -10662,25 +10421,25 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_pts) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_pts);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 394, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Multiply(__pyx_t_1, __pyx_int_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 394, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Multiply(__pyx_t_1, __pyx_float_1eneg_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_lrsSum = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "polygonFitCython.pyx":396
- *     lrsSum = np.ones_like(pts) * 5
+  /* "polygonFitCython.pyx":401
+ *     lrsSum = np.ones_like(pts) * 1e-3
  *     global Lambda
- *     Lambda = 5             # <<<<<<<<<<<<<<
+ *     Lambda = 1.2             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Lambda, __pyx_int_5) < 0) __PYX_ERR(0, 396, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Lambda, __pyx_float_1_2) < 0) __PYX_ERR(0, 401, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":399
+  /* "polygonFitCython.pyx":404
  * 
  * 
  *     iter = 0             # <<<<<<<<<<<<<<
@@ -10690,7 +10449,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_iter = __pyx_int_0;
 
-  /* "polygonFitCython.pyx":400
+  /* "polygonFitCython.pyx":405
  * 
  *     iter = 0
  *     while iter < iterationLimit:             # <<<<<<<<<<<<<<
@@ -10698,45 +10457,45 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
  *         print('-----------------------')
  */
   while (1) {
-    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_iterationLimit); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_iterationLimit); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_iter, __pyx_t_3, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_iter, __pyx_t_3, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (!__pyx_t_4) break;
 
-    /* "polygonFitCython.pyx":401
+    /* "polygonFitCython.pyx":406
  *     iter = 0
  *     while iter < iterationLimit:
  *         iter += 1             # <<<<<<<<<<<<<<
  *         print('-----------------------')
  *         print(iter)
  */
-    __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_iter, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 401, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_AddObjC(__pyx_v_iter, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 406, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_iter, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "polygonFitCython.pyx":402
+    /* "polygonFitCython.pyx":407
  *     while iter < iterationLimit:
  *         iter += 1
  *         print('-----------------------')             # <<<<<<<<<<<<<<
  *         print(iter)
  * 
  */
-    if (__Pyx_PrintOne(0, __pyx_kp_s__9) < 0) __PYX_ERR(0, 402, __pyx_L1_error)
+    if (__Pyx_PrintOne(0, __pyx_kp_s__13) < 0) __PYX_ERR(0, 407, __pyx_L1_error)
 
-    /* "polygonFitCython.pyx":403
+    /* "polygonFitCython.pyx":408
  *         iter += 1
  *         print('-----------------------')
  *         print(iter)             # <<<<<<<<<<<<<<
  * 
  *         for ind, p in enumerate(pts):
  */
-    if (__Pyx_PrintOne(0, __pyx_v_iter) < 0) __PYX_ERR(0, 403, __pyx_L1_error)
+    if (__Pyx_PrintOne(0, __pyx_v_iter) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
 
-    /* "polygonFitCython.pyx":405
+    /* "polygonFitCython.pyx":410
  *         print(iter)
  * 
  *         for ind, p in enumerate(pts):             # <<<<<<<<<<<<<<
@@ -10749,26 +10508,26 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
       __pyx_t_3 = __pyx_v_pts; __Pyx_INCREF(__pyx_t_3); __pyx_t_6 = 0;
       __pyx_t_7 = NULL;
     } else {
-      __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_pts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 405, __pyx_L1_error)
+      __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_pts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_7 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 405, __pyx_L1_error)
+      __pyx_t_7 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L1_error)
     }
     for (;;) {
       if (likely(!__pyx_t_7)) {
         if (likely(PyList_CheckExact(__pyx_t_3))) {
           if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_3)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 405, __pyx_L1_error)
+          __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 410, __pyx_L1_error)
           #else
-          __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 405, __pyx_L1_error)
+          __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           #endif
         } else {
           if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 405, __pyx_L1_error)
+          __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(0, 410, __pyx_L1_error)
           #else
-          __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 405, __pyx_L1_error)
+          __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           #endif
         }
@@ -10778,7 +10537,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 405, __pyx_L1_error)
+            else __PYX_ERR(0, 410, __pyx_L1_error)
           }
           break;
         }
@@ -10788,22 +10547,22 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
       __pyx_t_5 = 0;
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_XDECREF_SET(__pyx_v_ind, __pyx_t_1);
-      __pyx_t_5 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 405, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1);
       __pyx_t_1 = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "polygonFitCython.pyx":406
+      /* "polygonFitCython.pyx":411
  * 
  *         for ind, p in enumerate(pts):
  *             st2 = time.time()             # <<<<<<<<<<<<<<
  *             for k in range(2):
  *                 pts, lrs, lrsStd, lrsSum, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, lrsSum, alphaMean, alphaStd, alphaSum)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 406, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 411, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 406, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 411, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_2 = NULL;
@@ -10818,13 +10577,13 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
       }
       __pyx_t_5 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_8);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 406, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 411, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_XDECREF_SET(__pyx_v_st2, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "polygonFitCython.pyx":407
+      /* "polygonFitCython.pyx":412
  *         for ind, p in enumerate(pts):
  *             st2 = time.time()
  *             for k in range(2):             # <<<<<<<<<<<<<<
@@ -10834,24 +10593,24 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
       for (__pyx_t_9 = 0; __pyx_t_9 < 2; __pyx_t_9+=1) {
         __pyx_v_k = __pyx_t_9;
 
-        /* "polygonFitCython.pyx":408
+        /* "polygonFitCython.pyx":413
  *             st2 = time.time()
  *             for k in range(2):
  *                 pts, lrs, lrsStd, lrsSum, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, lrsSum, alphaMean, alphaStd, alphaSum)             # <<<<<<<<<<<<<<
  *             end2 = time.time()
  *             print('1 iter time : ' + str(end2 - st2))
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_calRegresssionByAxis); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_calRegresssionByAxis); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
-        __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_k); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_k); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_10 = __Pyx_PyInt_From_int(__pyx_v_direction); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __pyx_t_10 = __Pyx_PyInt_From_int(__pyx_v_direction); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
-        __pyx_t_11 = PyFloat_FromDouble(__pyx_v_alphaMean); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __pyx_t_11 = PyFloat_FromDouble(__pyx_v_alphaMean); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_12 = PyFloat_FromDouble(__pyx_v_alphaStd); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __pyx_t_12 = PyFloat_FromDouble(__pyx_v_alphaStd); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
-        __pyx_t_13 = PyFloat_FromDouble(__pyx_v_alphaSum); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __pyx_t_13 = PyFloat_FromDouble(__pyx_v_alphaSum); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_13);
         __pyx_t_14 = NULL;
         __pyx_t_15 = 0;
@@ -10868,7 +10627,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_8)) {
           PyObject *__pyx_temp[13] = {__pyx_t_14, __pyx_v_imgArray, __pyx_v_pts, __pyx_t_2, __pyx_t_10, __pyx_v_ind, __pyx_v_offsetLists, __pyx_v_lrs, __pyx_v_lrsStd, __pyx_v_lrsSum, __pyx_t_11, __pyx_t_12, __pyx_t_13};
-          __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 12+__pyx_t_15); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 12+__pyx_t_15); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 413, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10881,7 +10640,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_8)) {
           PyObject *__pyx_temp[13] = {__pyx_t_14, __pyx_v_imgArray, __pyx_v_pts, __pyx_t_2, __pyx_t_10, __pyx_v_ind, __pyx_v_offsetLists, __pyx_v_lrs, __pyx_v_lrsStd, __pyx_v_lrsSum, __pyx_t_11, __pyx_t_12, __pyx_t_13};
-          __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 12+__pyx_t_15); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 12+__pyx_t_15); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 413, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10892,7 +10651,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         } else
         #endif
         {
-          __pyx_t_16 = PyTuple_New(12+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 408, __pyx_L1_error)
+          __pyx_t_16 = PyTuple_New(12+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 413, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_16);
           if (__pyx_t_14) {
             __Pyx_GIVEREF(__pyx_t_14); PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_14); __pyx_t_14 = NULL;
@@ -10933,7 +10692,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
           __pyx_t_11 = 0;
           __pyx_t_12 = 0;
           __pyx_t_13 = 0;
-          __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_16, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error)
+          __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_16, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 413, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
         }
@@ -10944,7 +10703,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
           if (unlikely(size != 6)) {
             if (size > 6) __Pyx_RaiseTooManyValuesError(6);
             else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-            __PYX_ERR(0, 408, __pyx_L1_error)
+            __PYX_ERR(0, 413, __pyx_L1_error)
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
@@ -10973,7 +10732,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
             Py_ssize_t i;
             PyObject** temps[6] = {&__pyx_t_8,&__pyx_t_16,&__pyx_t_13,&__pyx_t_12,&__pyx_t_11,&__pyx_t_10};
             for (i=0; i < 6; i++) {
-              PyObject* item = PySequence_ITEM(sequence, i); if (unlikely(!item)) __PYX_ERR(0, 408, __pyx_L1_error)
+              PyObject* item = PySequence_ITEM(sequence, i); if (unlikely(!item)) __PYX_ERR(0, 413, __pyx_L1_error)
               __Pyx_GOTREF(item);
               *(temps[i]) = item;
             }
@@ -10983,7 +10742,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         } else {
           Py_ssize_t index = -1;
           PyObject** temps[6] = {&__pyx_t_8,&__pyx_t_16,&__pyx_t_13,&__pyx_t_12,&__pyx_t_11,&__pyx_t_10};
-          __pyx_t_2 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 408, __pyx_L1_error)
+          __pyx_t_2 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 413, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __pyx_t_17 = Py_TYPE(__pyx_t_2)->tp_iternext;
@@ -10992,7 +10751,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
             __Pyx_GOTREF(item);
             *(temps[index]) = item;
           }
-          if (__Pyx_IternextUnpackEndCheck(__pyx_t_17(__pyx_t_2), 6) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
+          if (__Pyx_IternextUnpackEndCheck(__pyx_t_17(__pyx_t_2), 6) < 0) __PYX_ERR(0, 413, __pyx_L1_error)
           __pyx_t_17 = NULL;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           goto __pyx_L15_unpacking_done;
@@ -11000,7 +10759,7 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __pyx_t_17 = NULL;
           if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-          __PYX_ERR(0, 408, __pyx_L1_error)
+          __PYX_ERR(0, 413, __pyx_L1_error)
           __pyx_L15_unpacking_done:;
         }
         __Pyx_DECREF_SET(__pyx_v_pts, __pyx_t_8);
@@ -11017,16 +10776,16 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
         __pyx_t_10 = 0;
       }
 
-      /* "polygonFitCython.pyx":409
+      /* "polygonFitCython.pyx":414
  *             for k in range(2):
  *                 pts, lrs, lrsStd, lrsSum, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, lrsSum, alphaMean, alphaStd, alphaSum)
  *             end2 = time.time()             # <<<<<<<<<<<<<<
  *             print('1 iter time : ' + str(end2 - st2))
- *             print(pts)
+ *             # print(pts)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_time); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 409, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_time); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 414, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_time); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 409, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_time); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 414, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __pyx_t_10 = NULL;
@@ -11041,40 +10800,31 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
       }
       __pyx_t_5 = (__pyx_t_10) ? __Pyx_PyObject_CallOneArg(__pyx_t_11, __pyx_t_10) : __Pyx_PyObject_CallNoArg(__pyx_t_11);
       __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 414, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_XDECREF_SET(__pyx_v_end2, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "polygonFitCython.pyx":410
+      /* "polygonFitCython.pyx":415
  *                 pts, lrs, lrsStd, lrsSum, newSum, offsetLists = calRegresssionByAxis(imgArray, pts, k, direction, ind, offsetLists, lrs, lrsStd, lrsSum, alphaMean, alphaStd, alphaSum)
  *             end2 = time.time()
  *             print('1 iter time : ' + str(end2 - st2))             # <<<<<<<<<<<<<<
- *             print(pts)
+ *             # print(pts)
  * 
  */
-      __pyx_t_5 = PyNumber_Subtract(__pyx_v_end2, __pyx_v_st2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_Subtract(__pyx_v_end2, __pyx_v_st2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_11 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 410, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_5); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 415, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyNumber_Add(__pyx_kp_s_1_iter_time, __pyx_t_11); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_Add(__pyx_kp_s_1_iter_time, __pyx_t_11); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 410, __pyx_L1_error)
+      if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 415, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "polygonFitCython.pyx":411
- *             end2 = time.time()
- *             print('1 iter time : ' + str(end2 - st2))
- *             print(pts)             # <<<<<<<<<<<<<<
- * 
- *     end = time.time()
- */
-      if (__Pyx_PrintOne(0, __pyx_v_pts) < 0) __PYX_ERR(0, 411, __pyx_L1_error)
-
-      /* "polygonFitCython.pyx":405
+      /* "polygonFitCython.pyx":410
  *         print(iter)
  * 
  *         for ind, p in enumerate(pts):             # <<<<<<<<<<<<<<
@@ -11086,16 +10836,16 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
 
-  /* "polygonFitCython.pyx":413
- *             print(pts)
+  /* "polygonFitCython.pyx":418
+ *             # print(pts)
  * 
  *     end = time.time()             # <<<<<<<<<<<<<<
  *     print('total time : ' + str(end - st)  + 's')
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 413, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 418, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 413, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -11110,43 +10860,43 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 413, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 418, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_end = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "polygonFitCython.pyx":414
+  /* "polygonFitCython.pyx":419
  * 
  *     end = time.time()
  *     print('total time : ' + str(end - st)  + 's')             # <<<<<<<<<<<<<<
  * 
  *     plt.title('fitted')
  */
-  __pyx_t_1 = PyNumber_Subtract(__pyx_v_end, __pyx_v_st); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Subtract(__pyx_v_end, __pyx_v_st); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyNumber_Add(__pyx_kp_s_total_time, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Add(__pyx_kp_s_total_time, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyNumber_Add(__pyx_t_1, __pyx_n_s_s); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 414, __pyx_L1_error)
+  __pyx_t_5 = PyNumber_Add(__pyx_t_1, __pyx_n_s_s); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 414, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":416
+  /* "polygonFitCython.pyx":421
  *     print('total time : ' + str(end - st)  + 's')
  * 
  *     plt.title('fitted')             # <<<<<<<<<<<<<<
  *     plt.imshow(imgArray)
  *     plt.scatter(pts[:, 0], pts[:, 1], s = 50, c = 'w')
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 416, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_plt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 421, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 416, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_title); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 421, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
@@ -11161,21 +10911,21 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_5 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_1, __pyx_n_s_fitted) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_n_s_fitted);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 416, __pyx_L1_error)
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 421, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":417
+  /* "polygonFitCython.pyx":422
  * 
  *     plt.title('fitted')
  *     plt.imshow(imgArray)             # <<<<<<<<<<<<<<
  *     plt.scatter(pts[:, 0], pts[:, 1], s = 50, c = 'w')
  *     plt.show()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 417, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 422, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_imshow); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 417, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_imshow); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 422, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -11190,28 +10940,28 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_v_imgArray) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_imgArray);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 417, __pyx_L1_error)
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 422, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":418
+  /* "polygonFitCython.pyx":423
  *     plt.title('fitted')
  *     plt.imshow(imgArray)
  *     plt.scatter(pts[:, 0], pts[:, 1], s = 50, c = 'w')             # <<<<<<<<<<<<<<
  *     plt.show()
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_plt); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_scatter); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_scatter); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_pts, __pyx_tuple__10); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_pts, __pyx_tuple__8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_pts, __pyx_tuple__11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_pts, __pyx_tuple__9); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_11 = PyTuple_New(2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_11 = PyTuple_New(2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_GIVEREF(__pyx_t_5);
   PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_5);
@@ -11219,27 +10969,27 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   PyTuple_SET_ITEM(__pyx_t_11, 1, __pyx_t_3);
   __pyx_t_5 = 0;
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 418, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_c, __pyx_n_s_w) < 0) __PYX_ERR(0, 418, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_11, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_s, __pyx_int_50) < 0) __PYX_ERR(0, 423, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_c, __pyx_n_s_w) < 0) __PYX_ERR(0, 423, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_11, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 423, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":419
+  /* "polygonFitCython.pyx":424
  *     plt.imshow(imgArray)
  *     plt.scatter(pts[:, 0], pts[:, 1], s = 50, c = 'w')
  *     plt.show()             # <<<<<<<<<<<<<<
  * 
  *     return pts
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 419, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_plt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 419, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_show); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -11254,12 +11004,12 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   }
   __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_11, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L1_error)
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 424, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "polygonFitCython.pyx":421
+  /* "polygonFitCython.pyx":426
  *     plt.show()
  * 
  *     return pts             # <<<<<<<<<<<<<<
@@ -11271,10 +11021,10 @@ static PyObject *__pyx_pf_16polygonFitCython_28pologonFit(CYTHON_UNUSED PyObject
   __pyx_r = __pyx_v_pts;
   goto __pyx_L0;
 
-  /* "polygonFitCython.pyx":364
+  /* "polygonFitCython.pyx":369
  * 
  * 
- * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, double alphaSum = 0.3, int direction = -1):             # <<<<<<<<<<<<<<
+ * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 1, double alphaStd = 1, double alphaSum = 0.01, int direction = -1):             # <<<<<<<<<<<<<<
  *     '''
  *     Parameters
  */
@@ -11848,7 +11598,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 947, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 947, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -11980,7 +11730,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 953, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 953, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -12112,7 +11862,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  * 
  * cdef extern from *:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 959, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 959, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -12395,14 +12145,17 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_TERM_CRITERIA_MAX_ITER, __pyx_k_TERM_CRITERIA_MAX_ITER, sizeof(__pyx_k_TERM_CRITERIA_MAX_ITER), 0, 0, 1, 1},
   {&__pyx_n_s_Tk, __pyx_k_Tk, sizeof(__pyx_k_Tk), 0, 0, 1, 1},
   {&__pyx_kp_s_X, __pyx_k_X, sizeof(__pyx_k_X), 0, 0, 1, 0},
+  {&__pyx_n_s_X_2, __pyx_k_X_2, sizeof(__pyx_k_X_2), 0, 0, 1, 1},
   {&__pyx_kp_s_Y, __pyx_k_Y, sizeof(__pyx_k_Y), 0, 0, 1, 0},
-  {&__pyx_n_s__14, __pyx_k__14, sizeof(__pyx_k__14), 0, 0, 1, 1},
+  {&__pyx_n_s_Y_2, __pyx_k_Y_2, sizeof(__pyx_k_Y_2), 0, 0, 1, 1},
+  {&__pyx_kp_s__10, __pyx_k__10, sizeof(__pyx_k__10), 0, 0, 1, 0},
+  {&__pyx_kp_s__13, __pyx_k__13, sizeof(__pyx_k__13), 0, 0, 1, 0},
+  {&__pyx_n_s__16, __pyx_k__16, sizeof(__pyx_k__16), 0, 0, 1, 1},
   {&__pyx_n_s__33, __pyx_k__33, sizeof(__pyx_k__33), 0, 0, 1, 1},
-  {&__pyx_kp_s__9, __pyx_k__9, sizeof(__pyx_k__9), 0, 0, 1, 0},
   {&__pyx_n_s_abs, __pyx_k_abs, sizeof(__pyx_k_abs), 0, 0, 1, 1},
+  {&__pyx_n_s_acceleration, __pyx_k_acceleration, sizeof(__pyx_k_acceleration), 0, 0, 1, 1},
   {&__pyx_kp_s_all_files, __pyx_k_all_files, sizeof(__pyx_k_all_files), 0, 0, 1, 0},
   {&__pyx_n_s_alphaMean, __pyx_k_alphaMean, sizeof(__pyx_k_alphaMean), 0, 0, 1, 1},
-  {&__pyx_kp_s_alphaMean_2, __pyx_k_alphaMean_2, sizeof(__pyx_k_alphaMean_2), 0, 0, 1, 0},
   {&__pyx_n_s_alphaStd, __pyx_k_alphaStd, sizeof(__pyx_k_alphaStd), 0, 0, 1, 1},
   {&__pyx_n_s_alphaSum, __pyx_k_alphaSum, sizeof(__pyx_k_alphaSum), 0, 0, 1, 1},
   {&__pyx_n_s_append, __pyx_k_append, sizeof(__pyx_k_append), 0, 0, 1, 1},
@@ -12419,14 +12172,13 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_centers, __pyx_k_centers, sizeof(__pyx_k_centers), 0, 0, 1, 1},
   {&__pyx_n_s_centroid, __pyx_k_centroid, sizeof(__pyx_k_centroid), 0, 0, 1, 1},
   {&__pyx_n_s_checkLimit, __pyx_k_checkLimit, sizeof(__pyx_k_checkLimit), 0, 0, 1, 1},
-  {&__pyx_n_s_checkLimitLrs, __pyx_k_checkLimitLrs, sizeof(__pyx_k_checkLimitLrs), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
+  {&__pyx_n_s_concatenate, __pyx_k_concatenate, sizeof(__pyx_k_concatenate), 0, 0, 1, 1},
   {&__pyx_n_s_copy, __pyx_k_copy, sizeof(__pyx_k_copy), 0, 0, 1, 1},
   {&__pyx_n_s_cos, __pyx_k_cos, sizeof(__pyx_k_cos), 0, 0, 1, 1},
   {&__pyx_n_s_criteria, __pyx_k_criteria, sizeof(__pyx_k_criteria), 0, 0, 1, 1},
   {&__pyx_n_s_cv2, __pyx_k_cv2, sizeof(__pyx_k_cv2), 0, 0, 1, 1},
-  {&__pyx_kp_s_denominator, __pyx_k_denominator, sizeof(__pyx_k_denominator), 0, 0, 1, 0},
-  {&__pyx_n_s_denominator_2, __pyx_k_denominator_2, sizeof(__pyx_k_denominator_2), 0, 0, 1, 1},
+  {&__pyx_n_s_denominator, __pyx_k_denominator, sizeof(__pyx_k_denominator), 0, 0, 1, 1},
   {&__pyx_n_s_direction, __pyx_k_direction, sizeof(__pyx_k_direction), 0, 0, 1, 1},
   {&__pyx_n_s_dotM, __pyx_k_dotM, sizeof(__pyx_k_dotM), 0, 0, 1, 1},
   {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
@@ -12446,12 +12198,12 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_geometry, __pyx_k_geometry, sizeof(__pyx_k_geometry), 0, 0, 1, 1},
   {&__pyx_n_s_getLineProfile, __pyx_k_getLineProfile, sizeof(__pyx_k_getLineProfile), 0, 0, 1, 1},
   {&__pyx_n_s_getOffset, __pyx_k_getOffset, sizeof(__pyx_k_getOffset), 0, 0, 1, 1},
-  {&__pyx_kp_s_getOffset_oldStd_newStd, __pyx_k_getOffset_oldStd_newStd, sizeof(__pyx_k_getOffset_oldStd_newStd), 0, 0, 1, 0},
   {&__pyx_n_s_getOneMetricForCalStd, __pyx_k_getOneMetricForCalStd, sizeof(__pyx_k_getOneMetricForCalStd), 0, 0, 1, 1},
   {&__pyx_n_s_getOrderedMatrixByRightClock, __pyx_k_getOrderedMatrixByRightClock, sizeof(__pyx_k_getOrderedMatrixByRightClock), 0, 0, 1, 1},
   {&__pyx_n_s_getOrderedMatrixByRightClock_loc, __pyx_k_getOrderedMatrixByRightClock_loc, sizeof(__pyx_k_getOrderedMatrixByRightClock_loc), 0, 0, 1, 1},
   {&__pyx_n_s_getSegmentedImagByKmeans, __pyx_k_getSegmentedImagByKmeans, sizeof(__pyx_k_getSegmentedImagByKmeans), 0, 0, 1, 1},
   {&__pyx_n_s_getStdOfArea, __pyx_k_getStdOfArea, sizeof(__pyx_k_getStdOfArea), 0, 0, 1, 1},
+  {&__pyx_n_s_gray, __pyx_k_gray, sizeof(__pyx_k_gray), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_imagePath, __pyx_k_imagePath, sizeof(__pyx_k_imagePath), 0, 0, 1, 1},
   {&__pyx_kp_s_image_files, __pyx_k_image_files, sizeof(__pyx_k_image_files), 0, 0, 1, 0},
@@ -12480,6 +12232,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_lineY, __pyx_k_lineY, sizeof(__pyx_k_lineY), 0, 0, 1, 1},
   {&__pyx_n_s_lrs, __pyx_k_lrs, sizeof(__pyx_k_lrs), 0, 0, 1, 1},
   {&__pyx_n_s_lrsStd, __pyx_k_lrsStd, sizeof(__pyx_k_lrsStd), 0, 0, 1, 1},
+  {&__pyx_kp_s_lrsStd_2, __pyx_k_lrsStd_2, sizeof(__pyx_k_lrsStd_2), 0, 0, 1, 0},
   {&__pyx_n_s_lrsSum, __pyx_k_lrsSum, sizeof(__pyx_k_lrsSum), 0, 0, 1, 1},
   {&__pyx_kp_s_lrs_2, __pyx_k_lrs_2, sizeof(__pyx_k_lrs_2), 0, 0, 1, 0},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
@@ -12497,7 +12250,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_newStd, __pyx_k_newStd, sizeof(__pyx_k_newStd), 0, 0, 1, 1},
   {&__pyx_kp_s_newStd_oldStd, __pyx_k_newStd_oldStd, sizeof(__pyx_k_newStd_oldStd), 0, 0, 1, 0},
   {&__pyx_n_s_newSum, __pyx_k_newSum, sizeof(__pyx_k_newSum), 0, 0, 1, 1},
-  {&__pyx_kp_s_new_points, __pyx_k_new_points, sizeof(__pyx_k_new_points), 0, 0, 1, 0},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
   {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
   {&__pyx_kp_s_numpy_core_multiarray_failed_to, __pyx_k_numpy_core_multiarray_failed_to, sizeof(__pyx_k_numpy_core_multiarray_failed_to), 0, 0, 1, 0},
@@ -12507,14 +12259,16 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_offsetLists, __pyx_k_offsetLists, sizeof(__pyx_k_offsetLists), 0, 0, 1, 1},
   {&__pyx_kp_s_offsetMean, __pyx_k_offsetMean, sizeof(__pyx_k_offsetMean), 0, 0, 1, 0},
   {&__pyx_n_s_offsetMean_2, __pyx_k_offsetMean_2, sizeof(__pyx_k_offsetMean_2), 0, 0, 1, 1},
-  {&__pyx_n_s_offsetStd, __pyx_k_offsetStd, sizeof(__pyx_k_offsetStd), 0, 0, 1, 1},
-  {&__pyx_n_s_offsetSum, __pyx_k_offsetSum, sizeof(__pyx_k_offsetSum), 0, 0, 1, 1},
+  {&__pyx_kp_s_offsetStd, __pyx_k_offsetStd, sizeof(__pyx_k_offsetStd), 0, 0, 1, 0},
+  {&__pyx_n_s_offsetStd_2, __pyx_k_offsetStd_2, sizeof(__pyx_k_offsetStd_2), 0, 0, 1, 1},
+  {&__pyx_kp_s_offsetSum, __pyx_k_offsetSum, sizeof(__pyx_k_offsetSum), 0, 0, 1, 0},
+  {&__pyx_n_s_offsetSum_2, __pyx_k_offsetSum_2, sizeof(__pyx_k_offsetSum_2), 0, 0, 1, 1},
+  {&__pyx_n_s_offsetValue, __pyx_k_offsetValue, sizeof(__pyx_k_offsetValue), 0, 0, 1, 1},
   {&__pyx_n_s_old, __pyx_k_old, sizeof(__pyx_k_old), 0, 0, 1, 1},
   {&__pyx_n_s_oldMean, __pyx_k_oldMean, sizeof(__pyx_k_oldMean), 0, 0, 1, 1},
   {&__pyx_n_s_oldP, __pyx_k_oldP, sizeof(__pyx_k_oldP), 0, 0, 1, 1},
   {&__pyx_n_s_oldStd, __pyx_k_oldStd, sizeof(__pyx_k_oldStd), 0, 0, 1, 1},
   {&__pyx_n_s_oldSum, __pyx_k_oldSum, sizeof(__pyx_k_oldSum), 0, 0, 1, 1},
-  {&__pyx_kp_s_old_points, __pyx_k_old_points, sizeof(__pyx_k_old_points), 0, 0, 1, 0},
   {&__pyx_n_s_ones_like, __pyx_k_ones_like, sizeof(__pyx_k_ones_like), 0, 0, 1, 1},
   {&__pyx_n_s_openFile, __pyx_k_openFile, sizeof(__pyx_k_openFile), 0, 0, 1, 1},
   {&__pyx_kp_s_open_filedialog, __pyx_k_open_filedialog, sizeof(__pyx_k_open_filedialog), 0, 0, 1, 0},
@@ -12529,6 +12283,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_pd, __pyx_k_pd, sizeof(__pyx_k_pd), 0, 0, 1, 1},
   {&__pyx_n_s_phi, __pyx_k_phi, sizeof(__pyx_k_phi), 0, 0, 1, 1},
   {&__pyx_n_s_pixel_values, __pyx_k_pixel_values, sizeof(__pyx_k_pixel_values), 0, 0, 1, 1},
+  {&__pyx_n_s_plot, __pyx_k_plot, sizeof(__pyx_k_plot), 0, 0, 1, 1},
   {&__pyx_n_s_plt, __pyx_k_plt, sizeof(__pyx_k_plt), 0, 0, 1, 1},
   {&__pyx_n_s_point, __pyx_k_point, sizeof(__pyx_k_point), 0, 0, 1, 1},
   {&__pyx_kp_s_point_2, __pyx_k_point_2, sizeof(__pyx_k_point_2), 0, 0, 1, 0},
@@ -12539,6 +12294,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_polygonFitCython_pyx, __pyx_k_polygonFitCython_pyx, sizeof(__pyx_k_polygonFitCython_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_pts, __pyx_k_pts, sizeof(__pyx_k_pts), 0, 0, 1, 1},
+  {&__pyx_n_s_pts2, __pyx_k_pts2, sizeof(__pyx_k_pts2), 0, 0, 1, 1},
   {&__pyx_n_s_r, __pyx_k_r, sizeof(__pyx_k_r), 0, 0, 1, 1},
   {&__pyx_n_s_random, __pyx_k_random, sizeof(__pyx_k_random), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
@@ -12577,6 +12333,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_total_time, __pyx_k_total_time, sizeof(__pyx_k_total_time), 0, 0, 1, 0},
   {&__pyx_kp_s_txt, __pyx_k_txt, sizeof(__pyx_k_txt), 0, 0, 1, 0},
   {&__pyx_n_s_uint8, __pyx_k_uint8, sizeof(__pyx_k_uint8), 0, 0, 1, 1},
+  {&__pyx_n_s_uniform, __pyx_k_uniform, sizeof(__pyx_k_uniform), 0, 0, 1, 1},
   {&__pyx_n_s_value, __pyx_k_value, sizeof(__pyx_k_value), 0, 0, 1, 1},
   {&__pyx_n_s_value_counts, __pyx_k_value_counts, sizeof(__pyx_k_value_counts), 0, 0, 1, 1},
   {&__pyx_n_s_w, __pyx_k_w, sizeof(__pyx_k_w), 0, 0, 1, 1},
@@ -12591,8 +12348,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 82, __pyx_L1_error)
-  __pyx_builtin_sorted = __Pyx_GetBuiltinName(__pyx_n_s_sorted); if (!__pyx_builtin_sorted) __PYX_ERR(0, 228, __pyx_L1_error)
-  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 405, __pyx_L1_error)
+  __pyx_builtin_sorted = __Pyx_GetBuiltinName(__pyx_n_s_sorted); if (!__pyx_builtin_sorted) __PYX_ERR(0, 224, __pyx_L1_error)
+  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 410, __pyx_L1_error)
   __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(1, 947, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
@@ -12603,64 +12360,75 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "polygonFitCython.pyx":192
+  /* "polygonFitCython.pyx":188
  *     frame.pack()
  * 
  *     path = fd.askopenfilename(initialdir = basePath, title = 'select File', filetypes = (("all files", "*.*"), ("image files", "*.tif"), ("text files", "*.txt")))             # <<<<<<<<<<<<<<
  * 
  *     return path
  */
-  __pyx_tuple__2 = PyTuple_Pack(2, __pyx_kp_s_all_files, __pyx_kp_s_); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_tuple__2 = PyTuple_Pack(2, __pyx_kp_s_all_files, __pyx_kp_s_); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
-  __pyx_tuple__3 = PyTuple_Pack(2, __pyx_kp_s_image_files, __pyx_kp_s_tif); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(2, __pyx_kp_s_image_files, __pyx_kp_s_tif); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_tuple__4 = PyTuple_Pack(2, __pyx_kp_s_text_files, __pyx_kp_s_txt); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_tuple__4 = PyTuple_Pack(2, __pyx_kp_s_text_files, __pyx_kp_s_txt); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
-  __pyx_tuple__5 = PyTuple_Pack(3, __pyx_tuple__2, __pyx_tuple__3, __pyx_tuple__4); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_tuple__5 = PyTuple_Pack(3, __pyx_tuple__2, __pyx_tuple__3, __pyx_tuple__4); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "polygonFitCython.pyx":199
+  /* "polygonFitCython.pyx":195
  * # cv2   : cpython
  * def getSegmentedImagByKmeans(imgArray, k = 2):
  *     pixel_values = np.float32(imgArray.reshape((-1, 3)))             # <<<<<<<<<<<<<<
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
  *     __, labels, (centers) = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
  */
-  __pyx_tuple__6 = PyTuple_Pack(2, __pyx_int_neg_1, __pyx_int_3); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_tuple__6 = PyTuple_Pack(2, __pyx_int_neg_1, __pyx_int_3); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "polygonFitCython.pyx":383
+  /* "polygonFitCython.pyx":260
+ *     # plt.title('old points')
+ *     plt.imshow(imgArray)
+ *     plt.plot(pts2[:, 0],  pts2[:, 1], '--', c='gray')             # <<<<<<<<<<<<<<
+ *     plt.scatter(pts[ind][0], pts[ind][1], s = 50, c = 'gray')
+ *     # plt.show()
+ */
+  __pyx_slice__7 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__7)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__7);
+  __Pyx_GIVEREF(__pyx_slice__7);
+  __pyx_tuple__8 = PyTuple_Pack(2, __pyx_slice__7, __pyx_int_0); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__8);
+  __Pyx_GIVEREF(__pyx_tuple__8);
+  __pyx_tuple__9 = PyTuple_Pack(2, __pyx_slice__7, __pyx_int_1); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 260, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__9);
+  __Pyx_GIVEREF(__pyx_tuple__9);
+
+  /* "polygonFitCython.pyx":265
+ * 
+ * 
+ *     offsetValue = offsetLists[ind][ax] * np.random.uniform(-1, 1, 1)[0]             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __pyx_tuple__11 = PyTuple_Pack(3, __pyx_int_neg_1, __pyx_int_1, __pyx_int_1); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 265, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__11);
+  __Pyx_GIVEREF(__pyx_tuple__11);
+
+  /* "polygonFitCython.pyx":388
  * 
  *     # imgArray = getSegmentedImagByKmeans(img)
  *     imgArray = np.array(img[:, :, 0])             # <<<<<<<<<<<<<<
  * 
  *     pts = getOrderedMatrixByRightClock(originalPoints)
  */
-  __pyx_slice__7 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__7)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__7);
-  __Pyx_GIVEREF(__pyx_slice__7);
-  __pyx_tuple__8 = PyTuple_Pack(3, __pyx_slice__7, __pyx_slice__7, __pyx_int_0); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__8);
-  __Pyx_GIVEREF(__pyx_tuple__8);
-
-  /* "polygonFitCython.pyx":418
- *     plt.title('fitted')
- *     plt.imshow(imgArray)
- *     plt.scatter(pts[:, 0], pts[:, 1], s = 50, c = 'w')             # <<<<<<<<<<<<<<
- *     plt.show()
- * 
- */
-  __pyx_tuple__10 = PyTuple_Pack(2, __pyx_slice__7, __pyx_int_0); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 418, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
-  __pyx_tuple__11 = PyTuple_Pack(2, __pyx_slice__7, __pyx_int_1); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 418, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__11);
-  __Pyx_GIVEREF(__pyx_tuple__11);
+  __pyx_tuple__12 = PyTuple_Pack(3, __pyx_slice__7, __pyx_slice__7, __pyx_int_0); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__12);
+  __Pyx_GIVEREF(__pyx_tuple__12);
 
   /* "C:/Users/coolc/Anaconda3/lib/site-packages/numpy/__init__.pxd":947
  *         __pyx_import_array()
@@ -12669,9 +12437,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(1, 947, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__12);
-  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(1, 947, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__14);
+  __Pyx_GIVEREF(__pyx_tuple__14);
 
   /* "C:/Users/coolc/Anaconda3/lib/site-packages/numpy/__init__.pxd":953
  *         _import_umath()
@@ -12680,9 +12448,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(1, 953, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
+  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(1, 953, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
 
   /* "polygonFitCython.pyx":53
  * 
@@ -12691,10 +12459,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     assert point.dtype == DTYPE # point   int
  *     if point[0] + offset > 0:
  */
-  __pyx_tuple__15 = PyTuple_Pack(2, __pyx_n_s_point, __pyx_n_s_offset); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 53, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
-  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_increaseX, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(0, 53, __pyx_L1_error)
+  __pyx_tuple__17 = PyTuple_Pack(2, __pyx_n_s_point, __pyx_n_s_offset); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 53, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_increaseX, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 53, __pyx_L1_error)
 
   /* "polygonFitCython.pyx":60
  *         return point
@@ -12703,10 +12471,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     assert point.dtype == DTYPE
  *     if point[1] + offset > 0:
  */
-  __pyx_tuple__17 = PyTuple_Pack(2, __pyx_n_s_point, __pyx_n_s_offset); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 60, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
-  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_increaseY, 60, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 60, __pyx_L1_error)
+  __pyx_tuple__19 = PyTuple_Pack(2, __pyx_n_s_point, __pyx_n_s_offset); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 60, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_increaseY, 60, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 60, __pyx_L1_error)
 
   /* "polygonFitCython.pyx":69
  * 
@@ -12715,10 +12483,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *     st = time.time()
  */
-  __pyx_tuple__19 = PyTuple_Pack(18, __pyx_n_s_pts, __pyx_n_s_imgArray, __pyx_n_s_st, __pyx_n_s_slope, __pyx_n_s_offset, __pyx_n_s_y, __pyx_n_s_size, __pyx_n_s_newPts, __pyx_n_s_i, __pyx_n_s_p1, __pyx_n_s_p2, __pyx_n_s_startP, __pyx_n_s_endP, __pyx_n_s_resultX, __pyx_n_s_resultY, __pyx_n_s_index, __pyx_n_s_j, __pyx_n_s_end); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 69, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(2, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getLineProfile, 69, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_tuple__21 = PyTuple_Pack(18, __pyx_n_s_pts, __pyx_n_s_imgArray, __pyx_n_s_st, __pyx_n_s_slope, __pyx_n_s_offset, __pyx_n_s_y, __pyx_n_s_size, __pyx_n_s_newPts, __pyx_n_s_i, __pyx_n_s_p1, __pyx_n_s_p2, __pyx_n_s_startP, __pyx_n_s_endP, __pyx_n_s_resultX, __pyx_n_s_resultY, __pyx_n_s_index, __pyx_n_s_j, __pyx_n_s_end); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(2, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getLineProfile, 69, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 69, __pyx_L1_error)
 
   /* "polygonFitCython.pyx":128
  * 
@@ -12727,10 +12495,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     st = time.time()
  *     OneMetric = np.zeros_like(imgArray)
  */
-  __pyx_tuple__21 = PyTuple_Pack(10, __pyx_n_s_imgArray, __pyx_n_s_lineX, __pyx_n_s_lineY, __pyx_n_s_st, __pyx_n_s_OneMetric, __pyx_n_s_i, __pyx_n_s_tmp, __pyx_n_s_min, __pyx_n_s_max, __pyx_n_s_end); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 128, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__21);
-  __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(3, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getOneMetricForCalStd, 128, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_tuple__23 = PyTuple_Pack(10, __pyx_n_s_imgArray, __pyx_n_s_lineX, __pyx_n_s_lineY, __pyx_n_s_st, __pyx_n_s_OneMetric, __pyx_n_s_i, __pyx_n_s_tmp, __pyx_n_s_min, __pyx_n_s_max, __pyx_n_s_end); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(3, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getOneMetricForCalStd, 128, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 128, __pyx_L1_error)
 
   /* "polygonFitCython.pyx":142
  *     return OneMetric
@@ -12739,130 +12507,118 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     cdef double nArea
  *     cdef double st = time.time()
  */
-  __pyx_tuple__23 = PyTuple_Pack(10, __pyx_n_s_imgArray, __pyx_n_s_OneMetric, __pyx_n_s_nArea, __pyx_n_s_st, __pyx_n_s_dotM, __pyx_n_s_ex, __pyx_n_s_std, __pyx_n_s_mean, __pyx_n_s_sum, __pyx_n_s_end); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 142, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__23);
-  __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getStdOfArea, 142, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __pyx_tuple__25 = PyTuple_Pack(10, __pyx_n_s_imgArray, __pyx_n_s_OneMetric, __pyx_n_s_nArea, __pyx_n_s_st, __pyx_n_s_dotM, __pyx_n_s_ex, __pyx_n_s_std, __pyx_n_s_mean, __pyx_n_s_sum, __pyx_n_s_end); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getStdOfArea, 142, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 142, __pyx_L1_error)
 
   /* "polygonFitCython.pyx":165
  * 
  * 
- * def checkLimit(value, limit = 15):             # <<<<<<<<<<<<<<
+ * def checkLimit(value, limit = 100):             # <<<<<<<<<<<<<<
  *     if (np.abs(value) > limit):
  *         return value / np.abs(value) * limit
  */
-  __pyx_tuple__25 = PyTuple_Pack(2, __pyx_n_s_value, __pyx_n_s_limit); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(0, 165, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__25);
-  __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_checkLimit, 165, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 165, __pyx_L1_error)
-
-  /* "polygonFitCython.pyx":171
- *         return value
- * 
- * def checkLimitLrs(value, limit = 50):             # <<<<<<<<<<<<<<
- *     if (np.abs(value) > limit):
- *         return value / np.abs(value) * limit
- */
-  __pyx_tuple__27 = PyTuple_Pack(2, __pyx_n_s_value, __pyx_n_s_limit); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 171, __pyx_L1_error)
+  __pyx_tuple__27 = PyTuple_Pack(2, __pyx_n_s_value, __pyx_n_s_limit); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 165, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_GIVEREF(__pyx_tuple__27);
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_checkLimitLrs, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 171, __pyx_L1_error)
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_checkLimit, 165, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 165, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":177
- *         return value
+  /* "polygonFitCython.pyx":172
+ * 
  * 
  * def getOffset(double old, double new):             # <<<<<<<<<<<<<<
- *     if np.abs(old - new) == 0:
- *         return 0
+ *     # if np.abs(old - new) == 0:
+ *     #     return 0
  */
-  __pyx_tuple__29 = PyTuple_Pack(2, __pyx_n_s_old, __pyx_n_s_new); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 177, __pyx_L1_error)
+  __pyx_tuple__29 = PyTuple_Pack(2, __pyx_n_s_old, __pyx_n_s_new); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__29);
   __Pyx_GIVEREF(__pyx_tuple__29);
-  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getOffset, 177, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 177, __pyx_L1_error)
+  __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getOffset, 172, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 172, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":184
+  /* "polygonFitCython.pyx":180
  * 
  * 
  * def openFile(basePath):             # <<<<<<<<<<<<<<
  *     root = tk.Tk()
  *     root.geometry('320x240')
  */
-  __pyx_tuple__31 = PyTuple_Pack(4, __pyx_n_s_basePath, __pyx_n_s_root, __pyx_n_s_frame, __pyx_n_s_path); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 184, __pyx_L1_error)
+  __pyx_tuple__31 = PyTuple_Pack(4, __pyx_n_s_basePath, __pyx_n_s_root, __pyx_n_s_frame, __pyx_n_s_path); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 180, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_openFile, 184, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 184, __pyx_L1_error)
+  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_openFile, 180, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 180, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":198
+  /* "polygonFitCython.pyx":194
  * 
  * # cv2   : cpython
  * def getSegmentedImagByKmeans(imgArray, k = 2):             # <<<<<<<<<<<<<<
  *     pixel_values = np.float32(imgArray.reshape((-1, 3)))
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
  */
-  __pyx_tuple__34 = PyTuple_Pack(8, __pyx_n_s_imgArray, __pyx_n_s_k, __pyx_n_s_pixel_values, __pyx_n_s_criteria, __pyx_n_s__33, __pyx_n_s_labels, __pyx_n_s_centers, __pyx_n_s_segmentedImage); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 198, __pyx_L1_error)
+  __pyx_tuple__34 = PyTuple_Pack(8, __pyx_n_s_imgArray, __pyx_n_s_k, __pyx_n_s_pixel_values, __pyx_n_s_criteria, __pyx_n_s__33, __pyx_n_s_labels, __pyx_n_s_centers, __pyx_n_s_segmentedImage); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getSegmentedImagByKmeans, 198, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 198, __pyx_L1_error)
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getSegmentedImagByKmeans, 194, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 194, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":210
+  /* "polygonFitCython.pyx":206
  * 
  * 
  * def cartesianToPolarcoord(DTYPE_t x, DTYPE_t y, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
  *     x = x - centroid[0]
  *     y = y - centroid[1]
  */
-  __pyx_tuple__36 = PyTuple_Pack(5, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_centroid, __pyx_n_s_rho, __pyx_n_s_phi); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 210, __pyx_L1_error)
+  __pyx_tuple__36 = PyTuple_Pack(5, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_centroid, __pyx_n_s_rho, __pyx_n_s_phi); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 206, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_cartesianToPolarcoord, 210, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 210, __pyx_L1_error)
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_cartesianToPolarcoord, 206, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 206, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":217
+  /* "polygonFitCython.pyx":213
  *     return [rho, phi]
  * 
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
  *     x = np.int32(np.around(r * np.cos(p))) + centroid[0]
  *     y = np.int32(np.around(r * np.sin(p))) + centroid[1]
  */
-  __pyx_tuple__38 = PyTuple_Pack(5, __pyx_n_s_r, __pyx_n_s_p, __pyx_n_s_centroid, __pyx_n_s_x, __pyx_n_s_y); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 217, __pyx_L1_error)
+  __pyx_tuple__38 = PyTuple_Pack(5, __pyx_n_s_r, __pyx_n_s_p, __pyx_n_s_centroid, __pyx_n_s_x, __pyx_n_s_y); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 213, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_PolarToCartesian, 217, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 217, __pyx_L1_error)
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_PolarToCartesian, 213, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 213, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":222
+  /* "polygonFitCython.pyx":218
  *     return [x, y]
  * 
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):             # <<<<<<<<<<<<<<
  *     centroid = np.array([np.int32( np.mean([o[0] for o in originalPoints]) ), np.int32( np.mean([o[1] for o in originalPoints]) )])
  *     polarCoord = []
  */
-  __pyx_tuple__40 = PyTuple_Pack(7, __pyx_n_s_originalPoints, __pyx_n_s_centroid, __pyx_n_s_polarCoord, __pyx_n_s_o, __pyx_n_s_polarSorted, __pyx_n_s_orderedPoints, __pyx_n_s_p); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __pyx_tuple__40 = PyTuple_Pack(7, __pyx_n_s_originalPoints, __pyx_n_s_centroid, __pyx_n_s_polarCoord, __pyx_n_s_o, __pyx_n_s_polarSorted, __pyx_n_s_orderedPoints, __pyx_n_s_p); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 218, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(1, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getOrderedMatrixByRightClock, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(1, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_getOrderedMatrixByRightClock, 218, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 218, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":238
+  /* "polygonFitCython.pyx":234
  * 
  * 
  * def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direction, int ind, np.ndarray offsetLists, np.ndarray lrs, np.ndarray lrsStd, np.ndarray lrsSum, double alphaMean, double alphaStd, double alphaSum ):             # <<<<<<<<<<<<<<
  *     '''
  *     ax = 0 is x axis
  */
-  __pyx_tuple__42 = PyTuple_Pack(30, __pyx_n_s_imgArray, __pyx_n_s_pts, __pyx_n_s_ax, __pyx_n_s_direction, __pyx_n_s_ind, __pyx_n_s_offsetLists, __pyx_n_s_lrs, __pyx_n_s_lrsStd, __pyx_n_s_lrsSum, __pyx_n_s_alphaMean, __pyx_n_s_alphaStd, __pyx_n_s_alphaSum, __pyx_n_s_st, __pyx_n_s_size, __pyx_n_s_oldP, __pyx_n_s_lineX, __pyx_n_s_lineY, __pyx_n_s_oldStd, __pyx_n_s_oldMean, __pyx_n_s_oldSum, __pyx_n_s_newP, __pyx_n_s_newStd, __pyx_n_s_newMean, __pyx_n_s_newSum, __pyx_n_s_denominator_2, __pyx_n_s_offsetStd, __pyx_n_s_offsetMean_2, __pyx_n_s_offsetSum, __pyx_n_s_offset, __pyx_n_s_end); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 238, __pyx_L1_error)
+  __pyx_tuple__42 = PyTuple_Pack(32, __pyx_n_s_imgArray, __pyx_n_s_pts, __pyx_n_s_ax, __pyx_n_s_direction, __pyx_n_s_ind, __pyx_n_s_offsetLists, __pyx_n_s_lrs, __pyx_n_s_lrsStd, __pyx_n_s_lrsSum, __pyx_n_s_alphaMean, __pyx_n_s_alphaStd, __pyx_n_s_alphaSum, __pyx_n_s_st, __pyx_n_s_acceleration, __pyx_n_s_oldP, __pyx_n_s_lineX, __pyx_n_s_lineY, __pyx_n_s_oldStd, __pyx_n_s_oldMean, __pyx_n_s_oldSum, __pyx_n_s_pts2, __pyx_n_s_offsetValue, __pyx_n_s_newP, __pyx_n_s_newStd, __pyx_n_s_newMean, __pyx_n_s_newSum, __pyx_n_s_denominator, __pyx_n_s_offsetStd_2, __pyx_n_s_offsetMean_2, __pyx_n_s_offsetSum_2, __pyx_n_s_offset, __pyx_n_s_end); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 234, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__42);
   __Pyx_GIVEREF(__pyx_tuple__42);
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(12, 0, 30, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_calRegresssionByAxis, 238, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 238, __pyx_L1_error)
+  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(12, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_calRegresssionByAxis, 234, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 234, __pyx_L1_error)
 
-  /* "polygonFitCython.pyx":364
+  /* "polygonFitCython.pyx":369
  * 
  * 
- * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, double alphaSum = 0.3, int direction = -1):             # <<<<<<<<<<<<<<
+ * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 1, double alphaStd = 1, double alphaSum = 0.01, int direction = -1):             # <<<<<<<<<<<<<<
  *     '''
  *     Parameters
  */
-  __pyx_tuple__44 = PyTuple_Pack(24, __pyx_n_s_originalPoints, __pyx_n_s_imagePath, __pyx_n_s_iterationLimit, __pyx_n_s_alphaMean, __pyx_n_s_alphaStd, __pyx_n_s_alphaSum, __pyx_n_s_direction, __pyx_n_s_st, __pyx_n_s_imgPath, __pyx_n_s_img, __pyx_n_s_imgArray, __pyx_n_s_pts, __pyx_n_s_offsetLists, __pyx_n_s_lrs, __pyx_n_s_lrsStd, __pyx_n_s_lrsSum, __pyx_n_s_iter, __pyx_n_s_ind, __pyx_n_s_p, __pyx_n_s_st2, __pyx_n_s_k, __pyx_n_s_newSum, __pyx_n_s_end2, __pyx_n_s_end); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 364, __pyx_L1_error)
+  __pyx_tuple__44 = PyTuple_Pack(24, __pyx_n_s_originalPoints, __pyx_n_s_imagePath, __pyx_n_s_iterationLimit, __pyx_n_s_alphaMean, __pyx_n_s_alphaStd, __pyx_n_s_alphaSum, __pyx_n_s_direction, __pyx_n_s_st, __pyx_n_s_imgPath, __pyx_n_s_img, __pyx_n_s_imgArray, __pyx_n_s_pts, __pyx_n_s_offsetLists, __pyx_n_s_lrs, __pyx_n_s_lrsStd, __pyx_n_s_lrsSum, __pyx_n_s_iter, __pyx_n_s_ind, __pyx_n_s_p, __pyx_n_s_st2, __pyx_n_s_k, __pyx_n_s_newSum, __pyx_n_s_end2, __pyx_n_s_end); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 369, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__44);
   __Pyx_GIVEREF(__pyx_tuple__44);
-  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(7, 0, 24, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_pologonFit, 364, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 364, __pyx_L1_error)
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(7, 0, 24, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_polygonFitCython_pyx, __pyx_n_s_pologonFit, 369, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 369, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -12873,13 +12629,15 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 static CYTHON_SMALL_CODE int __Pyx_InitGlobals(void) {
   if (__Pyx_InitStrings(__pyx_string_tab) < 0) __PYX_ERR(0, 1, __pyx_L1_error);
   __pyx_float_0_2 = PyFloat_FromDouble(0.2); if (unlikely(!__pyx_float_0_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_1_2 = PyFloat_FromDouble(1.2); if (unlikely(!__pyx_float_1_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_1eneg_3 = PyFloat_FromDouble(1e-3); if (unlikely(!__pyx_float_1eneg_3)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_2 = PyInt_FromLong(2); if (unlikely(!__pyx_int_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_3 = PyInt_FromLong(3); if (unlikely(!__pyx_int_3)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_5 = PyInt_FromLong(5); if (unlikely(!__pyx_int_5)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_10 = PyInt_FromLong(10); if (unlikely(!__pyx_int_10)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_15 = PyInt_FromLong(15); if (unlikely(!__pyx_int_15)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_20 = PyInt_FromLong(20); if (unlikely(!__pyx_int_20)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_50 = PyInt_FromLong(50); if (unlikely(!__pyx_int_50)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_100 = PyInt_FromLong(100); if (unlikely(!__pyx_int_100)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_neg_1 = PyInt_FromLong(-1); if (unlikely(!__pyx_int_neg_1)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -13265,9 +13023,9 @@ if (!__Pyx_RefNanny) {
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_n_s__14);
-  __Pyx_GIVEREF(__pyx_n_s__14);
-  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s__14);
+  __Pyx_INCREF(__pyx_n_s__16);
+  __Pyx_GIVEREF(__pyx_n_s__16);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s__16);
   __pyx_t_2 = __Pyx_Import(__pyx_n_s_tkinter_filedialog, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -13295,9 +13053,9 @@ if (!__Pyx_RefNanny) {
  */
   __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_INCREF(__pyx_n_s__14);
-  __Pyx_GIVEREF(__pyx_n_s__14);
-  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s__14);
+  __Pyx_INCREF(__pyx_n_s__16);
+  __Pyx_GIVEREF(__pyx_n_s__16);
+  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s__16);
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_matplotlib_pyplot, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -13415,7 +13173,7 @@ if (!__Pyx_RefNanny) {
   /* "polygonFitCython.pyx":165
  * 
  * 
- * def checkLimit(value, limit = 15):             # <<<<<<<<<<<<<<
+ * def checkLimit(value, limit = 100):             # <<<<<<<<<<<<<<
  *     if (np.abs(value) > limit):
  *         return value / np.abs(value) * limit
  */
@@ -13424,112 +13182,100 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_checkLimit, __pyx_t_2) < 0) __PYX_ERR(0, 165, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":171
- *         return value
+  /* "polygonFitCython.pyx":172
  * 
- * def checkLimitLrs(value, limit = 50):             # <<<<<<<<<<<<<<
- *     if (np.abs(value) > limit):
- *         return value / np.abs(value) * limit
- */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_13checkLimitLrs, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 171, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_checkLimitLrs, __pyx_t_2) < 0) __PYX_ERR(0, 171, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "polygonFitCython.pyx":177
- *         return value
  * 
  * def getOffset(double old, double new):             # <<<<<<<<<<<<<<
- *     if np.abs(old - new) == 0:
- *         return 0
+ *     # if np.abs(old - new) == 0:
+ *     #     return 0
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_15getOffset, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 177, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_13getOffset, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_getOffset, __pyx_t_2) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_getOffset, __pyx_t_2) < 0) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":184
+  /* "polygonFitCython.pyx":180
  * 
  * 
  * def openFile(basePath):             # <<<<<<<<<<<<<<
  *     root = tk.Tk()
  *     root.geometry('320x240')
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_17openFile, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 184, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_15openFile, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 180, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_openFile, __pyx_t_2) < 0) __PYX_ERR(0, 184, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_openFile, __pyx_t_2) < 0) __PYX_ERR(0, 180, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":198
+  /* "polygonFitCython.pyx":194
  * 
  * # cv2   : cpython
  * def getSegmentedImagByKmeans(imgArray, k = 2):             # <<<<<<<<<<<<<<
  *     pixel_values = np.float32(imgArray.reshape((-1, 3)))
  *     criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_19getSegmentedImagByKmeans, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 198, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_17getSegmentedImagByKmeans, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_getSegmentedImagByKmeans, __pyx_t_2) < 0) __PYX_ERR(0, 198, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_getSegmentedImagByKmeans, __pyx_t_2) < 0) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":210
+  /* "polygonFitCython.pyx":206
  * 
  * 
  * def cartesianToPolarcoord(DTYPE_t x, DTYPE_t y, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
  *     x = x - centroid[0]
  *     y = y - centroid[1]
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_21cartesianToPolarcoord, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 210, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_19cartesianToPolarcoord, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 206, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_cartesianToPolarcoord, __pyx_t_2) < 0) __PYX_ERR(0, 210, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_cartesianToPolarcoord, __pyx_t_2) < 0) __PYX_ERR(0, 206, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":217
+  /* "polygonFitCython.pyx":213
  *     return [rho, phi]
  * 
  * def PolarToCartesian(DTYPE_F_t r, DTYPE_F_t p, np.ndarray centroid not None):             # <<<<<<<<<<<<<<
  *     x = np.int32(np.around(r * np.cos(p))) + centroid[0]
  *     y = np.int32(np.around(r * np.sin(p))) + centroid[1]
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_23PolarToCartesian, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 217, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_21PolarToCartesian, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_PolarToCartesian, __pyx_t_2) < 0) __PYX_ERR(0, 217, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_PolarToCartesian, __pyx_t_2) < 0) __PYX_ERR(0, 213, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":222
+  /* "polygonFitCython.pyx":218
  *     return [x, y]
  * 
  * def getOrderedMatrixByRightClock(np.ndarray originalPoints):             # <<<<<<<<<<<<<<
  *     centroid = np.array([np.int32( np.mean([o[0] for o in originalPoints]) ), np.int32( np.mean([o[1] for o in originalPoints]) )])
  *     polarCoord = []
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_25getOrderedMatrixByRightClock, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_23getOrderedMatrixByRightClock, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_getOrderedMatrixByRightClock, __pyx_t_2) < 0) __PYX_ERR(0, 222, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_getOrderedMatrixByRightClock, __pyx_t_2) < 0) __PYX_ERR(0, 218, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":238
+  /* "polygonFitCython.pyx":234
  * 
  * 
  * def calRegresssionByAxis(np.ndarray imgArray, np.ndarray pts, int ax, int direction, int ind, np.ndarray offsetLists, np.ndarray lrs, np.ndarray lrsStd, np.ndarray lrsSum, double alphaMean, double alphaStd, double alphaSum ):             # <<<<<<<<<<<<<<
  *     '''
  *     ax = 0 is x axis
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_27calRegresssionByAxis, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_25calRegresssionByAxis, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 234, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_calRegresssionByAxis, __pyx_t_2) < 0) __PYX_ERR(0, 238, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_calRegresssionByAxis, __pyx_t_2) < 0) __PYX_ERR(0, 234, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "polygonFitCython.pyx":364
+  /* "polygonFitCython.pyx":369
  * 
  * 
- * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 2, double alphaStd = 1, double alphaSum = 0.3, int direction = -1):             # <<<<<<<<<<<<<<
+ * def pologonFit(np.ndarray originalPoints, int imagePath = 0, int iterationLimit = 20, double alphaMean = 1, double alphaStd = 1, double alphaSum = 0.01, int direction = -1):             # <<<<<<<<<<<<<<
  *     '''
  *     Parameters
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_29pologonFit, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 364, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_16polygonFitCython_27pologonFit, NULL, __pyx_n_s_polygonFitCython); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 369, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_pologonFit, __pyx_t_2) < 0) __PYX_ERR(0, 364, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_pologonFit, __pyx_t_2) < 0) __PYX_ERR(0, 369, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "polygonFitCython.pyx":1
